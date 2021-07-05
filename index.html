@@ -679,22 +679,53 @@
     "statcounter.com/counter/counter.js'></"+"script>");
     </script> -->
 
-  <div>No. <a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3246607&c=9740134" alt="AmazingCounters.com"></a> Visitor Since Jul. 2021.</div>
+    <br />
+    <br />
+
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5x3ebj080sx&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+
+    <div id="article"></div>
+    <div id="back_top">
+    <div class="arrow"></div>
+    <div class="stick"></div>
+    </div>
+
+    <script>
+    $(function(){
+        $(window).scroll(function(){  //If scroll
+            var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //Getting Height after scroll
+            if( scrollt >400 )
+            {  
+                $("#back_top").fadeIn(400); 
+            }
+            else
+            {
+                $("#back_top").stop().fadeOut(400);
+            }
+        });
+
+        $("#back_top").click(function(){ 
+
+            $("html,body").animate({scrollTop:"0px"}, 200);
+
+        }); 
+
+    });
+    </script>
+
+    <!-- <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3246607&c=9740134" alt="AmazingCounters.com"></a></div> -->
+  <!-- <div>No. <a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3246607&c=9740134" alt="AmazingCounters.com"></a> Visitor Since Jul. 2021.</div> -->
  <!-- Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
   <noscript>
     <div class="statcounter"><a title="Web Analytics Made Easy -
   StatCounter" href="https://statcounter.com/" target="_blank"><img
   class="statcounter" src="https://c.statcounter.com/12347113/0/21aca5d1/0/"
   alt="Web Analytics Made Easy - StatCounter"></a></div> -->
-  </noscript>
+  <!-- </noscript> -->
   <!-- End of Statcounter Code -->
 
-  </div>
 
-  <!-- End page content -->
-</div>
-
-<script>
+<!-- <script>
 // Accordion 
 function myAccFunc() {
   var x = document.getElementById("demoAcc");
@@ -718,7 +749,7 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
-</script>
+</script> -->
 
 </body>
 </html>
