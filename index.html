@@ -11,7 +11,6 @@
   <meta name="description" content="Ye Ji is currently a Ph.D. candidate at Dalian University of Technology">
   <meta name="keywords" content="Ye Ji, 纪野, jiye, research, isogeometric analysis, parameterization">
   <meta name="author" content="Ye Ji" />
-
   <link rel="stylesheet" href="w3.css">
 
   <style>
@@ -21,7 +20,6 @@
 
   <link rel="icon" type="image/jpg" href="images/Ye_photo.png">
 </head>
-
 
 <body class="w3-content" style="max-width:1000px">
 
@@ -266,70 +264,38 @@
 
   <!-- Statcounter code for Ye Ji's Homepage -->
   <!-- refer to https://www.revolvermaps.com/?target=setup -->
-
-  <br />
   <br />
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5csbbv72nxw&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+  <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=50nmqvn1azf&amp;s=240&amp;m=8&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
 
+  <div id="article"></div>
+  <div id="back_top">
+  <div class="arrow"></div>
+  <div class="stick"></div>
+  </div>
 
-<div id="article"></div>
-<div id="back_top">
-<div class="arrow"></div>
-<div class="stick"></div>
-</div>
+  <script>
+  $(function(){
+      $(window).scroll(function(){  //If scroll
+          var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //Getting Height after scroll
+          if( scrollt >400 )
+          {  
+              $("#back_top").fadeIn(400); 
+          }
+          else
+          {
+              $("#back_top").stop().fadeOut(400);
+          }
+      });
 
-<script>
-$(function(){
-    $(window).scroll(function(){  //If scroll
-        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //Getting Height after scroll
-        if( scrollt >400 )
-        {  
-            $("#back_top").fadeIn(400); 
-        }
-        else
-        {
-            $("#back_top").stop().fadeOut(400);
-        }
-    });
+      $("#back_top").click(function(){ 
 
-    $("#back_top").click(function(){ 
+          $("html,body").animate({scrollTop:"0px"}, 200);
 
-        $("html,body").animate({scrollTop:"0px"}, 200);
+      }); 
 
-    }); 
-
-});
-</script>
-
-
-    <!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5poulo3x0ol&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script> -->
-
-    <!-- <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5csbbv72nxw&amp;s=220&amp;m=0&amp;v=true&amp;r=false&amp;b=000000&amp;n=true&amp;c=ff0000" async="async"></script>
-
-    <div id="article"></div>
-    <div id="back_top"></div>
-    <div class="arrow"></div>
-    <div class="stick"></div>
-    
-    <script>
-    $(function(){
-        $(window).scroll(function(){  //If scroll
-            var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //Getting Height after scroll
-            if( scrollt >400 )
-            {  
-                $("#back_top").fadeIn(400); 
-            }
-            else
-            {
-                $("#back_top").stop().fadeOut(400);
-            }
-        });
-        $("#back_top").click(function(){ 
-            $("html,body").animate({scrollTop:"0px"}, 200);
-        }); 
-    });
-    </script> -->
+  });
+  </script>
 
 </body>
 </html>
