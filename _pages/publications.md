@@ -13,8 +13,8 @@ author_profile: true
 {% endif %}
 
 <!-- _pages/publications.md -->
-<div class="publications">
+<!-- <div class="publications">
 
-{% _bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography -f {{ site.scholar.bibliography }} %}
 
-</div>
+</div> -->
