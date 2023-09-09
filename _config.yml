@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ye Ji"
   avatar           : "profile_pic.jpg"
-  bio              : "I am a Ph.D. Candidate. My research interests are mainly in **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**."
+  bio              : "I am a Ph.D. Candidate. My research interests are mainly in IsoGeometric Analysis (IGA), with a focus on advancing the theoretical underpinnings and developing efficient methodologies for spline-based analysis-suitable parameterization."
   location         : "Delft, Netherlands"
   employer         : 
   pubmed           : 
