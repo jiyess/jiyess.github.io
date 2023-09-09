@@ -7,22 +7,18 @@ redirect_from:
   - /about/
   - /about.html
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>TU Delft</p>
-    <p>DIAM, Faculty of EEMCS</p>
-    <p>Numerical Analysis</p>
-    <p>Mekelweg 4, 2628 CD Delft</p>
-    <p>Room HB 03.140</p>
-    <p style="margin-top: 5px">Tel.: +31 (0)62 09 05177</p>
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   address: >
+#     <p>TU Delft</p>
+#     <p>DIAM, Faculty of EEMCS</p>
+#     <p>Numerical Analysis</p>
+#     <p>Mekelweg 4, 2628 CD Delft</p>
+#     <p>Room HB 03.140</p>
+#     <p style="margin-top: 5px">Tel.: +31 (0)62 09 05177</p>
 
-# news: true  # includes a list of news items
-# latest_posts: true  # includes a list of the newest posts
-# selected_papers: true # includes a list of papers marked as "selected={true}"
-# social: true  # includes social icons at the bottom of the page
 news: true  # includes a list of news items
 recent_papers: true # includes a list of papers marked as "recent={true}"
 email_before_news: false
