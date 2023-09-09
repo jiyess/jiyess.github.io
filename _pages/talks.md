@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: archive
 permalink: /talks/
-title: talks
+title: "Talks"
 description: Ye Ji's talks in reversed chronological order.
 nav: true
 nav_order: 2

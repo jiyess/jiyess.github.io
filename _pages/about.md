@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: "Welcome to Ye Ji’s website."
 excerpt: "About me"
