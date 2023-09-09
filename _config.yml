@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Ye Ji"
   avatar           : "profile_pic.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "I am a Ph.D. Candidate. My research interests are mainly in **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**."
   location         : "Delft, Netherlands"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : 
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=JvJCD64AAAAJ&hl=en"
-  email            :
+  email            : "y.ji-1@tudelft.nl"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/ye-ji-2052b41b8/"
   orcid            : "http://orcid.org/0000-0002-1173-6457"
   pinterest        :
   soundcloud       :
