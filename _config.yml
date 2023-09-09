@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ye Ji"
+title                    : "Ye Ji / Ph.D. Candidate"
 title_separator          : "-"
 name                     : &name "Ye Ji"
 description              : &description "I am a researcher"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ye Ji"
   avatar           : "profile_pic.jpg"
-  bio              : "I am a Ph.D. Candidate. My research interests are mainly in IsoGeometric Analysis (IGA), with a focus on advancing the theoretical underpinnings and developing efficient methodologies for spline-based analysis-suitable parameterization."
+  bio              : "My research interests are mainly in IsoGeometric Analysis (IGA), with a focus on advancing the theoretical underpinnings and developing efficient methodologies for spline-based analysis-suitable parameterization."
   location         : "Delft, Netherlands"
   employer         : 
   pubmed           : 
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ye-ji-2052b41b8/"
+  linkedin         : "ye-ji-2052b41b8/"
   orcid            : "http://orcid.org/0000-0002-1173-6457"
   pinterest        :
   soundcloud       :

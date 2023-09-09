@@ -6,8 +6,41 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  address: >
+    <p>TU Delft</p>
+    <p>DIAM, Faculty of EEMCS</p>
+    <p>Numerical Analysis</p>
+    <p>Mekelweg 4, 2628 CD Delft</p>
+    <p>Room HB 03.140</p>
+    <p style="margin-top: 5px">Tel.: +31 (0)62 09 05177</p>
+
+# news: true  # includes a list of news items
+# latest_posts: true  # includes a list of the newest posts
+# selected_papers: true # includes a list of papers marked as "selected={true}"
+# social: true  # includes social icons at the bottom of the page
+news: true  # includes a list of news items
+recent_papers: true # includes a list of papers marked as "recent={true}"
+email_before_news: false
+social_before_news: true
+# social_bottom: false  # includes social icons at the bottom of the page
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
+disable_badges: true
 ---
 
+Ye Ji is a fourth-year Ph.D. candidate at [Dalian University of Technology](http://en.dlut.edu.cn/), where he conducts his research under the guidance of Prof. [Chungang Zhu](http://faculty.dlut.edu.cn/zhu/zh_CN/index.htm). Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis.
+
+In addition to his research, Ye contributes to the academic community by serving as a reviewer for Mathematical Reviews. He is also a co-developer of [Geometry + Simulation Modules (G+Smo)](https://gismo.github.io/), a prominent open-source software platform for isogeometric analysis, implemented in C++. 
+
+Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis) of the [Delft Institute of Applied Mathematics (DIAM)](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics), [Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)](https://www.tudelft.nl/en/eemcs), at the [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), under the supervision of Dr. [Matthias Möller](https://mmoelle1.gitlab.io/website/). This project primarily investigates flow-aligned mesh generation for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases. These machines are vital in large industrial applications like chillers and in the operation of high-power air tools such as jackhammers and impact wrenches. In addition, screw machines find applications across a range of industries including food and beverage, automotive, chemical and pharmaceutical, and industrial manufacturing, among others. 
+
+<!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
@@ -47,4 +80,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
