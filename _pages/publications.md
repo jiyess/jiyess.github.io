@@ -15,6 +15,6 @@ author_profile: true
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% _bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
