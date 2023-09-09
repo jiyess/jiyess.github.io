@@ -8,8 +8,12 @@ nav_order: 2
 disable_badges: true
 ---
 
-<div class="publications">
+{% if site.talkmap_link == true %}
 
-{% bibliography -f {{ site.scholar.talks }} %}
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-</div>
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
