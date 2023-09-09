@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Ye Ji’s website."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -36,7 +36,7 @@ disable_badges: true
 
 Ye Ji is a fourth-year Ph.D. candidate at [Dalian University of Technology](http://en.dlut.edu.cn/), where he conducts his research under the guidance of Prof. [Chungang Zhu](http://faculty.dlut.edu.cn/zhu/zh_CN/index.htm). Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis.
 
-In addition to his research, Ye contributes to the academic community by serving as a reviewer for Mathematical Reviews. He is also a co-developer of [Geometry + Simulation Modules (G+Smo)](https://gismo.github.io/), a prominent open-source software platform for isogeometric analysis, implemented in C++. 
+In addition to his research, Ye contributes to the academic community by serving as a reviewer for Mathematical Reviews. He is also a co-developer of [Geometry + Simulation Modules (G+Smo)](https://gismo.github.io/), a prominent open-source C++ software platform for isogeometric analysis. 
 
 Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis) of the [Delft Institute of Applied Mathematics (DIAM)](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics), [Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)](https://www.tudelft.nl/en/eemcs), at the [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), under the supervision of Dr. [Matthias Möller](https://mmoelle1.gitlab.io/website/). This project primarily investigates flow-aligned mesh generation for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases. These machines are vital in large industrial applications like chillers and in the operation of high-power air tools such as jackhammers and impact wrenches. In addition, screw machines find applications across a range of industries including food and beverage, automotive, chemical and pharmaceutical, and industrial manufacturing, among others. 
 
