@@ -12,9 +12,9 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}", target="_blank">my Google Scholar profile</a>.</u>
 {% endif %}
 
-# Refereed Journal Papers
+## Refereed Journal Papers
 
-## 2023
+### 2023
 ---
 
 - Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2023). Sufficient condition for injectivity of NURBS volumes by tangent cones. ***Journal of Computational and Applied Mathematics***, 432, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0377042723002479) 
@@ -57,7 +57,7 @@ author_profile: true
 
 ---
 
-## 2022
+### 2022
 
 - **Ye Ji**, Meng-Yun Wang, Yu Wang, & Chun-Gang Zhu. (2022) "Curvature-based r-adaptive planar NURBS parameterization method for isogeometric analysis using bi-level approach." *Computer-Aided Design*, 150, 103305. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0010448522000756) 
   <details>
@@ -83,7 +83,7 @@ author_profile: true
 
 ---
 
-## 2021
+### 2021
 
 - **Ye Ji**, Ying-Ying Yu, Meng-Yun Wang, & Chun-Gang Zhu. (2021). "Constructing high-quality planar NURBS parameterization for isogeometric analysis by adjustment control points and weights." *Journal of Computational and Applied Mathematics*, 396, 113615. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0377042721002375) 
   <details>
@@ -109,7 +109,7 @@ author_profile: true
 
 ---
 
-## 2020
+### 2020
 
 - Xue-Feng Zhu, **Ye Ji**, Chun-Gang Zhu, Ping Hu, & Zheng-Dong Ma. (2020). "Isogeometric analysis for trimmed CAD surfaces using multi-sided toric surface patches." *Computer Aided Geometric Design*, 79, 101847. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0167839620300340) 
   <details>
@@ -127,7 +127,7 @@ author_profile: true
 
 --- 
 
-# Refereed Conference Papers
+## Refereed Conference Papers
 
 
 

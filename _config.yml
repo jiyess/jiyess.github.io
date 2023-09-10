@@ -362,8 +362,8 @@ display_categories: ['Workshops', 'Schools'] # these categories will be displaye
 
 scholar:
 
-  last_name: [Heinlein]
-  first_name: [Alexander, A.]
+  last_name: [Ji]
+  first_name: [Ye, Y.]
 
   style: apa
   locale: en
