@@ -9,7 +9,9 @@ location: "Lyon, France"
 ---
 
 [Slides](../files/pdf/slides/2023-iga-fastSolver/2023-iga-fastSolver.pdf), 
-[Abstract](../files/pdf/slides/2023-iga-fastSolver/2023-iga-abstract.pdf),
+[Abstract](../files/pdf/slides/2023-iga-fastSolver/2023-iga-abstract.pdf), 
+[Photo1](../images/talks/2023-06-18-iga-fastSolver/IGA2023_1.jpg), 
+[Photo2](../images/talks/2023-06-18-iga-fastSolver/IGA2023_2.jpg), 
 [Conference Link](https://iga2023.sciencesconf.org)
 
 The first step in the IsoGeometric Analysis (IGA) pipeline consists in constructing a high-quality, analysis-suitable domain parameterization from the boundary representation of a CAD model. This step is crucial in enhancing the efficiency and accuracy of all downstream tasks, e.g., analysis and optimization. While algebraic parametrization methods such as the discrete Coons method and the Spring patch method are simple and efficient, they often result in invalid parameterizations, particularly for complex geometries. To overcome this limitation, more robust and sophisticated approaches have been proposed, which require solving nonlinear systems or nonlinear optimizations. Thus, fast solvers for these problems play a crucial role in the robust and efficient construction of analysis-suitable domain parameterizations. The Geometry + Simulation Modules (G+Smo) library [1] is a specialized, open-source C++ library that provides mathematical tools and operations for both geometric design and isogeometric simulation. In this talk, we present some recently developed, fast, and robust solvers for domain parameterizations that have been integrated into the G+Smo library. 
