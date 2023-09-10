@@ -19,6 +19,7 @@ The first step in the IsoGeometric Analysis (IGA) pipeline consists in construct
 In the first part of this talk, we present solvers for generating parameterizations based on the elliptic grid generation paradigm. The underlying nonlinear systems of equations are solved by a standard Newton method or by our recently developed preconditioned Anderson acceleration method with dynamic preconditioning strategies [2], which reduces the frequent and costly computation of full Jacobian updates. In the second part of the talk, we showcase two recently developed parameterization methods based on a nonlinear optimization problem. These methods are backed-up by fast and robust solvers such as LBFGS++, HLBFGS, and IPOPT. The optimization-based parameterization methods are also used to locally improve domain parameterizations produced by smoothing methods as the D-Patch or Almost-C1 methods. 
 
 [1] Jüttler, B., Langer, U., Mantzaflaris, A., Moore, S. E., & Zulehner, W. (2014). Geometry+ simulation modules: Implementing isogeometric analysis. PAMM, 14(1), 961-962. 
+
 [2]	Ji Y., Chen K., Möller M., & Vuik C. (2023). On an improved PDE-based elliptic parameterization method for isogeometric analysis using preconditioned Anderson acceleration. Under review. 
 
-Based on joint work with [Hugo M. Verhelst](https://hverhelst.github.io/index.html), and [Matthias Möller](https://mmoelle1.gitlab.io/website/).
+Based on joint work with [Hugo M. Verhelst](https://hverhelst.github.io/index.html), and [Matthias Möller](https://mmoelle1.gitlab.io/website/). 
