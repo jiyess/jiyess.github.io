@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can also find my [[CV]](../files/pdf/Ye%20Ji's%20CV.pdf) here. 
+You can also find my [CV](../files/pdf/Ye%20Ji's%20CV.pdf) here. 
 
 ## Education
 
