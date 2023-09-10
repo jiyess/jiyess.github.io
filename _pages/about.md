@@ -40,7 +40,7 @@ Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical 
 News
 ------
 
-- **[07/2023]**: I am excited that [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0167839623000237) won <font color=Red>**Conference Best Paper Award**</font> at **International Conference on Geometric Modeling and Processing (GMP 2023)**, Genova, Italy, on 5-7 July 2023. 
+- **[07/2023]**: I am excited that [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0167839623000237) won **<font color=Red>Conference Best Paper Award</font>** at **International Conference on Geometric Modeling and Processing (GMP 2023)**, Genova, Italy, on 5-7 July 2023. 
 
 - **[06/2023]**: I will give an oral presentation in **11th International Conference on IsoGeometric Analysis (IGA 2023)**, Lyon, France, on 18-21 June 2023. 
 
