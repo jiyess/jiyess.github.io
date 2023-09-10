@@ -9,7 +9,6 @@ location: "Genova, Italy"
 ---
 
 [Slides](../files/pdf/slides/2023-gmp-pdeAA/2023-gmp-pdeAA.pdf), 
-[Poster](../files/pdf/slides/2023-gmp-pdeAA/2023-gmp-pdeAA.pdf)
 [Photo1](../images/talks/2023-07-06-gmp-Improved/GMP2023_1.jpg), 
 [Photo2](../images/talks/2023-07-06-gmp-Improved/GMP2023_2.jpg), 
 [Photo3](../images/talks/2023-07-06-gmp-Improved/GMP2023_best_paper.jpg), 
