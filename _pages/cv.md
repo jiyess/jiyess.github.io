@@ -26,7 +26,7 @@ You can also find my [CV](../files/pdf/Ye%20Ji's%20CV.pdf) here.
 * Geometric Properties of Parametric Curves and Surfaces, National Natural Science Foundation of China, 2017-2020, General Program, Participant. 
 (参数曲线曲面的几何性质研究, 国家自然科学基金委员会, 2017-2020,  面上项目, 参与.) 
 
-## Publications
+<!-- ## Publications
 
 <ul>{% for post in site.publications %}
   {% include archive-single-cv.html %}
@@ -42,7 +42,7 @@ You can also find my [CV](../files/pdf/Ye%20Ji's%20CV.pdf) here.
 
 <ul>{% for post in site.teaching %}
   {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% endfor %}</ul> -->
 
 ## Services
 
