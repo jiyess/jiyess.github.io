@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ye Ji / Ph.D. Candidate"
+title                    : "Ye Ji 纪野"
 title_separator          : "-"
 name                     : &name "Ye Ji"
 description              : &description "I am a researcher"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ye Ji"
+  name             : "Ye Ji 纪野"
   avatar           : "profile_pic.jpg"
   bio              : "My research interests are mainly in IsoGeometric Analysis (IGA), with a focus on advancing the theoretical underpinnings and developing efficient methodologies for spline-based analysis-suitable parameterization."
   location         : "Delft, Netherlands"
