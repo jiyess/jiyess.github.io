@@ -37,6 +37,25 @@ In addition to his research, Ye contributes to the academic community by serving
 
 Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis) of the [Delft Institute of Applied Mathematics (DIAM)](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics), [Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)](https://www.tudelft.nl/en/eemcs), at the [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/), under the supervision of Dr. [Matthias Möller](https://mmoelle1.gitlab.io/website/). This project primarily investigates flow-aligned mesh generation for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases. These machines are vital in large industrial applications like chillers and in the operation of high-power air tools such as jackhammers and impact wrenches. In addition, screw machines find applications across a range of industries including food and beverage, automotive, chemical and pharmaceutical, and industrial manufacturing, among others. 
 
+News
+------
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [07/2023]**: I will give an oral presentation in **International Conference on Geometric Modeling and Processing (GMP 2023)**, Genova, Italy, on 5-7 July 2023. **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) (Conference Best Paper Award)**
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [06/2023]**: I will give an oral presentation in **11th International Conference on IsoGeometric Analysis (IGA 2023)**, Lyon, France, on 18-21 June 2023. 
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [05/2023]**: I will give an oral presentation in **China Graphics Society "striving for excellence" 2023 (中国图学学会“奋发图强”) Ph.D. workshop**, online. 
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [05/2023]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0377042723002479) has been accepted by [**Journal of Computational and Applied Mathematics**](https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics).
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [03/2023]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0167839623000237) has been accepted by [**Computer Aided Geometric Design**](https://www.sciencedirect.com/journal/computer-aided-geometric-design).
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [03/2023]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0263823123001544) has been accepted by [**Thin-Walled Structures**](https://www.sciencedirect.com/journal/thin-walled-structures).
+
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [02/2023]**: Our team emerged as the Challenge Winner for the Amazon Web Services challenge at [**![#0000FF](https://via.placeholder.com/15/0000FF/000000?text=+) the SIAM Hackathon 2023**](https://www.siam.org/conferences/cm/conference/cse23). In recognition of our accomplishment, each team member received a SIAM book voucher valued at 250 euros. [Challenge Winner Certificate](../images/talks/2023-siam-hackaton/SIAM_certificate.pdf) [Photo1](../images/talks/2023-siam-hackaton/SIAM_Hackathon2023_pic1.jpeg) [Photo2](../images/talks/2023-siam-hackaton/SIAM_Hackathon2023_pic2.jpeg).
+  
+- **![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) [01/2023]**: [One paper](https://www.global-sci.org/jcm/) has been accepted by [**Journal of Computational Mathematics**](https://www.global-sci.org/jcm/). 
+
 <div style="text-align:center; margin:0; padding:0; width:256px;">
   <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5nnta91lqjn&amp;s=240&amp;m=8&amp;v=true&amp;r=false&amp;b=000000&amp;n=true&amp;c=ff0000" async="async"></script>
   </div>
