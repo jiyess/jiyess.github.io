@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- You can also find my complete CV in <u><a href="https://www.linkedin.com/in/anderson-carniel/" target="_blank">my LinkedIn</a>.</u> -->
+You can also download my <a href="assets/pdf/Ye Ji's CV.pdf", target="_blank">CV</a> here! 
 
 ## Education
 
