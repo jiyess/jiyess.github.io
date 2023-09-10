@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can also download my <a href="assets/pdf/Ye Ji's CV.pdf", target="_blank">CV</a> here! 
+You can also find my [[CV]](../papers/accepted_manuscript_GeoInformatica2021.pdf) here. 
 
 ## Education
 
