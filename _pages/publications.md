@@ -19,10 +19,10 @@ author_profile: true
 
 - Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2023). Sufficient condition for injectivity of NURBS volumes by tangent cones. ***Journal of Computational and Applied Mathematics***, 432, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0377042723002479) [DOI: 10.1016/j.cam.2023.115303](https://doi.org/10.1016/j.cam.2023.115303)
 
-<details>
-  <summary><strong>Abstract</strong></summary>
-  NURBS method is the standard mathematical method for describing the shapes of curves/surfaces/volumes, and it is extensively used in computer-aided design, computer-aided manufacturing, and computer graphics. The injectivity of NURBS volumes means that they do not have self-intersections. This paper first proposes a method to compute the bounding vectors of the tangent cones of NURBS volume and then presents a sufficient condition for the injectivity of NURBS volume. A checking algorithm is also presented.
-</details>
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    NURBS method is the standard mathematical method for describing the shapes of curves/surfaces/volumes, and it is extensively used in computer-aided design, computer-aided manufacturing, and computer graphics. The injectivity of NURBS volumes means that they do not have self-intersections. This paper first proposes a method to compute the bounding vectors of the tangent cones of NURBS volume and then presents a sufficient condition for the injectivity of NURBS volume. A checking algorithm is also presented.
+  </details>
 
 ---
 
