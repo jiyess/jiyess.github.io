@@ -40,6 +40,10 @@ Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical 
 News
 ------
 
+- **[09/2023]**: I will give an oral presentation in [**RICAM Workshop on Topology Optimization and Isogeometric Analysis**](https://www.oeaw.ac.at/ricam/news-events/workshops/topology-optimization-and-isogeometric-analysis), Linz, Austria, on 11-13 September 2023. 
+
+- **[09/2023]**: I will give an oral presentation in [**13th International Conference on Compressors and their Systems**](https://citycompressorsconference.london), London, United Kingdom, on 11 September 2023. 
+
 - **[07/2023]**: I am excited that [our paper](https://www.sciencedirect.com/science/article/abs/pii/S0167839623000237) won **<font color=Red>Conference Best Paper Award</font>** at **International Conference on Geometric Modeling and Processing (GMP 2023)**, Genova, Italy, on 5-7 July 2023. 
 
 - **[06/2023]**: I will give an oral presentation in **11th International Conference on IsoGeometric Analysis (IGA 2023)**, Lyon, France, on 18-21 June 2023. 
@@ -52,8 +56,8 @@ News
 
 - **[03/2023]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0263823123001544) has been accepted by [**Thin-Walled Structures**](https://www.sciencedirect.com/journal/thin-walled-structures).
 
-- **[02/2023]**: Our team emerged as the Challenge Winner for the Amazon Web Services challenge at [**SIAM Hackathon 2023**](https://www.siam.org/conferences/cm/conference/cse23). In recognition of our accomplishment, each team member received a SIAM book voucher valued at 250 euros. [Challenge Winner Certificate](../images/talks/2023-siam-hackaton/SIAM_certificate.pdf), [Photo1](../images/talks/2023-siam-hackaton/SIAM_Hackathon2023_pic1.jpeg), [Photo2](../images/talks/2023-siam-hackaton/SIAM_Hackathon2023_pic2.jpeg).
-  
+- **[02/2023]**: Our team emerged as the Challenge Winner for the Amazon Web Services challenge at [**SIAM Hackathon 2023**](https://www.siam.org/conferences/cm/conference/cse23). In recognition of our accomplishment, each team member received a SIAM book voucher valued at 250 euros. [Challenge Winner Certificate](../images/talks/2023-02-26-siam-hackaton/SIAM_certificate.pdf), [Photo1](../images/talks/2023-02-26-siam-hackaton/SIAM_Hackathon2023_pic1.jpeg), [Photo2](../images/talks/2023-02-26-siam-hackaton/SIAM_Hackathon2023_pic2.jpeg).
+
 - **[01/2023]**: [One paper](https://www.global-sci.org/jcm/) has been accepted by [**Journal of Computational Mathematics**](https://www.global-sci.org/jcm/). 
 
 
