@@ -8,9 +8,9 @@ date: 2023-09-13
 location: "Linz, Austria" 
 ---
 
-[Slides](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam.pdf), 
 [Abstract](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam-abstract.pdf), 
-<!-- [Photo1](../images/talks/2023-09-13-RICAM-ASParam/opening.jpg), -->
+[Slides](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam.pdf), 
+[Photo](../images/talks/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam.jpg), 
 [Conference Link](https://www.oeaw.ac.at/ricam/news-events/workshops/topology-optimization-and-isogeometric-analysis)
 
 In the field of IsoGeometric Analysis (IGA), the pivotal first step entails creating a high-quality, analysis-suitable domain parameterization derived from the boundary representation of a CAD model. This foundational procedure exerts a substantial influence on downstream operations, including, but not limited to, simulation and structural design optimization. Although algebraic methods like the discrete Coons and Spring patch techniques provide simple and efficient solutions, they often prove insufficient for complex geometric challenges. 
