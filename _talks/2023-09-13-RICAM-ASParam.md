@@ -8,8 +8,8 @@ date: 2023-09-13
 location: "Linz, Austria" 
 ---
 
-<!-- [Slides](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam.pdf),  -->
-[Abstract](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam-abstract.pdf),
+[Slides](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam.pdf), 
+[Abstract](../files/pdf/slides/2023-09-13-RICAM-ASParam/2023-09-13-RICAM-ASParam-abstract.pdf), 
 <!-- [Photo1](../images/talks/2023-09-13-RICAM-ASParam/opening.jpg), -->
 [Conference Link](https://www.oeaw.ac.at/ricam/news-events/workshops/topology-optimization-and-isogeometric-analysis)
 
