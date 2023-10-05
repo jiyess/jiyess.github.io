@@ -1,7 +1,7 @@
 ---
 title: "Penalty function-based volumetric parameterization method for isogeometric analysis"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2022-gmp-penalty
 venue: "International Conference on Geometric Modeling and Processing (GMP) 2022"
 date: 2022-05-12

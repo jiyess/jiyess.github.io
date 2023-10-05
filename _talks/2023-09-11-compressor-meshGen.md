@@ -1,7 +1,7 @@
 ---
 title: "Mesh generation for twin-screw compressors by spline-based parameterization using preconditioned Anderson acceleration"
 collection: talks
-type: "Conference proceedings talk"
+type: "Conference Proceedings Talk"
 permalink: /talks/2023-09-11-compressor-meshGen
 venue: "13th International Conference on Compressors and their Systems"
 date: 2023-09-11

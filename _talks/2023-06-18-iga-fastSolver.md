@@ -1,7 +1,7 @@
 ---
 title: "Fast and Robust Solvers for Local/Global Domain Parameterizations within G+Smo"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2023-iga-fastSolver
 venue: "11th International Conference on IsoGeometric Analysis (IGA) 2023"
 date: 2023-06-18

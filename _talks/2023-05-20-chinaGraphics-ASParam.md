@@ -1,7 +1,7 @@
 ---
 title: "Analysis-Suitable Parameterization for Isogeometric Analysis: Isotropic/Anisotropic Methods and Their Applications"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2023-ChinaGraphics
 venue: "2023 年度中国图学学会 “奋发图强” 博士生 workshop"
 date: 2023-05-20

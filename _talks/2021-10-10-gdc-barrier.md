@@ -1,7 +1,7 @@
 ---
 title: "High-quality planar NURBS parameterization based on alternating control points and weights optimization"
 collection: talks
-type: "Conference proceedings talk"
+type: "Lightning Talk & Poster Presentation"
 permalink: /talks/2021-gdc-barrier
 venue: "第十三届全国几何设计与计算学术会议 (GDC) 2021"
 date: 2021-10-10

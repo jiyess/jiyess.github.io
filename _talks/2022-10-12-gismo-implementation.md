@@ -1,7 +1,7 @@
 ---
 title: "Implementation of analysis-suitable parameterization construction using G+Smo"
 collection: talks
-type: "Workshop"
+type: "Workshop & Oral Presentation"
 permalink: /talks/2022-gismo-implementation
 venue: "G+Smo Developers' Days and preCICE meeting 2022"
 date: 2022-10-12

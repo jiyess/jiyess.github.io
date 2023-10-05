@@ -1,7 +1,7 @@
 ---
 title: "Analysis-suitable Parameterization Techniques for Isogeometric Analysis"
 collection: talks
-type: "Workshop talk"
+type: "Workshop & Oral Presentation"
 permalink: /talks/2023-09-13-RICAM-ASParam
 venue: "RICAM Workshop on Topology Optimization and Isogeometric Analysis"
 date: 2023-09-13

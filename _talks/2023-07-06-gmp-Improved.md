@@ -1,7 +1,7 @@
 ---
 title: "On an improved PDE-based parameterization method for IsoGeometric Analysis (IGA) using preconditioned Anderson acceleration"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2023-gmp-pdeAA
 venue: "International Conference on Geometric Modeling and Processing (GMP) 2023"
 date: 2023-07-06

@@ -1,7 +1,7 @@
 ---
 title: "Multi-patch parameterization method for isogeometric analysis using singular structure of cross-field"
 collection: talks
-type: "Conference poster"
+type: "Poster Presentation"
 permalink: /talks/2023-07-08-igs-multiPatch
 venue: "The International Geometry Summit 2023 (IGS’23)"
 date: 2023-07-08
@@ -11,7 +11,6 @@ location: "Genova, Italy"
 [Abstract](../files/pdf/slides/2023-07-08-igs-MultiPatch/IGS2023_abstract.pdf), 
 [Poster](../files/pdf/slides/2023-07-08-igs-MultiPatch/IGS2023_poster.pdf),
 [Conference Link](https://igs2023.imati.cnr.it)
-
 
 The cutting-edge numerical methodology of isogeometric analysis offers the potential to seamlessly integrate Computer-Aided Design and Computer-Aided Engineering, effectively bridging the gap between the two domains. Most Computer-Aided Design systems focus exclusively on the boundary representation of models during the design phase, whereas a spline-based mapping is essential in the analysis stage, commonly referred to as domain parameterization. However, generating analysis-suitable parameterizations from existing boundary representations continues to be a considerable challenge in the isogeometric design-through-analysis process, especially for computational domains featuring intricate geometries, such as high-genus cases. 
 

@@ -1,7 +1,7 @@
 ---
 title: "High-quality planar NURBS parameterization of computational domain in IGA via control points and weights optimization"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2021-megas-barrier
 venue: "MEsh Generation and Applications Symposium (MEGAS) 2021"
 date: 2021-05-29

@@ -1,7 +1,7 @@
 ---
 title: "Curvature-based r-adaptive isogeometric analysis with injectivity-preserving multi-sided domain parameterization"
 collection: talks
-type: "Conference proceedings talk"
+type: "Oral Presentation"
 permalink: /talks/2021-cm-curvature
 venue: "第十二届中国数学会计算机数学大会 (CM) 2021"
 date: 2021-06-05
