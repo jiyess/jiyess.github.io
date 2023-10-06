@@ -10,6 +10,8 @@ location: "London, United Kingdom"
 
 [Slides](../files/pdf/slides/2023-09-11-compressor-meshGen/2023-09-11-compressor-meshGen.pdf),
 [Photo1](../images/talks/2023-09-11-compressor-meshGen/opening.jpg),
+[Photo2](../images/talks/2023-09-11-compressor-meshGen/presentation_2.jpg),
+[Photo3](../images/talks/2023-09-11-compressor-meshGen/presentation_1.jpg),
 [Video1](../images/talks/2023-09-11-compressor-meshGen/compressor-slices.mov),
 [Video2](../images/talks/2023-09-11-compressor-meshGen/compressor-simulation.mov),
 [Conference Link](https://citycompressorsconference.london)
