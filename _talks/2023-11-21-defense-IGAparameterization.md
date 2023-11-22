@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "On domain parameterization for isogeometric analysis"
 collection: talks
 type: "Doctoral Dissertation Defence"
 permalink: /talks/2023-11-21-defense-IGAparameterization
