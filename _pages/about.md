@@ -40,6 +40,10 @@ Currently, Ye is conducting a two-year visiting Ph.D. project at the [Numerical 
 News
 ------
 
+- **[11/2023]**: I defended my doctoral dissertation entitled "On domain parameterization for isogeometric analysis" successfully, Dalian, Liaoning, on 21 November 2023.
+
+- **[11/2023]**: I will give a poster presentation in [**Dutch Computational Science Day**](https://ducomsday.nl/), Utrecht, The Netherlands, on 10 November 2023.
+
 - **[09/2023]**: I will give an oral presentation in [**RICAM Workshop on Topology Optimization and Isogeometric Analysis**](https://www.oeaw.ac.at/ricam/news-events/workshops/topology-optimization-and-isogeometric-analysis), Linz, Austria, on 11-13 September 2023. 
 
 - **[09/2023]**: I will give an oral presentation in [**13th International Conference on Compressors and their Systems**](https://citycompressorsconference.london), London, United Kingdom, on 11 September 2023. 
