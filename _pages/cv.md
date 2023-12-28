@@ -13,9 +13,9 @@ My [CV](../files/pdf/Ye%20Ji's%20CV.pdf) is available for a more detailed overvi
 
 ## Education
 
-- **2021.10 - Present**: Visiting Ph.D., [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis), [Delft University of Technology](https://www.tudelft.nl/).
+- **2021.10 - 2023.12**: Visiting Ph.D., [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis), [Delft University of Technology](https://www.tudelft.nl/).
   
-- **2019.09 - Present**: Ph.D., [Computational Mathematics](http://en.dlut.edu.cn/), [Dalian University of Technology](http://en.dlut.edu.cn/).
+- **2019.09 - 2023.12**: Ph.D., [Computational Mathematics](http://en.dlut.edu.cn/), [Dalian University of Technology](http://en.dlut.edu.cn/).
   
 - **2017.09 - 2019.06**: M.S., [Computational Mathematics](http://en.dlut.edu.cn/), [Dalian University of Technology](http://en.dlut.edu.cn/).
   
@@ -31,35 +31,19 @@ My [CV](../files/pdf/Ye%20Ji's%20CV.pdf) is available for a more detailed overvi
 - **2017.01 - 2020.12**: Geometric Properties of Parametric Curves and Surfaces. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant. 
 (参数曲线曲面的几何性质研究, 国家自然科学基金委员会, 2017-2020, 面上项目, 参与.) 
 
-<!-- ## Publications
-
-<ul>{% for post in site.publications %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-## Talks
-
-<ul>{% for post in site.talks %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
-
-## Teaching
-
-<ul>{% for post in site.teaching %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul> -->
-
 ## Professional Services
 
-- Teaching Assistant for several undergraduate and graduate courses: Numerical Approximation and Computational Geometry (3 times), Complex Variables and Applications, Mathematical Statistics.
-  
 - Reviewer for Mathematical Reviews, American Mathematical Society (AMS).
   
 - Active Member of the China Society for Industrial and Applied Mathematics (CSIAM).
   
 - Student Member of the Society for Industrial and Applied Mathematics (SIAM).
-
+  
+- Teaching Assistant for several undergraduate and graduate courses: Numerical Approximation and Computational Geometry (3 times), Complex Variables and Applications, Mathematical Statistics.
+  
 ## Honors & Awards
+
+- **[12/2023]**: Outstanding Graduates of Liaoning Province 2024.
 
 - **[07/2023]**: Conference Best Paper Award at GMP 2023, Genova, Italy.
   
