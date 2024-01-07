@@ -14,6 +14,25 @@ author_profile: true
 
 ## Refereed Journal Papers
 
+### 2024
+---
+
+- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysissuitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobianpreconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
+  </details>
+
+---
+
+- Lin Lan, **Ye Ji**, Meng-Yun Wang & Chun-Gang Zhu. (2024). Full-LSPIA: A least-squares progressive-iterative approximation method with optimization of weights and knots for NURBS curves and surfaces. ***Computer-Aided Design***, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0010448523002051) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    The Least-Squares Progressive-Iterative Approximation (LSPIA) method offers a powerful and intuitive approach for data fitting. Non-Uniform Rational B-splines (NURBS) are a popular choice for approximation functions in data fitting, due to their robust capabilities in shape representation. However, a restriction of the traditional LSPIA application to NURBS is that it only iteratively adjusts control points to approximate the provided data, with weights and knots remaining static. To enhance fitting precision and overcome this constraint, we present Full-LSPIA, an innovative LSPIA method that jointly optimizes weights and knots alongside control points adjustments for superior NURBS curves and surfaces creation. We achieve this by constructing an objective function that incorporates control points, weights, and knots as variables, and solving the resultant optimization problem. Specifically, control points are adjusted using LSPIA, while weights and knots are optimized through the LBFGS method based on the analytical gradients of the objective function with respect to weights and knots. Additionally, we present a knot removal strategy known as Decremental Full-LSPIA. This strategy reduces the number of knots within a specified error tolerance, and determines optimal knot locations. The proposed Full-LSPIA and Decremental Full-LSPIA maximize the strengths of LSPIA, with numerical examples further highlighting the superior performance and effectiveness of these methods. Compared to the classical LSPIA, Full-LSPIA offers greater fitting accuracy for NURBS curves and surfaces while maintaining the same number of control points, and automatically determines suitable weights and knots. Moreover, Decremental Full-LSPIA yields fitting results with fewer knots while maintaining the same error tolerance.
+  </details>
+
+---
+
 ### 2023
 ---
 
@@ -41,7 +60,7 @@ author_profile: true
 
 ---
 
-- Meng-Yun Wang, **Ye Ji**, & Chun-Gang Zhu. (2023). Degree elevation and knot insertion for generalized Bézier surfaces and their application to isogeometric analysis. ***Journal of Computational Mathematics***, TBA, TBA. (accepted)
+- Meng-Yun Wang, **Ye Ji**, & Chun-Gang Zhu. (2023). Degree elevation and knot insertion for generalized Bézier surfaces and their application to isogeometric analysis. ***Journal of Computational Mathematics***, TBA, TBA. (DOI: 10.4208/jcm.2301-m2022-0116)
   <details>
     <summary><strong>Abstract</strong></summary>
     Generalized B{\'e}zier (GB) surfaces proposed by V{\'a}rady et al. are a multi-sided general- ization of classical tensor product B{\'e}zier surfaces with a simple control structure and inherit most of the nice properties from B{\'e}zier surfaces. However, the original degree elevation changes the geometry of GB surfaces such that it is undesirable in many applications, e.g., isogeometric analysis (IGA). In this paper, we propose an improved degree elevation algo- rithm for GB surfaces keeping not only the geometry but also the parameter consistency. Based on the knot insertion of B-splines, a novel knot insertion algorithm for GB surface is also proposed. Then the proposed degree elevation and knot insertion algorithms are employed to increase the degree of freedom (DOF) for multi-sided domain parameterized by GB surface in IGA, corresponding to the traditional p-, h-, and k-refinements. Numerical examples demonstrate the effectiveness and superiority of our method.
