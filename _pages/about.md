@@ -39,6 +39,11 @@ In addition to his research, Ye contributes to the academic community by serving
 
 News
 ------
+
+- **[03/2024]**: I will give oral presentation in [**GiSmo developer days 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Thessaloniki, Greece, March 4th - 6th, 2024.
+
+- **[03/2024]**: [One paper]() has been accepted by [**Computers & Mathematics with Applications**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computers-and-mathematics-with-applications).
+
 - **[01/2024]**: I have started as Postdoctoral Research Fellow in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>, 01 January 2024.
 
 - **[01/2024]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0010448523002051) has been accepted by [**Computer Aided Design**](https://www.sciencedirect.com/journal/computer-aided-design).

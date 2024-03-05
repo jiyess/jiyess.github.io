@@ -9,8 +9,8 @@ location: "Thessaloniki, Greece"
 ---
 
 [Slides](../files/pdf/slides/2024-03-05-gismo-developer/gismo2024.pdf),
-[Photo1](../images/talks/2024-03-05-gismo-developers/IMG_0986.JPG), 
-[Photo2](../images/talks/2024-03-05-gismo-developers/IMG_0981.HEIC)
+[Photo1](../images/talks/2024-03-05-gismo-developers/gismo2024_1.JPG), 
+[Photo2](../images/talks/2024-03-05-gismo-developers/gismo2024_2.JPG)
 
 This talk will introduce robust parameterization methodologies, particularly through the generation of high-quality domain parameterizations from CAD boundary representations, utilizing and transcending the capabilities of G+Smo. We commence with an exploration of barrier-type optimization-based methods and PDE-driven parameterization techniques, which have carved a niche in industry, particularly in mesh generation for complex machinery such as twin-screw compressors.
 
