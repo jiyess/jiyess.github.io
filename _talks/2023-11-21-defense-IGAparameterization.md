@@ -4,7 +4,7 @@ collection: talks
 type: "Doctoral Dissertation Defence"
 permalink: /talks/2023-11-21-defense-IGAparameterization
 venue: "Ye Ji's doctoral dissertation defence"
-date: 2023-11-10
+date: 2023-11-21
 location: "Dalian, China" 
 ---
 
