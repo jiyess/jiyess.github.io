@@ -1,7 +1,7 @@
 ---
 title: "Isogeometric analysis-suitable parameterization: Advancements inside and outside G+Smo"
 collection: talks
-type: "workshop"
+type: "Workshop"
 permalink: /talks/2024-03-05-gismo-developer
 venue: "GiSmo developer days 2024"
 date: 2024-03-05
