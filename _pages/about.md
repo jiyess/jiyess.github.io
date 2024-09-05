@@ -31,18 +31,24 @@ social: false  # includes social icons at the bottom of the page
 disable_badges: true
 ---
 
-Ye Ji is Postdoctoral Research Fellow in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>.
+Ye Ji is Postdoctoral Researcher in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>.
 
-Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **Computer-Aided Geometry Design (CAGD)** and **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis. More recently, Ye also started focusing on fast and robust **mesh generation** for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases.
+Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **Computer-Aided Geometry Design (CAGD)** and **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**, **grid generation**, and **geometric modelling**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis. More recently, Ye also started focusing on fast and robust **mesh generation** for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases.
 
 In addition to his research, Ye contributes to the academic community by serving as a reviewer for Mathematical Reviews. He is also a co-developer of [Geometry + Simulation Modules (G+Smo)](https://gismo.github.io/), a prominent open-source C++ software platform for isogeometric analysis.
 
 News
 ------
 
+- **[09/2024]**: I will give oral presentation in [**The International Conference on Screw Machines 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Dortmund, Germany, September 3rd - 5th, 2024.
+
+- **[07/2024]**: [One paper](https://doi.org/10.1007/s00366-024-02020-z) has been accepted by [**Engineering with Computers**](https://link.springer.com/article/10.1007/s00366-024-02020-z).
+
+- **[06/2024]**: I will give oral presentation in [**9th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS CONGRESS 2024)**](https://eccomas2024.org/), Lisboa, Portugal, June 3rd - 7th, 2024.
+
 - **[03/2024]**: I will give oral presentation in [**GiSmo developer days 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Thessaloniki, Greece, March 4th - 6th, 2024.
 
-- **[03/2024]**: [One paper]() has been accepted by [**Computers & Mathematics with Applications**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computers-and-mathematics-with-applications).
+- **[03/2024]**: [One paper](https://doi.org/10.1016/j.camwa.2024.03.001) has been accepted by [**Computers & Mathematics with Applications**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computers-and-mathematics-with-applications).
 
 - **[01/2024]**: I have started as Postdoctoral Research Fellow in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>, 01 January 2024.
 

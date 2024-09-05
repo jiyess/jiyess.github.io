@@ -41,7 +41,7 @@ author_profile: true
 
 ---
 
-- Ying-Ying Yu, Xin Li, & Ye Ji. (2024). On Intersections of B-Spline Curves. Mathematics, 12(9), 1344. [[**Full Article**]](https://doi.org/10.3390/math12091344)
+- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Intersections of B-Spline Curves. Mathematics, 12(9), 1344. [[**Full Article**]](https://doi.org/10.3390/math12091344)
   <details>
     <summary><strong>Abstract</strong></summary>
     Bézier and B-spline curves are foundational tools for curve representation in computer graphics and computer-aided geometric design, with their intersection computation presenting a fundamental challenge in geometric modeling. This study introduces an innovative algorithm that quickly and effectively resolves intersections between Bézier and B-spline curves. The number of intersections between the two input curves within a specified region is initially determined by applying the resultant of a polynomial system and Sturm’s theorem. Subsequently, the potential region of the intersection is established through the utilization of the pseudo-curvature-based subdivision scheme and the bounding box detection technique. The projected Gauss-Newton method is ultimately employed to efficiently converge to the intersection. The robustness and efficiency of the proposed algorithm are demonstrated through numerical experiments, demonstrating a speedup of 3 to 150 times over traditional methods.
