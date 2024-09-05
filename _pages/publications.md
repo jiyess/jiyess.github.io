@@ -183,8 +183,12 @@ author_profile: true
 
 ## Book Chapters
 
-![Book Cover](../images/book covers/cover-fluids-under-control.webp)
-**Design Through Analysis**
-**Ye Ji**, Matthias Möller, Hugo Verhelst.
-In: ***Bodnár, T., Galdi, G.P., Nečasová, Š. (eds) Fluids Under Control. Advances in Mathematical Fluid Mechanics***. Birkhäuser, Cham. (https://doi.org/10.1007/978-3-031-47355-5_5)
+<table>
+  <tr>
+    <td><img src="./img/bookcover.jpg" alt="Book Cover" width="160px" height="auto"></td>
+    <td>
+      <p><b>Design Through Analysis</b> Ye Ji, Matthias Möller, Hugo Verhelst. In: <i>Bodnár, T., Galdi, G.P., Nečasová, Š. (eds)</i> <i>Fluids Under Control. Advances in Mathematical Fluid Mechanics.</i> Birkhäuser, Cham. (<a href="https://doi.org/10.1007/978-3-031-47355-5_5">https://doi.org/10.1007/978-3-031-47355-5_5</a>)</p>
+    </td>
+  </tr>
+</table>
 
