@@ -49,14 +49,6 @@ author_profile: true
 
 ---
 
-- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
-  <details>
-    <summary><strong>Abstract</strong></summary>
-    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysissuitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobianpreconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
-  </details>
-
----
-
 - Lin Lan, **Ye Ji**, Meng-Yun Wang & Chun-Gang Zhu. (2024). Full-LSPIA: A least-squares progressive-iterative approximation method with optimization of weights and knots for NURBS curves and surfaces. ***Computer-Aided Design***, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0010448523002051) 
   <details>
     <summary><strong>Abstract</strong></summary>
@@ -180,6 +172,19 @@ author_profile: true
 
 ## Refereed Conference Papers
 
+- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysissuitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobianpreconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
+  </details>
+
+---
 
 
+## Book Chapters
+
+![Book Cover](../images/book covers/cover-fluids-under-control.webp)
+**Design Through Analysis**
+**Ye Ji**, Matthias Möller, Hugo Verhelst.
+In: ***Bodnár, T., Galdi, G.P., Nečasová, Š. (eds) Fluids Under Control. Advances in Mathematical Fluid Mechanics***. Birkhäuser, Cham. (https://doi.org/10.1007/978-3-031-47355-5_5)
 
