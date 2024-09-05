@@ -17,6 +17,40 @@ author_profile: true
 ### 2024
 ---
 
+- **Ye, Ji**, Matthias Möller, Ying-Ying Yu, & Chun-Gang Zhu. (2024). Boundary parameter matching for isogeometric analysis using Schwarz–Christoffel mapping. ***Engineering with Computers***, 1-19.
+
+ [[**Full Article**]](https://doi.org/10.1016/j.cad.2024.103731) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Isogeometric analysis has brought a paradigm shift in integrating computational simulations with geometric designs across engineering disciplines. This technique necessitates analysis-suitable parameterization of physical domains to fully harness the synergy between Computer-Aided Design and Computer-Aided Engineering analyses. Existing methods often fix boundary parameters, leading to challenges in elongated geometries such as fluid channels and tubular reactors. This paper presents an innovative solution for the boundary parameter matching problem, specifically designed for analysis-suitable parameterizations. We employ a sophisticated Schwarz–Christoffel mapping technique, which is instrumental in computing boundary correspondences. A refined boundary curve reparameterization process complements this. Our dual-strategy approach maintains the geometric exactness and continuity of input physical domains, overcoming limitations often encountered with the existing reparameterization techniques. By employing our proposed boundary parameter matching method, we show that even a simple linear interpolation approach can effectively construct a satisfactory analysis-suitable parameterization. Our methodology offers significant improvements over traditional practices, enabling the generation of analysis-suitable and geometrically precise models, which is crucial for ensuring accurate simulation results. Numerical experiments show the capacity of the proposed method to enhance the quality and reliability of isogeometric analysis workflows.
+  </details>
+
+---
+
+- Yi Zhang, **Ye Ji**, & Chun-Gang Zhu. (2024). Multi-patch parameterization method for isogeometric analysis using singular structure of cross-field. ***Computers & Mathematics with Applications***, 162, 61-78. [[**Full Article**]](https://doi.org/10.1016/j.camwa.2024.03.001) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Isogeometric analysis is an innovative numerical paradigm with the potential to bridge the gap between Computer-Aided Design and Computer-Aided Engineering. However, constructing analysis-suitable parameterizations from a given boundary representation remains a critical challenge in the isogeometric design-through-analysis pipeline, particularly for computational domains with complex geometries, such as high-genus cases. To tackle this issue, we propose a multi-patch parameterization method for computational domains grounded in the singular structure of cross-fields. Initially, the vector field functions over the computational domain are solved using the boundary element method. The cross-field is then obtained through the one-to-one mapping between the vector field and the cross-field. Subsequently, we acquire the position information and topological connection relations of singularities and streamlines by analyzing the singular structure of the cross-field. Moreover, we introduce a simple and effective method for computing streamlines. We propose a novel segmentation strategy to divide the computational domain into several quadrilateral NURBS sub-patches. Once the multi-patch structure is established, we develop two methods to construct analysis-suitable multi-patch parameterizations. The first method is a direct generalization of the barrier function-based approach, while the second method yields smoother parameterizations by incorporating the interface control points of sub-patches into the optimization model. Numerical experiments demonstrate the effectiveness and robustness of the proposed method.
+  </details>
+
+---
+
+- Meng-Yun Wang, **Ye Ji**, Lin Lan & Chun-Gang Zhu. (2024). MS-GIFT: Multi-Sided Geometry-Independent Field ApproximaTion Approach for Isogeometric Analysis. ***Computer-Aided Design***, 173, 103731. [[**Full Article**]](https://doi.org/10.1016/j.cad.2024.103731) 
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    The Geometry-Independent Field approximaTion (GIFT) technique, an extension of isogeometric analysis (IGA), allows for separate spaces to parameterize the computational domain and approximate solution field. Based on the GIFT approach, this paper proposes a novel IGA methodology that incorporates toric surface patches for multi-sided geometry representation, while utilizing B-spline or truncated hierarchical B-spline (THB-spline) basis for analysis. By creating an appropriate bijection between the parametric domains of distinct bases for modeling and approximation, our method ensures smoothness within the computational domain and combines the compact support of B-splines or the local refinement potential of THB-splines, resulting in more efficient and precise solutions. To enhance the quality of parameterization and consequently boost the accuracy of downstream analysis, we suggest optimizing the composite toric parameterization. Numerical examples validate the effectiveness and superiority of our suggested approach.
+  </details>
+
+---
+
+- Ying-Ying Yu, Xin Li, & Ye Ji. (2024). On Intersections of B-Spline Curves. Mathematics, 12(9), 1344. [[**Full Article**]](https://doi.org/10.3390/math12091344)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Bézier and B-spline curves are foundational tools for curve representation in computer graphics and computer-aided geometric design, with their intersection computation presenting a fundamental challenge in geometric modeling. This study introduces an innovative algorithm that quickly and effectively resolves intersections between Bézier and B-spline curves. The number of intersections between the two input curves within a specified region is initially determined by applying the resultant of a polynomial system and Sturm’s theorem. Subsequently, the potential region of the intersection is established through the utilization of the pseudo-curvature-based subdivision scheme and the bounding box detection technique. The projected Gauss-Newton method is ultimately employed to efficiently converge to the intersection. The robustness and efficiency of the proposed algorithm are demonstrated through numerical experiments, demonstrating a speedup of 3 to 150 times over traditional methods.
+  </details>
+
+---
+
 - **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
   <details>
     <summary><strong>Abstract</strong></summary>
