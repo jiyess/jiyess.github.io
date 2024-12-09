@@ -42,13 +42,13 @@ News
 
 - **[09/2024]**: I am excited that [our paper](https://iopscience.iop.org/article/10.1088/1757-899X/1322/1/012014) won **<font color=Red>Conference Best Paper Award</font>** at **The International Conference on Screw Machines 2024 (ICSM 2024)**, Dortmund, Germany, September 3rd - 5th, 2024.
 
-- **[09/2024]**: I will give oral presentation in [**The International Conference on Screw Machines 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Dortmund, Germany, September 3rd - 5th, 2024.
+- **[09/2024]**: I will give an oral presentation in [**The International Conference on Screw Machines 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Dortmund, Germany, September 3rd - 5th, 2024.
 
 - **[07/2024]**: [One paper](https://doi.org/10.1007/s00366-024-02020-z) has been accepted by [**Engineering with Computers**](https://link.springer.com/article/10.1007/s00366-024-02020-z).
 
-- **[06/2024]**: I will give oral presentation in [**9th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS CONGRESS 2024)**](https://eccomas2024.org/), Lisboa, Portugal, June 3rd - 7th, 2024.
+- **[06/2024]**: I will give an oral presentation in [**9th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS CONGRESS 2024)**](https://eccomas2024.org/), Lisboa, Portugal, June 3rd - 7th, 2024.
 
-- **[03/2024]**: I will give oral presentation in [**GiSmo developer days 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Thessaloniki, Greece, March 4th - 6th, 2024.
+- **[03/2024]**: I will give an oral presentation in [**GiSmo developer days 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Thessaloniki, Greece, March 4th - 6th, 2024.
 
 - **[03/2024]**: [One paper](https://doi.org/10.1016/j.camwa.2024.03.001) has been accepted by [**Computers & Mathematics with Applications**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computers-and-mathematics-with-applications).
 
