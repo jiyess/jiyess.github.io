@@ -180,7 +180,6 @@ author_profile: true
 
 ---
 
-
 ## Book Chapters
 
 <table>
