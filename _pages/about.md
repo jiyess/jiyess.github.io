@@ -40,6 +40,10 @@ In addition to his research, Ye contributes to the academic community by serving
 News
 ------
 
+- **[01/2025]**: I will give an oral presentation in [**GAMES Webinar 2024 – 357 (CAD-CAE integration and its applications)**](https://games-cn.org/games-webinar-20250116-357/), Online, January 16, 2025.
+
+- **[01/2025]**: I will give an oral presentation in [**GiSmo Developer days and COSMIC meeting 2025**](https://github.com/gismo/gismo/wiki/GiSmo-Developer-days-and-COSMIC-meeting-2025), Florence, Italy, January 7-10, 2025.
+
 - **[09/2024]**: I am excited that [our paper](https://iopscience.iop.org/article/10.1088/1757-899X/1322/1/012014) won **<font color=Red>Conference Best Paper Award</font>** at **The International Conference on Screw Machines 2024 (ICSM 2024)**, Dortmund, Germany, September 3rd - 5th, 2024.
 
 - **[09/2024]**: I will give an oral presentation in [**The International Conference on Screw Machines 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Dortmund, Germany, September 3rd - 5th, 2024.
