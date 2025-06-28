@@ -13,6 +13,20 @@ author_profile: true
 {% endif %}
 
 ## Refereed Journal Papers
+### 2025
+---
+- Yang, Yang, **Ye, Ji**, Matthias, Möller, & Can, Ayas. (2025). Computational efficient process simulation of geometrically complex parts in metal additive manufacturing. International Journal of Heat and Mass Transfer, 248, 127059. [[**Full Article**]](https://doi.org/10.1016/j.ijheatmasstransfer.2025.127059)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Part-scale thermal process simulations play an important role in improving the part quality of the Laser Powder Bed Fusion (LPBF) process. The semi-analytical simulation method relies on the superposition of analytical fields to represent laser-induced heat sources in a semi-infinite space and a complementary temperature field to enforce boundary conditions. So far, boundary conditions have been imposed by analytical image fields for straight boundaries and numerically for non-straight boundaries. The latter requires considerable refinement on the spatial discretization, at least near the boundaries, and compromises the computational efficiency of the simulations. In this paper, we derive a closed-form solution for the image fields that can accurately enforce the boundary conditions for non-straight boundaries. A geometrically complex part boundary is represented by B-splines, and with the aid of an offset method and reparameterization, the positions of the image sources are determined. The image field’s closed-form expression is then found using the boundary’s local curvature calculated from the local tangent lines. Numerical examples on different levels of complexity revealed that the net heat lost along an adiabatic boundary vanishes when the novel image source solutions are used, and the thermal evolution of complex parts can be accurately predicted with high computational efficiency. Simulations involving multiple lasers can also be performed with no extra computational cost.
+  </details>
+
+---
+- Li Yang, Weiming Wang, **Ye, Ji**, Chun-Gang Zhu, Charlie CL Wang. (2025). Space–time isogeometric topology optimization with additive manufacturing constraints. Computer Methods in Applied Mechanics and Engineering, 441, 117976. [[**Full Article**]](https://doi.org/10.1016/j.cma.2025.117976)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    This paper presents a novel space–time isogeometric topology optimization (ITO) framework for additive manufacturing, enabling concurrent optimization of structural shape and fabrication sequence with accurate geometric representation. The method integrates a density distribution function with a pseudo-time function to optimize build sequences for complex structures, with an objective function that minimizes compliance under external loads and accounts for self-weight effects during fabrication. Density values and virtual heat conduction coefficients are defined at B-spline control points to serve as design variables. A heat conduction-based formulation is employed to generate the pseudo-time function so that prevents the generation of isolated or floating material regions. A layer thickness constraint, defined by the pseudo-time gradient, further enhances manufacturability. The approach has been validated in 2D and 3D examples, demonstrating its effectiveness in managing objectives of entire structure’s stiffness and self-weight of intermediate structures.
+  </details>
 
 ### 2024
 ---
