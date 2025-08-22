@@ -43,6 +43,10 @@ My [CV](../files/pdf/Ye%20Ji's%20CV.pdf) is available for a more detailed overvi
   
 ## Honors & Awards
 
+- **[08/2025]**: Conference Best Paper Award at CSIAM GDC 2025, Yantai, China.
+
+- **[10/2024]**: Conference Best Paper Award at the International Conference on Screw Machines 2024, Dortmund, Germany.
+
 - **[12/2023]**: Outstanding Graduates of Liaoning Province 2024.
 
 - **[07/2023]**: Conference Best Paper Award at GMP 2023, Genova, Italy.
