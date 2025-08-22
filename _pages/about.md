@@ -42,7 +42,7 @@ News
 
 - **[09/2025]**: I will deliver a short course and an oral presentation at the [**14th International Conference on Compressors and their Systems**](https://citycompressorsconference.london/), London, UK. I am excited to share our recent advances in structured mesh generation for twin-screw machines.
 
-- **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**Best Paper Award**](../images/talks/2025-08-22-Yantai/GDC_Yantai_2.jpg) at CSIAM GDC 2025. Many thanks for all the contributors!
+- **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](../images/talks/2025-08-22-Yantai/GDC_Yantai_2.jpg) at CSIAM GDC 2025. Many thanks for all the contributors!
 
 - **[06/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" was accepted for presentation at CSIAM GDC 2025.
 
