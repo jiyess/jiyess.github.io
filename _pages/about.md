@@ -44,6 +44,8 @@ News
 
 - **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](../images/talks/2025-08-22-Yantai/GDC_Yantai_2.jpg) at CSIAM GDC 2025. Many thanks for all the contributors!
 
+- **[06/2025]**: I will give an oral presentation in [**Generative AI in engineering design optimization**](https://www.lorentzcenter.nl/generative-ai-in-engineering-design-optimization.html), Leiden, Netherlands.
+
 - **[06/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" was accepted for presentation at CSIAM GDC 2025.
 
 - **[01/2025]**: I will give an oral presentation in [**GAMES Webinar 2024 – 357 (CAD-CAE integration and its applications)**](https://games-cn.org/games-webinar-20250116-357/), Online, January 16, 2025.
