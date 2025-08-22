@@ -48,6 +48,10 @@ News
 
 - **[06/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" was accepted for presentation at CSIAM GDC 2025.
 
+- **[05/2025]**: [One paper](https://www-sciencedirect-com.tudelft.idm.oclc.org/science/article/pii/S0017931025004004) has been accepted by [**International Journal of Heat and Mass Transfer**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/international-journal-of-heat-and-mass-transfer).
+
+- **[04/2025]**: [One paper](https://www-sciencedirect-com.tudelft.idm.oclc.org/science/article/pii/S0045782525002488) has been accepted by [**Computer Methods in Applied Mechanics and Engineering**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computer-methods-in-applied-mechanics-and-engineering).
+
 - **[01/2025]**: I will give an oral presentation in [**GAMES Webinar 2024 – 357 (CAD-CAE integration and its applications)**](https://games-cn.org/games-webinar-20250116-357/), Online, January 16, 2025.
 
 - **[01/2025]**: I will give an oral presentation in [**GiSmo Developer days and COSMIC meeting 2025**](https://github.com/gismo/gismo/wiki/GiSmo-Developer-days-and-COSMIC-meeting-2025), Florence, Italy, January 7-10, 2025.
