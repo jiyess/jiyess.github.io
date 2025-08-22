@@ -33,12 +33,18 @@ disable_badges: true
 
 Ye Ji is Postdoctoral Researcher in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>.
 
-Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **Computer-Aided Geometry Design (CAGD)** and **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**, **grid generation**, and **geometric modelling**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis. More recently, Ye also started focusing on fast and robust **mesh generation** for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases.
+Specializing in **Computational Science and Engineering (CSE)**, Ye's work bridges the disciplines of applied mathematics, computer science, and engineering to address intricate, real-world challenges. His research is particularly concentrated on **Computer-Aided Geometry Design (CAGD)** and **IsoGeometric Analysis (IGA)**, with a focus on advancing the theoretical underpinnings and developing efficient methodologies for **spline-based analysis-suitable parameterization**, **mesh generation**, and **geometric modelling**. This specialized area is a pivotal component of IGA that has significant ramifications for downstream simulation analysis. More recently, Ye also started focusing on fast and robust **structured mesh generation** for twin-screw machines, which are extensively employed in industries to produce high-pressure air and gases.
 
 In addition to his research, Ye contributes to the academic community by serving as a reviewer for Mathematical Reviews. He is also a co-developer of [Geometry + Simulation Modules (G+Smo)](https://gismo.github.io/), a prominent open-source C++ software platform for isogeometric analysis.
 
 News
 ------
+
+- **[09/2025]**: I will deliver a short course and an oral presentation at the [**14th International Conference on Compressors and their Systems**](https://citycompressorsconference.london/), London, UK. I am excited to share our recent advances in structured mesh generation for twin-screw machines.
+
+- **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the **Best Paper Award** at CSIAM GDC 2025. Many thanks for all the contributors!
+
+- **[06/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" was accepted for presentation at CSIAM GDC 2025.
 
 - **[01/2025]**: I will give an oral presentation in [**GAMES Webinar 2024 – 357 (CAD-CAE integration and its applications)**](https://games-cn.org/games-webinar-20250116-357/), Online, January 16, 2025.
 
