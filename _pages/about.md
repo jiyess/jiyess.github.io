@@ -40,6 +40,14 @@ In addition to his research, Ye contributes to the academic community by serving
 News
 ------
 
+- **[10/2025]**: I am honored to be invited by Prof. Stefanie Elgeti to her nice group Team Lightweight Design, Institut für Leichtbau und Struktur-Biomechanik at TU Wien, Vienna, Austria. Looking forward to the visit!
+
+- **[10/2025]**: I will give an oral presentation at the [**Special Semester 2025 - Workshop 1 "Advances in Isogeometric Analysis"**](https://www.oeaw.ac.at/ricam/detail/event/special-semester-2025-workshop-1-advances-in-isogeometric-analysis), Linz, Austria.
+
+- **[09/2025]**: I will give an oral presentation at the [**SMART2025 - 4th International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability in Italy**](https://smart2025.unirc.it/), Reggio Calabria, Italy.
+
+- **[09/2025]**: I will give an oral presentation at the [**IGA 2025 CONGRESS The Thirteenth International Conference on Isogeometric Analysis (IGA 2025)**](https://iga2025.cimne.com/), Eindhoven, the Netherlands.
+
 - **[09/2025]**: I will deliver a short course and an oral presentation at the [**14th International Conference on Compressors and their Systems**](https://citycompressorsconference.london/), London, UK. I am excited to share our recent advances in structured mesh generation for twin-screw machines.
 
 - **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](../images/talks/2025-08-22-Yantai/GDC_Yantai_2.jpg) at CSIAM GDC 2025. Many thanks for all the contributors!
