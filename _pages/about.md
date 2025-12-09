@@ -117,6 +117,6 @@ News
   </div>
 
   <p style="margin-top: 1em;">
-    &copy; Ye Ji | Last updated: Aug. 2025
+    &copy; Ye Ji | Last updated: Dec. 2025
   </p>
 </div>
