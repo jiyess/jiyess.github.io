@@ -40,6 +40,10 @@ In addition to his research, Ye contributes to the academic community by serving
 News
 ------
 
+- **[01/2026]**: I am very excited to attend the [**GiSmo developer days 2026**](https://github.com/gismo/gismo/wiki/GiSmo-Developer-days-2026) in Pilsen, Czech Republic, on 4-6 March 2026. Looking forward to meeting all GiSmo developers and users!
+
+- **[10/2025]**: I am honored to be invited by Depertment of Mathematics Science, Dalian University of Technology to give an invited talk on "Analysis-suitable parameterization for isogeometric analysis".
+
 - **[10/2025]**: I am honored to be invited by Prof. Stefanie Elgeti to her nice group Team Lightweight Design, Institut für Leichtbau und Struktur-Biomechanik at TU Wien, Vienna, Austria. Looking forward to the visit!
 
 - **[10/2025]**: I will give an oral presentation at the [**Special Semester 2025 - Workshop 1 "Advances in Isogeometric Analysis"**](https://www.oeaw.ac.at/ricam/detail/event/special-semester-2025-workshop-1-advances-in-isogeometric-analysis), Linz, Austria.
