@@ -9,38 +9,49 @@ redirect_from:
 
 {% include base_path %}
 
-My [CV](../files/pdf/Ye%20Ji's%20CV.pdf) is available for a more detailed overview. 
+My full [academic CV]((../files/pdf/Ye_Ji_CV.pdf)) is available here!
+
+## Research Profile
+
+I am a mathematical modeller and numerical analyst specialising in **geometry-aware discretisation** and **isogeometric analysis (IGA)**. My research develops **mathematically robust CAD-to-CAE frameworks** that ensure consistency between geometric representation, parameterisation, discretisation, and numerical analysis for complex physical and engineering systems. Key themes include **PDE-based parameterisation**, **injectivity/regularity guarantees**, **multi-sided and multi-patch spline parameterisations**, and **fast solvers** (e.g., preconditioned Anderson acceleration).
+
+## Research Highlights
+
+- **Analysis-suitable parameterisation for IGA:** optimisation-based and PDE-based volumetric constructions with quality control for complex domains.  
+- **Geometry-to-simulation pipelines:** boundary parameter matching (incl. Schwarz–Christoffel tools) and multi-sided domain parameterisations enabling reliable IGA workflows. 
+- **Solver acceleration:** preconditioned Anderson acceleration to improve efficiency and robustness of parameterisation PDE solvers.  
+- **Industrial-grade spline meshing:** spline-based structured mesh generation for screw machine simulations (**SplineMesh / Scorg™**). 
+
+## Academic Positions
+
+- **01/2024 – Present**: Postdoctoral Researcher, Department of Applied Mathematics (Numerical Analysis), Delft University of Technology, The Netherlands.
 
 ## Education
 
-- **2021.10 - 2023.12**: Visiting Ph.D., [Numerical Analysis group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis), [Delft University of Technology](https://www.tudelft.nl/).
-  
-- **2019.09 - 2023.12**: Ph.D., [Computational Mathematics](http://en.dlut.edu.cn/), [Dalian University of Technology](http://en.dlut.edu.cn/).
-  
-- **2017.09 - 2019.06**: M.S., [Computational Mathematics](http://en.dlut.edu.cn/), [Dalian University of Technology](http://en.dlut.edu.cn/).
-  
-- **2013.09 - 2017.06**: B.S., [School of Mathematical Sciences](http://math.dlut.edu.cn/English.htm), [Dalian University of Technology](http://en.dlut.edu.cn/).
+- **2019 – 2023**: Ph.D. Mathematics, School of Mathematical Sciences, Dalian University of Technology, China.
+- **2017 – 2019**: M.Sc. Mathematics, School of Mathematical Sciences, Dalian University of Technology, China.
+- **2013 – 2017**: B.Sc. Mathematics, School of Mathematical Sciences, Dalian University of Technology, China.
 
-## Recent Projects
+## Additional Research Experience
 
-- **2021.10 - 2023.10**: PDE-Based Parameterization Method for Isogeometric Analysis and its Application in Twin-Screw Rotary Compressors. China Scholarship Council (CSC). *Role*: PI. 
+- **10/2021 – 12/2023**: Visiting Ph.D. Researcher, Department of Applied Mathematics (Numerical Analysis), Delft University of Technology, The Netherlands.
 
-- **2021.01 - 2024.12**: Theoretical Study and Application of Parametric Surfaces/Volumes in Isogeometric Analysis, National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant. 
-(参数曲面/体的理论及其在等几何分析中的应用研究, 2021-2024, 国家自然科学基金委员会, 面上项目, 正在进行, 参与.) 
+## Teaching, Mentoring, and Supervision
 
-- **2017.01 - 2020.12**: Geometric Properties of Parametric Curves and Surfaces. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant. 
-(参数曲线曲面的几何性质研究, 国家自然科学基金委员会, 2017-2020, 面上项目, 参与.) 
+- **Lecturer:** Co-developer and lecturer of a graduate special course on **Isogeometric Analysis** at TU Delft (Q3–Q4 2026), jointly prepared with Prof. Matthias Möller (TU Delft) and Prof. Stefanie Elgeti (TU Wien).
+- **Supervision:** Supervision/co-supervision of PhD and Master’s research in IGA and spline geometry (e.g., semi-analytical IGA for thermal/process simulation in metal additive manufacturing; multi-sided parameterisation; extended IGA; spline approximation).
 
-## Professional Services
+## Research Software and Infrastructure
 
-- Reviewer for Mathematical Reviews, American Mathematical Society (AMS).
-  
-- Active Member of the China Society for Industrial and Applied Mathematics (CSIAM).
-  
-- Student Member of the Society for Industrial and Applied Mathematics (SIAM).
-  
-- Teaching Assistant for several undergraduate and graduate courses: Numerical Approximation and Computational Geometry (3 times), Complex Variables and Applications, Mathematical Statistics.
-  
+- **G+Smo (Geometry + Simulation Modules, https://github.com/gismo/gismo):** member of the core development team of the open-source C++ IGA library, supporting geometry processing, discretisation, and simulation workflows.  
+- **SplineMesh / Scorg™:** lead developer of spline-based structured mesh generation modules for industrial modelling (screw machines), focusing on robustness, quality, and integration with simulation pipelines.
+
+## Service and Professional Activities
+
+- **Refereeing:** Reviewer for *Computer-Aided Design*, *Computer Aided Geometric Design*, *Scientific Reports*, *Engineering with Computers*, *Advances in Engineering Software*, *Finite Elements in Analysis & Design*.
+- **2022 – Present:** Reviewer for **Mathematical Reviews**, American Mathematical Society.
+- **2020 – Present:** Life member, China Society for Industrial and Applied Mathematics (CSIAM).
+
 ## Honors & Awards
 
 - **[08/2025]**: Conference Best Paper Award at CSIAM GDC 2025, Yantai, China.
