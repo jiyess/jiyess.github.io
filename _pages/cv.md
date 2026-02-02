@@ -36,15 +36,21 @@ I am a mathematical modeller and numerical analyst specialising in **geometry-aw
 
 - **10/2021 – 12/2023**: Visiting Ph.D. Researcher, Department of Applied Mathematics (Numerical Analysis), Delft University of Technology, The Netherlands.
 
-## Teaching, Mentoring, and Supervision
-
-- **Lecturer:** Co-developer and lecturer of a graduate special course on **Isogeometric Analysis** at TU Delft (Q3–Q4 2026), jointly prepared with Prof. Matthias Möller (TU Delft) and Prof. Stefanie Elgeti (TU Wien).
-- **Supervision:** Supervision/co-supervision of PhD and Master’s research in IGA and spline geometry (e.g., semi-analytical IGA for thermal/process simulation in metal additive manufacturing; multi-sided parameterisation; extended IGA; spline approximation).
-
 ## Research Software and Infrastructure
 
 - **G+Smo (Geometry + Simulation Modules, https://github.com/gismo/gismo):** member of the core development team of the open-source C++ IGA library, supporting geometry processing, discretisation, and simulation workflows.  
 - **SplineMesh / Scorg™:** lead developer of spline-based structured mesh generation modules for industrial modelling (screw machines), focusing on robustness, quality, and integration with simulation pipelines.
+
+## Recent Projects 
+- **2024.01 - 2026.12**: Advanced Geometric Modelling and Simulation Techniques for Complex Engineering Systems. Postdoctoral Fellowship. *Role*: PI.
+- **2021.10 - 2023.10**: PDE-Based Parameterization Method for Isogeometric Analysis and its Application in Twin-Screw Rotary Compressors. China Scholarship Council (CSC). *Role*: PI.
+- **2021.01 - 2024.12**: Theoretical Study and Application of Parametric Surfaces/Volumes in Isogeometric Analysis, National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant. (参数曲面/体的理论及其在等几何分析中的应用研究, 2021-2024, 国家自然科学基金委员会, 面上项目, 参与.)
+- **2017.01 - 2020.12**: Geometric Properties of Parametric Curves and Surfaces. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant. (参数曲线曲面的几何性质研究, 国家自然科学基金委员会, 2017-2020, 面上项目, 参与.)
+
+## Teaching, Mentoring, and Supervision
+
+- **Lecturer:** Co-developer and lecturer of a graduate special course on **Isogeometric Analysis** at TU Delft (Q3–Q4 2026), jointly prepared with Prof. Matthias Möller (TU Delft) and Prof. Stefanie Elgeti (TU Wien).
+- **Supervision:** Supervision/co-supervision of PhD and Master’s research in IGA and spline geometry (e.g., semi-analytical IGA for thermal/process simulation in metal additive manufacturing; multi-sided parameterisation; extended IGA; spline approximation).
 
 ## Service and Professional Activities
 
