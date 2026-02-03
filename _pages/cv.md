@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My full [academic CV](../files/pdf/Ye_Ji_CV.pdf) is available here!
+My full [academic CV](/files/pdf/Ye_Ji_CV.pdf) is available here!
 
 ## Research Profile
 
