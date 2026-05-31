@@ -269,5 +269,5 @@ author_profile: true
 
 ## Software
 
-- A. Mantzaflaris, H. Verhelst, M. Möller, C. Karampatzakis, S. Takacs, **Ye Ji**, et al. (2025). Geometry + Simulation Modules (G+Smo) — v25.01.0. *Zenodo*. [[**Software**]](https://doi.org/10.5281/zenodo.14609894)
+- A. Mantzaflaris, H. Verhelst, M. Möller, C. Karampatzakis, S. Takacs, **Ye Ji**, et al. (2025). Geometry + Simulation Modules (G+Smo) — v25.01.0. *Zenodo*. [[**Software**]](https://doi.org/10.5281/zenodo.15231873)
 
