@@ -39,6 +39,9 @@ In addition to his research, Ye contributes to the academic community by serving
 
 News
 ------
+- **[05/2026]**: I presented a poster entitled [**Efficient Thermal Simulation in Metal Additive Manufacturing via Semi-Analytical Isogeometric Analysis**](https://www.sciencedirect.com/science/article/pii/S0045782526002653) at [**HOFEIM**](https://sites.google.com/unifi.it/hofeim2026/program) 2026 in Siena, Italy. The work demonstrates a semi-analytical IGA framework for LPBF thermal simulations, achieving up to 258× speed-up over conventional FEM while maintaining high accuracy on complex CAD geometries.
+
+- **[04/2026]**: I had the pleasure of visiting the Inria Centre at Université Côte d'Azur, where I exchanged ideas on adaptive isogeometric analysis, spline technologies, and numerical simulation with members of the Geometrica team. Many thanks to Dr. Angelos Mantzaflaris for his kind invitation. I am grateful for the insightful discussions and the inspiring research environment.
 
 - **[01/2026]**: I am very excited to attend the [**GiSmo developer days 2026**](https://github.com/gismo/gismo/wiki/GiSmo-Developer-days-2026) in Pilsen, Czech Republic, on 4-6 March 2026. Looking forward to meeting all GiSmo developers and users!
 
