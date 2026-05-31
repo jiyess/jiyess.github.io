@@ -13,6 +13,36 @@ author_profile: true
 {% endif %}
 
 ## Refereed Journal Papers
+### 2026
+---
+- Jingyi Cao, **Ye Ji**, Matthias Möller, & Chun-Gang Zhu. (2026). Extended r-adaptive isogeometric analysis for weak-discontinuous problems. ***Computer-Aided Design***, 198, 104108. [[**Full Article**]](https://doi.org/10.1016/j.cad.2026.104108)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    This paper proposes an extended r-adaptive isogeometric analysis framework for problems exhibiting weak discontinuities in solution derivatives, where discretization errors are often dominated by insufficient resolution of material interfaces. The method combines enrichment functions with a control-point relocation strategy guided by a Gaussian monitor constructed from an aggregated level-set representation of the interfaces. Rather than refining the mesh, resolution is redistributed according to interface geometry, enabling sharp representation of gradient jumps while preserving exact CAD geometry, spline topology, and a fixed number of degrees of freedom. Benchmark examples indicate up to 65.7% error reduction relative to enrichment-only formulations, and even larger improvements compared with standard IGA, while introducing less than 1% additional computational cost. The results demonstrate that redistributing geometric resolution provides an efficient alternative to conventional refinement-based adaptive strategies for weak-discontinuous problems.
+  </details>
+
+---
+- Yang Yang, **Ye Ji**, Matthias Möller, & Can Ayas. (2026). Efficient thermal simulation in metal additive manufacturing via semi-analytical isogeometric analysis. ***Computer Methods in Applied Mechanics and Engineering***, 457, 118992. [[**Full Article**]](https://doi.org/10.1016/j.cma.2025.118992)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Thermal modeling of Laser Powder Bed Fusion (LPBF) is challenging due to steep, rapidly moving thermal gradients induced by the laser, which are difficult to resolve accurately with conventional Finite Element Methods. Highly refined, dynamically adaptive spatial discretization is typically required, leading to prohibitive computational costs. Semi-analytical approaches mitigate this by decomposing the temperature field into an analytical point-source solution and a complementary numerical field that enforces boundary conditions. However, state-of-the-art implementations either necessitate extensive mesh refinement near boundaries or rely on restrictive image source techniques, limiting their efficiency and applicability to complex geometries. This study presents a novel reformulation of the semi-analytical framework using Isogeometric Analysis, where the laser heat input is captured by the analytical point-source solution, while the complementary correction field, which imposes boundary conditions, is solved using a spline-based IGA discretization. Numerical experiments demonstrate that the proposed method achieves high accuracy and computational efficiency for the thermal simulation of geometrically complex parts.
+  </details>
+
+---
+- Ying-Ying Yu, Yashu Liu, Jiaxuan Li, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity analysis and verification of Coons volume mappings. ***Journal of Computational and Applied Mathematics***, 117593. [[**Full Article**]](https://doi.org/10.1016/j.cam.2025.117593)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    The Coons volume provides a classical approach for constructing three-dimensional parametric mappings via boundary surface interpolation and is widely employed in volumetric mesh generation, computer-aided geometric design, and isogeometric analysis. However, due to curvature variations and continuity limitations of the boundary surfaces, the Jacobian determinant of a Coons volume may locally vanish or become negative, resulting in a non-regular mapping. This paper develops a systematic framework for analyzing and verifying the regularity of Coons volumes. We derive a general sufficient condition for arbitrary boundary parameterizations, introduce a criterion for Bézier-form Coons volumes based on the coefficients of the Jacobian determinant, and construct a necessary condition using a subdivision strategy combined with the Bézier blossoming technique. An efficient verification algorithm is designed, whose correctness and computational performance are validated through numerical experiments.
+  </details>
+
+---
+- Ying-Ying Yu, Jiaxuan Li, Yashu Liu, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity Determination of Spatial Coons Surface Patches and Its Applications. ***Journal of Computer-Aided Design & Computer Graphics***, 1-12. [[**Full Article**]](https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2025-00208)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    The Coons patch is a classical method for constructing smooth two-dimensional manifold mappings through boundary curve interpolation. It is widely applied in fields such as computer graphics, product shape design, and isogeometric analysis. However, due to factors such as complex boundary curve shapes and significant curvature variations, the Jacobian determinant of a Coons mapping may degenerate or even change sign in certain regions, causing a loss of regularity. This can severely affect the quality of the surface and compromise the numerical stability of subsequent analyses. Developing efficient and reliable methods for regularity verification is of great importance for achieving high-quality parameterizations. To address the regularity verification problem of spatial Coons patches, a series of theoretical conditions and algorithms is proposed. First, based on the condition of the rank of Jacobian matrix, a sufficient criterion for ensuring the regularity of Coons mappings is derived. Second, for Coons patches expressed in Bézier form, a regularity verification method based on the Bézier coefficients of the Jacobian determinant is proposed, transforming the verification task into a set of coefficient sign-consistency constraints, which significantly improves computational efficiency and geometric interpretability. Finally, a subdivision strategy for Bézier surfaces is introduced to construct a class of necessary and sufficient conditions, enabling the global verification problem to be reduced to local subdomain checks. The proposed Jacobian coefficient extraction framework can be extended to multi-patch B-spline surfaces with general topological structures, enhancing the generality and adaptability of the proposed method. Numerical experiment results show that for multi-patch B-spline surfaces consisting of 1 752 and 6 800 bi-cubic Bézier elements, the proposed algorithm completes the regularity verification within 0.112 seconds and 0.402 seconds, respectively, meeting the performance requirements of real-time engineering applications.
+  </details>
+
+---
 ### 2025
 ---
 - Yang Yang, **Ye Ji**, Matthias Möller, & Can Ayas. (2025). Computational efficient process simulation of geometrically complex parts in metal additive manufacturing. International Journal of Heat and Mass Transfer, 248, 127059. [[**Full Article**]](https://doi.org/10.1016/j.ijheatmasstransfer.2025.127059)
@@ -59,6 +89,14 @@ author_profile: true
   <details>
     <summary><strong>Abstract</strong></summary>
     Bézier and B-spline curves are foundational tools for curve representation in computer graphics and computer-aided geometric design, with their intersection computation presenting a fundamental challenge in geometric modeling. This study introduces an innovative algorithm that quickly and effectively resolves intersections between Bézier and B-spline curves. The number of intersections between the two input curves within a specified region is initially determined by applying the resultant of a polynomial system and Sturm’s theorem. Subsequently, the potential region of the intersection is established through the utilization of the pseudo-curvature-based subdivision scheme and the bounding box detection technique. The projected Gauss-Newton method is ultimately employed to efficiently converge to the intersection. The robustness and efficiency of the proposed algorithm are demonstrated through numerical experiments, demonstrating a speedup of 3 to 150 times over traditional methods.
+  </details>
+
+---
+
+- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Self-Intersections of Cubic Bézier Curves. Mathematics, 12(6), 882. [[**Full Article**]](https://doi.org/10.3390/math12060882)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Cubic Bézier curves are widely used in computer graphics and geometric modeling due to their intuitive design and ease of implementation. However, self-intersections within these curves can pose significant challenges in both geometric modeling and analysis. This paper presents a comprehensive approach to detecting and computing self-intersections of cubic Bézier curves. The self-intersection problem of cubic Bézier curves is firstly transformed into a quadratic problem by eliminating trivial solutions. Subsequently, this quadratic system is converted into a linear system that can be easily analyzed and solved. Finally, the parameter values corresponding to the self-intersection points are computed through the solution of the linear system. Numerical examples demonstrate the effectiveness and efficiency of the proposed algorithm.
   </details>
 
 ---
@@ -186,6 +224,14 @@ author_profile: true
 
 ## Refereed Conference Papers
 
+- **Ye Ji** & Matthias Möller. (2024). Yet another structured mesh generator for screw machines simulation. In: ***IOP Conference Series: Materials Science and Engineering*** (International Conference on Screw Machines 2024, Dortmund), 1322(1), 012014. [[**Full Article**]](https://doi.org/10.1088/1757-899X/1322/1/012014)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of twin-screw machines. We present a mesh generation approach leveraging high-order B-spline parameterizations derived from boundary representations within the framework of Isogeometric Analysis. A novel boundary correspondence method employing Schwarz–Christoffel mapping enhances mesh quality while preserving critical profile features. The workflow integrates elliptic grid generation with a block-diagonal Jacobian-preconditioned Anderson acceleration algorithm for solving the resulting nonlinear systems. Built on the open-source Geometry + Simulation Modules (G+Smo) library, the proposed method produces high-quality structured meshes that meet the rigorous simulation requirements for screw machine design optimization.
+  </details>
+
+---
+
 - **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
   <details>
     <summary><strong>Abstract</strong></summary>
@@ -204,4 +250,24 @@ author_profile: true
     </td>
   </tr>
 </table>
+
+## Preprints
+
+- Jingya Li, **Ye Ji**, Hugo Verhelst, Henk den Besten, & Matthias Möller. (2026). Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid-structure interaction. *arXiv preprint* arXiv:2604.27537. [[**Preprint**]](https://arxiv.org/abs/2604.27537)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    We propose a novel approach to handle fluid-structure interaction problems involving large deformations by reformulating mesh motion as successive domain parameterization tasks within an isogeometric framework. The approach incorporates three key features: (1) a barrier-function-based parameterization ensuring strictly positive Jacobian values at each time step; (2) a tangential-slip reparameterization addressing unlimited cumulative rotations in closed domains; and (3) a constant-preserving quasi-interpolation operator maintaining geometric conservation laws between parameterizations. The method is validated on two-dimensional benchmarks covering standard and large-rotation scenarios, as well as a three-dimensional rotor problem. Notably, the tangential-slip strategy enables sustained rotation simulations beyond conventional mesh-update capabilities, a regime that is fundamentally inaccessible to any mesh-deformation formulation. The framework is also compatible with standard finite element solvers through direct spline parameterization integration.
+  </details>
+
+---
+
+- **Ye Ji**, Monica Lacatus, & Matthias Möller. (2025). IGA-LBM: Isogeometric lattice Boltzmann method. *arXiv preprint* arXiv:2509.11427. [[**Preprint**]](https://arxiv.org/abs/2509.11427)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    The lattice Boltzmann method (LBM) has become a widely adopted approach in computational fluid dynamics, offering unique advantages in mesoscopic kinetic modeling, intrinsic parallelism, and simple treatment of boundary conditions. However, its conventional reliance on Cartesian grids fundamentally limits geometric fidelity in flows involving curved boundaries, introducing stair-step artifacts that propagate as spurious forces and boundary-layer inaccuracies. To address these challenges, we propose integrating Isogeometric Analysis with LBM, leveraging non-uniform rational B-splines to construct body-fitted computational grids. This approach eliminates stair-step boundary artifacts by providing sub-element geometric accuracy while maintaining LBM efficiency. The higher-order continuity of NURBS improves gradient resolution, and parametric grid adaptation enables h-, p-, and k-refinement strategies. The diffeomorphic mapping properties ensure intrinsic conservation, preserving advection invariants and suppressing numerical oscillations. Benchmark simulations demonstrate that IGA-LBM delivers significantly more accurate boundary-layer predictions and pressure/force estimates than standard Cartesian LBM while preserving computational efficiency and scalability.
+  </details>
+
+## Software
+
+- A. Mantzaflaris, H. Verhelst, M. Möller, C. Karampatzakis, S. Takacs, **Ye Ji**, et al. (2025). Geometry + Simulation Modules (G+Smo) — v25.01.0. *Zenodo*. [[**Software**]](https://doi.org/10.5281/zenodo.14609894)
 
