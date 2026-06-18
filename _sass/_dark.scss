@@ -1,0 +1,177 @@
+/* ==========================================================================
+   Dark mode
+   Scoped to html[data-theme="dark"]. The theme attribute is set before paint
+   by the no-flash script in _includes/head.html and toggled by the floating
+   button in _includes/theme-toggle.html. Imported last in main.scss so these
+   rules win over the light defaults.
+   ========================================================================== */
+
+$dark-bg          : #1a1d21; // page background
+$dark-surface     : #23272c; // nav dropdown, code, table stripe, cards
+$dark-surface-2   : #16181b; // footer / deeper panels
+$dark-text        : #d4d7da; // body text
+$dark-text-muted  : #9aa0a6; // captions, footer
+$dark-heading     : #e8eaed;
+$dark-border      : #383d43;
+$dark-link        : #6cc2dd;
+$dark-link-hover  : #93d4e8;
+
+html[data-theme="dark"] {
+  background-color: $dark-bg;
+  color-scheme: dark; // dark native scrollbars / form controls
+
+  body {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 { color: $dark-heading; }
+
+  a         { color: $dark-link; }
+  a:visited { color: $dark-link; }
+  a:hover,
+  a:focus   { color: $dark-link-hover; }
+
+  /* Masthead / navigation */
+  .masthead { border-bottom-color: $dark-border; }
+
+  .greedy-nav {
+    background: $dark-bg;
+
+    a        { color: $dark-text; }
+    a:hover  { color: #fff; }
+
+    .visible-links a:before { background: $dark-link; }
+
+    .hidden-links {
+      background: $dark-surface;
+
+      a:hover { color: #fff; background: $dark-surface; }
+      &:before { border-bottom-color: $dark-surface; }
+    }
+  }
+
+  /* Sidebar author block */
+  .author__avatar img { border-color: $dark-border; }
+
+  .author__urls {
+    background: $dark-surface;
+    border-color: $dark-border;
+
+    &:before { border-color: transparent transparent $dark-surface; }
+    a { color: $dark-text; }
+  }
+
+  /* Code & syntax highlighting */
+  code, tt, kbd, samp {
+    background-color: $dark-surface;
+    color: $dark-text;
+  }
+
+  div.highlighter-rouge, figure.highlight {
+    background-color: $dark-surface;
+    border-color: $dark-border;
+    color: $dark-text;
+
+    &:before { background-color: $dark-border; color: $dark-text; }
+  }
+
+  pre { color: $dark-text; }
+
+  /* Misc text elements */
+  figcaption { color: $dark-text-muted; }
+  blockquote { border-left-color: $dark-border; color: $dark-text-muted; }
+  hr { border-top-color: $dark-border; }
+  u, ins { border-bottom-color: $dark-text; }
+
+  abbr[title], abbr[data-original-title] {
+    background: $dark-surface;
+    border-color: $dark-border;
+  }
+
+  /* Tables */
+  table { border-color: $dark-border; }
+  thead { background-color: $dark-surface; border-bottom-color: $dark-border; }
+  th, td { border-color: $dark-border; }
+
+  /* Notices */
+  .notice, .notice--primary, .notice--info, .notice--success,
+  .notice--warning, .notice--danger {
+    background-color: $dark-surface;
+    color: $dark-text;
+
+    code { background-color: $dark-bg; }
+  }
+
+  /* Forms / search */
+  input, textarea, select,
+  .search-content .search-input {
+    background-color: $dark-surface;
+    color: $dark-text;
+    border-color: $dark-border;
+  }
+  ::placeholder { color: $dark-text-muted; }
+
+  /* Footer */
+  .page__footer {
+    background-color: $dark-surface-2;
+    color: $dark-text-muted;
+
+    a { color: $dark-text; }
+  }
+  .page__footer-follow .social-icons a { color: $dark-text-muted; }
+
+  /* Text selection */
+  ::selection { background: #2f4a5a; color: #fff; }
+}
+
+/* ==========================================================================
+   Floating theme-toggle button
+   ========================================================================== */
+
+.theme-toggle {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background-color: #fff;
+  color: $text-color;
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  &:focus { outline: none; }
+
+  .theme-toggle__sun  { display: none; }
+  .theme-toggle__moon { display: inline-block; }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background-color: $dark-surface;
+  color: $dark-heading;
+  border-color: $dark-border;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+  .theme-toggle__sun  { display: inline-block; }
+  .theme-toggle__moon { display: none; }
+}
+
+@media print {
+  .theme-toggle { display: none; }
+}
