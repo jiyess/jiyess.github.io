@@ -121,6 +121,29 @@ html[data-theme="dark"] {
   }
   .page__footer-follow .social-icons a { color: $dark-text-muted; }
 
+  /* Table of contents (e.g. /terms/) */
+  .toc {
+    background-color: $dark-surface;
+    border-color: $dark-border;
+
+    .nav__title { background: $dark-surface-2; color: $dark-heading; }
+  }
+  .toc__menu a {
+    color: $dark-text;
+    border-bottom-color: $dark-border;
+
+    &:hover { color: $dark-heading; background: $dark-surface-2; }
+  }
+
+  /* "Follow" button (visible in the sidebar on mobile) */
+  .btn--inverse {
+    background-color: $dark-surface;
+    color: $dark-text !important;
+    border-color: $dark-border !important;
+
+    &:hover { color: $dark-heading !important; border-color: $dark-text; }
+  }
+
   /* Text selection */
   ::selection { background: #2f4a5a; color: #fff; }
 }
@@ -157,6 +180,7 @@ html[data-theme="dark"] {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   }
   &:focus { outline: none; }
+  &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 
   .theme-toggle__sun  { display: none; }
   .theme-toggle__moon { display: inline-block; }

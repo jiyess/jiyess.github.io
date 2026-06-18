@@ -15,9 +15,12 @@
 
   // Follow OS changes unless the user has made an explicit choice
   if (window.matchMedia) {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+    var mql = window.matchMedia('(prefers-color-scheme: dark)');
+    var onChange = function (e) {
       try { if (localStorage.getItem('theme')) return; } catch (err) {}
       document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-    });
+    };
+    if (mql.addEventListener) { mql.addEventListener('change', onChange); }
+    else if (mql.addListener) { mql.addListener(onChange); } // Safari < 14
   }
 })();
