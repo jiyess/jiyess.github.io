@@ -144,6 +144,18 @@ html[data-theme="dark"] {
     &:hover { color: $dark-heading !important; border-color: $dark-text; }
   }
 
+  /* Page meta (dates / read-time) — the light value is dark-gray, invisible on dark */
+  .page__meta, .page__meta a { color: $dark-text-muted; }
+
+  /* Pagination pager (previous/next on talk & post pages) */
+  .pagination--pager {
+    color: $dark-text;
+    border-color: $dark-border;
+
+    &:hover { color: $dark-heading; border-color: $dark-text; }
+    &.disabled { color: $dark-text-muted; }
+  }
+
   /* Text selection */
   ::selection { background: #2f4a5a; color: #fff; }
 }

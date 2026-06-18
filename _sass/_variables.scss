@@ -90,9 +90,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : #2b7e98;  // darker teal: >=4.5:1 (WCAG AA) on white; was $info-color (#52adc8, 2.57:1)
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-visited         : mix(#000, $link-color, 15%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
