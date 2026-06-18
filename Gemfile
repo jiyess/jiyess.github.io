@@ -18,6 +18,10 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# NOTE: GitHub Pages builds this site with its own fixed github-pages gem set
+# (Jekyll 3.x). That old Jekyll does not run on modern Ruby, so for LOCAL
+# preview use Gemfile.local (modern Jekyll 4) via ./serve.sh — see README.
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"

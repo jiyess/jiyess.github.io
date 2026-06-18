@@ -15,3 +15,7 @@ vendor/
 # Editor
 *.swp
 *~
+
+# Local-dev Jekyll lockfile
+Gemfile.local.lock
+Gemfile.lock

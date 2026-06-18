@@ -1,0 +1,38 @@
+# Local-development Gemfile (NOT used by GitHub Pages).
+#
+# GitHub Pages builds the live site with its own pinned github-pages gem set
+# (Jekyll 3.x), which cannot run on modern Ruby. For local preview we use a
+# modern Jekyll instead. Run it with:
+#
+#     ./serve.sh
+#
+# or manually:
+#
+#     BUNDLE_GEMFILE=Gemfile.local bundle install
+#     BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll serve \
+#       --config _config.yml,_config.dev.yml --livereload
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
+# Pin the sass converter to the libsass (sassc) backend so the theme's older
+# SCSS (susy, breakpoint) compiles the same way it does on GitHub Pages.
+# The newer dart-sass backend (default in jekyll-sass-converter 3.x) rejects it.
+gem "jekyll-sass-converter", "~> 2.2"
+
+# Standard libraries dropped from Ruby's defaults in 3.4 / 4.0.
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+
+# Same plugins the site declares in _config.yml.
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+  gem "jekyll-gist"
+  gem "jekyll-paginate"
+  gem "jemoji"
+end
