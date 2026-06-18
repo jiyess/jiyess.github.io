@@ -38,7 +38,15 @@
     			markers.addLayer(marker);
     		}
     		map.addLayer(markers);
-    		map.fitBounds(markers.getBounds().pad(0.2));
+    		// Default view frames the European talks (longitude < 60); the
+    		// markers in Asia stay on the map and appear when zooming out.
+    		var euBounds = L.latLngBounds([]);
+    		for (var j = 0; j < addressPoints.length; j++) {
+    			if (addressPoints[j][2] < 60) {
+    				euBounds.extend([addressPoints[j][1], addressPoints[j][2]]);
+    			}
+    		}
+    		map.fitBounds((euBounds.isValid() ? euBounds : markers.getBounds()).pad(0.15));
     	</script>
     </body>
     </html>
