@@ -1,22 +1,25 @@
 var addressPoints = [
-  [
-    "Berkeley CA, USA",
-    37.8708393,
-    -122.2728638
-  ],
-  [
-    "London, UK",
-    51.5073219,
-    -0.1276473
-  ],
-  [
-    "San Francisco, California",
-    37.7792808,
-    -122.4192362
-  ],
-  [
-    "Los Angeles, CA",
-    34.0543942,
-    -118.2439408
-  ]
+  ["Delft, the Netherlands", 52.0116, 4.3571],
+  ["Leiden, the Netherlands", 52.1601, 4.4970],
+  ["Utrecht, the Netherlands", 52.0907, 5.1214],
+  ["Eindhoven, the Netherlands", 51.4416, 5.4697],
+  ["London, United Kingdom", 51.5074, -0.1278],
+  ["Lyon, France", 45.7640, 4.8357],
+  ["Sophia Antipolis, France (Inria, Université Côte d'Azur)", 43.6238, 7.0524],
+  ["Lisbon, Portugal", 38.7223, -9.1393],
+  ["Genova, Italy", 44.4056, 8.9463],
+  ["Florence, Italy", 43.7696, 11.2558],
+  ["Siena, Italy", 43.3188, 11.3308],
+  ["Reggio Calabria, Italy", 38.1102, 15.6612],
+  ["Vienna, Austria", 48.2082, 16.3738],
+  ["Linz, Austria", 48.3069, 14.2858],
+  ["Dortmund, Germany", 51.5136, 7.4653],
+  ["Thessaloniki, Greece", 40.6401, 22.9444],
+  ["Pilsen, Czech Republic (University of West Bohemia)", 49.7384, 13.3736],
+  ["Dalian, China", 38.9140, 121.6147],
+  ["Nanjing, China", 32.0603, 118.7969],
+  ["Hangzhou, China", 30.2741, 120.1551],
+  ["Changsha, China (Hunan University)", 28.2282, 112.9388],
+  ["Guilin, China", 25.2742, 110.2900],
+  ["Okinawa, Japan", 26.2124, 127.6809]
 ];
