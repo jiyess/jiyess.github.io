@@ -47,7 +47,7 @@ News
 
 - **[01/2026]**: I am very excited to attend the [**GiSmo developer days 2026**](https://github.com/gismo/gismo/wiki/GiSmo-Developer-days-2026) in Pilsen, Czech Republic, on 4-6 March 2026. Looking forward to meeting all GiSmo developers and users!
 
-- **[10/2025]**: I am honored to be invited by Depertment of Mathematics Science, Dalian University of Technology to give an invited talk on "Analysis-suitable parameterization for isogeometric analysis".
+- **[10/2025]**: I am honored to be invited by the Department of Mathematical Sciences, Dalian University of Technology to give an invited talk on "Analysis-suitable parameterization for isogeometric analysis".
 
 - **[10/2025]**: I am honored to be invited by Prof. Stefanie Elgeti to her nice group Team Lightweight Design, Institut für Leichtbau und Struktur-Biomechanik at TU Wien, Vienna, Austria. Looking forward to the visit!
 
@@ -126,6 +126,6 @@ News
   </div>
 
   <p style="margin-top: 1em;">
-    &copy; Ye Ji | Last updated: Jun. 2026
+    &copy; Ye Ji | Last updated: {{ site.time | date: "%b. %Y" }}
   </p>
 </div>

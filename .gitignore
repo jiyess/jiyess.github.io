@@ -1,2 +1,17 @@
+# Build output
 _site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.asset-cache/
 
+# Dependencies
+.bundle/
+vendor/
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*~

@@ -1,18 +1,14 @@
 # Authors
+# Used when a page sets `author: "Ye Ji"` in its front matter.
+# Site-wide author info lives under `author:` in _config.yml.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Ye Ji:
+  name          : "Ye Ji 纪野"
+  uri           : "https://jiyess.github.io"
+  email         : "y.ji-1@tudelft.nl"
+  bio           : "Postdoctoral researcher at TU Delft working on isogeometric analysis, CAGD, and analysis-suitable parameterization."
+  avatar        : "profile_pic.jpg"
+  github        : "jiyess"
+  googlescholar : "https://scholar.google.com/citations?user=JvJCD64AAAAJ&hl=en"
+  orcid         : "http://orcid.org/0000-0002-1173-6457"
+  linkedin      : "ye-ji-2052b41b8/"
