@@ -59,15 +59,18 @@ News
 
 - **[09/2025]**: I will deliver a short course and an oral presentation at the [**14th International Conference on Compressors and their Systems**](https://citycompressorsconference.london/), London, UK. I am excited to share our recent advances in structured mesh generation for twin-screw machines.
 
+<details markdown="1">
+<summary><strong>Show earlier news (2023 – 2025)</strong></summary>
+
 - **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](../images/talks/2025-08-22-Yantai/GDC_Yantai_2.jpg) at CSIAM GDC 2025. Many thanks for all the contributors!
 
 - **[06/2025]**: I will give an oral presentation in [**Generative AI in engineering design optimization**](https://www.lorentzcenter.nl/generative-ai-in-engineering-design-optimization.html), Leiden, Netherlands.
 
 - **[06/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" was accepted for presentation at CSIAM GDC 2025.
 
-- **[05/2025]**: [One paper](https://www-sciencedirect-com.tudelft.idm.oclc.org/science/article/pii/S0017931025004004) has been accepted by [**International Journal of Heat and Mass Transfer**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/international-journal-of-heat-and-mass-transfer).
+- **[05/2025]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0017931025004004) has been accepted by [**International Journal of Heat and Mass Transfer**](https://www.sciencedirect.com/journal/international-journal-of-heat-and-mass-transfer).
 
-- **[04/2025]**: [One paper](https://www-sciencedirect-com.tudelft.idm.oclc.org/science/article/pii/S0045782525002488) has been accepted by [**Computer Methods in Applied Mechanics and Engineering**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computer-methods-in-applied-mechanics-and-engineering).
+- **[04/2025]**: [One paper](https://www.sciencedirect.com/science/article/pii/S0045782525002488) has been accepted by [**Computer Methods in Applied Mechanics and Engineering**](https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering).
 
 - **[01/2025]**: I will give an oral presentation in [**GAMES Webinar 2024 – 357 (CAD-CAE integration and its applications)**](https://games-cn.org/games-webinar-20250116-357/), Online, January 16, 2025.
 
@@ -83,7 +86,7 @@ News
 
 - **[03/2024]**: I will give an oral presentation in [**GiSmo developer days 2024**](https://github.com/gismo/gismo/wiki/GiSmo-developer-days-2024), Thessaloniki, Greece, March 4th - 6th, 2024.
 
-- **[03/2024]**: [One paper](https://doi.org/10.1016/j.camwa.2024.03.001) has been accepted by [**Computers & Mathematics with Applications**](https://www-sciencedirect-com.tudelft.idm.oclc.org/journal/computers-and-mathematics-with-applications).
+- **[03/2024]**: [One paper](https://doi.org/10.1016/j.camwa.2024.03.001) has been accepted by [**Computers & Mathematics with Applications**](https://www.sciencedirect.com/journal/computers-and-mathematics-with-applications).
 
 - **[01/2024]**: I have started as Postdoctoral Research Fellow in the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis" target="_blank">Numerical Analysis group</a> of the <a href="https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics" target="_blank">Delft Institute of Applied Mathematics (DIAM)</a>, <a href="https://www.tudelft.nl/en/eemcs" target="_blank">Faculty of Electrical Engineering, Mathematics & Computer Science (EEMCS)</a>, at the <a href="https://www.tudelft.nl/en/" target="_blank">Delft University of Technology (TU Delft)</a>, 01 January 2024.
 
@@ -112,6 +115,8 @@ News
 - **[02/2023]**: Our team emerged as the Challenge Winner for the Amazon Web Services challenge at [**SIAM Hackathon 2023**](https://www.siam.org/conferences/cm/conference/cse23). In recognition of our accomplishment, each team member received a SIAM book voucher valued at 250 euros. [Challenge Winner Certificate](../images/talks/2023-02-26-siam-hackaton/SIAM_certificate.pdf), [Photo1](../images/talks/2023-02-26-siam-hackaton/SIAM_Hackathon2023_pic1.jpeg), [Photo2](../images/talks/2023-02-26-siam-hackaton/SIAM_Hackathon2023_pic2.jpeg).
 
 - **[01/2023]**: [One paper](https://www.global-sci.org/jcm/) has been accepted by [**Journal of Computational Mathematics**](https://www.global-sci.org/jcm/). 
+
+</details>
 
 <!-- <div style="text-align:center; margin:0; padding:0; width:256px;">
   <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=5nnta91lqjn&amp;s=240&amp;m=8&amp;v=true&amp;r=false&amp;b=000000&amp;n=true&amp;c=ff0000" async="async"></script>

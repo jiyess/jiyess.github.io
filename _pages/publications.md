@@ -232,7 +232,7 @@ author_profile: true
 
 ---
 
-- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link-springer-com.tudelft.idm.oclc.org/chapter/10.1007/978-3-031-42663-6_7) 
+- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link.springer.com/chapter/10.1007/978-3-031-42663-6_7) 
   <details>
     <summary><strong>Abstract</strong></summary>
     Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysissuitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobianpreconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
@@ -244,7 +244,7 @@ author_profile: true
 
 <table>
   <tr>
-    <td><img src="../images/book covers/cover-fluids-under-control.webp" alt="Book Cover" width="160px" height="auto"></td>
+    <td><img src="../images/book covers/cover-fluids-under-control.webp" alt="Fluids under Control book cover" width="160px" height="auto"></td>
     <td>
       <p><b>Design Through Analysis. Ye Ji</b>, Matthias Möller, Hugo Verhelst. In: <i>Bodnár, T., Galdi, G.P., Nečasová, Š. (eds)</i> <i>Fluids Under Control. Advances in Mathematical Fluid Mechanics.</i> Birkhäuser, Cham. (<a href="https://doi.org/10.1007/978-3-031-47355-5_5">https://doi.org/10.1007/978-3-031-47355-5_5</a>)</p>
     </td>

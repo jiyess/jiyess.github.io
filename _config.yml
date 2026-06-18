@@ -148,6 +148,9 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
+  - talkmap.py
+  - talkmap.ipynb
   - node_modules
   - package.json
   - tmp

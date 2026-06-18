@@ -11,6 +11,8 @@ redirect_from:
 
 My full [academic CV](/files/pdf/Ye_Ji_CV.pdf) is available here!
 
+<p style="color:#888; font-size:0.9em;">Web version last updated: {{ site.time | date: "%B %Y" }}</p>
+
 ## Research Profile
 
 I am a mathematical modeller and numerical analyst specialising in **geometry-aware discretisation** and **isogeometric analysis (IGA)**. My research develops **mathematically robust CAD-to-CAE frameworks** that ensure consistency between geometric representation, parameterisation, discretisation, and numerical analysis for complex physical and engineering systems. Key themes include **PDE-based parameterisation**, **injectivity/regularity guarantees**, **multi-sided and multi-patch spline parameterisations**, and **fast solvers** (e.g., preconditioned Anderson acceleration).
