@@ -89,7 +89,9 @@ author:
   name             : "Ye Ji 纪野"
   avatar           : "profile_pic.jpg"
   bio              : "IsoGeometric Analysis (IGA), Computer Aided Geometric Design (CAGD), Analysis-Suitable Parameterization"
+  bio_zh           : "等几何分析（IGA） · 计算机辅助几何设计（CAGD） · 分析适用参数化"
   location         : "Delft, Netherlands"
+  location_zh      : "代尔夫特，荷兰"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=JvJCD64AAAAJ&hl=en"

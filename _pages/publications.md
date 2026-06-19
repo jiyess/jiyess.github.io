@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+title_zh: "论文成果"
 permalink: /publications/
 description: Ye Ji's publications in reversed chronological order.
 nav: true
@@ -12,7 +13,7 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}", target="_blank">my Google Scholar profile</a>.</u>
 {% endif %}
 
-## Refereed Journal Papers
+## <span class="lang lang--en">Refereed Journal Papers</span><span class="lang lang--zh">期刊论文</span>
 ### 2026
 ---
 - Jingyi Cao, **Ye Ji**, Matthias Möller, & Chun-Gang Zhu. (2026). Extended r-adaptive isogeometric analysis for weak-discontinuous problems. ***Computer-Aided Design***, 198, 104108. [[**Full Article**]](https://doi.org/10.1016/j.cad.2026.104108)
@@ -222,7 +223,7 @@ author_profile: true
 
 --- 
 
-## Refereed Conference Papers
+## <span class="lang lang--en">Refereed Conference Papers</span><span class="lang lang--zh">会议论文</span>
 
 - **Ye Ji** & Matthias Möller. (2024). Yet another structured mesh generator for screw machines simulation. In: ***IOP Conference Series: Materials Science and Engineering*** (International Conference on Screw Machines 2024, Dortmund), 1322(1), 012014. [[**Full Article**]](https://doi.org/10.1088/1757-899X/1322/1/012014)
   <details>
@@ -240,7 +241,7 @@ author_profile: true
 
 ---
 
-## Book Chapters
+## <span class="lang lang--en">Book Chapters</span><span class="lang lang--zh">著作章节</span>
 
 <table>
   <tr>
@@ -251,7 +252,7 @@ author_profile: true
   </tr>
 </table>
 
-## Preprints
+## <span class="lang lang--en">Preprints</span><span class="lang lang--zh">预印本</span>
 
 - Jingya Li, **Ye Ji**, Hugo Verhelst, Henk den Besten, & Matthias Möller. (2026). Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid-structure interaction. *arXiv preprint* arXiv:2604.27537. [[**Preprint**]](https://arxiv.org/abs/2604.27537)
   <details>
@@ -267,7 +268,7 @@ author_profile: true
     The lattice Boltzmann method (LBM) has become a widely adopted approach in computational fluid dynamics, offering unique advantages in mesoscopic kinetic modeling, intrinsic parallelism, and simple treatment of boundary conditions. However, its conventional reliance on Cartesian grids fundamentally limits geometric fidelity in flows involving curved boundaries, introducing stair-step artifacts that propagate as spurious forces and boundary-layer inaccuracies. To address these challenges, we propose integrating Isogeometric Analysis with LBM, leveraging non-uniform rational B-splines to construct body-fitted computational grids. This approach eliminates stair-step boundary artifacts by providing sub-element geometric accuracy while maintaining LBM efficiency. The higher-order continuity of NURBS improves gradient resolution, and parametric grid adaptation enables h-, p-, and k-refinement strategies. The diffeomorphic mapping properties ensure intrinsic conservation, preserving advection invariants and suppressing numerical oscillations. Benchmark simulations demonstrate that IGA-LBM delivers significantly more accurate boundary-layer predictions and pressure/force estimates than standard Cartesian LBM while preserving computational efficiency and scalability.
   </details>
 
-## Software
+## <span class="lang lang--en">Software</span><span class="lang lang--zh">软件</span>
 
 - A. Mantzaflaris, H. Verhelst, M. Möller, C. Karampatzakis, S. Takacs, **Ye Ji**, et al. (2025). Geometry + Simulation Modules (G+Smo) — v25.01.0. *Zenodo*. [[**Software**]](https://doi.org/10.5281/zenodo.15231873)
 
