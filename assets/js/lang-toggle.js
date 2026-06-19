@@ -10,6 +10,7 @@
     var current = document.documentElement.getAttribute('data-lang') === 'zh' ? 'zh' : 'en';
     var next = current === 'zh' ? 'en' : 'zh';
     document.documentElement.setAttribute('data-lang', next);
+    document.documentElement.setAttribute('lang', next);
     try { localStorage.setItem('lang', next); } catch (e) {}
   });
 })();

@@ -33,24 +33,24 @@ author_profile: true
   <div class="sw-videos">
     <div class="sw-videos__col">
       <figure>
-        <video controls preload="metadata" playsinline poster="/images/research/poster-splinemesh1.jpg">
+        <video controls preload="metadata" playsinline aria-labelledby="cap-sm1" poster="/images/research/poster-splinemesh1.jpg">
           <source src="/videos/spline_mesh_1.mp4" type="video/mp4">
         </video>
-        <figcaption><span class="lang lang--en">Structured spline mesh generation</span><span class="lang lang--zh">结构化样条网格生成</span></figcaption>
+        <figcaption id="cap-sm1"><span class="lang lang--en">Structured spline mesh generation</span><span class="lang lang--zh">结构化样条网格生成</span></figcaption>
       </figure>
       <figure>
-        <video controls preload="metadata" playsinline poster="/images/research/poster-screw.jpg">
+        <video controls preload="metadata" playsinline aria-labelledby="cap-screw" poster="/images/research/poster-screw.jpg">
           <source src="/videos/screw_simulation.mp4" type="video/mp4">
         </video>
-        <figcaption><span class="lang lang--en">CFD simulation on the spline mesh</span><span class="lang lang--zh">基于样条网格的 CFD 仿真</span></figcaption>
+        <figcaption id="cap-screw"><span class="lang lang--en">CFD simulation on the spline mesh</span><span class="lang lang--zh">基于样条网格的 CFD 仿真</span></figcaption>
       </figure>
     </div>
     <div class="sw-videos__col">
       <figure>
-        <video controls preload="metadata" playsinline poster="/images/research/poster-splinemesh2.jpg">
+        <video controls preload="metadata" playsinline aria-labelledby="cap-sm2" poster="/images/research/poster-splinemesh2.jpg">
           <source src="/videos/splinemesh_2.mp4" type="video/mp4">
         </video>
-        <figcaption><span class="lang lang--en">Deforming mesh over a rotation cycle</span><span class="lang lang--zh">一个转动周期内的网格变形</span></figcaption>
+        <figcaption id="cap-sm2"><span class="lang lang--en">Deforming mesh over a rotation cycle</span><span class="lang lang--zh">一个转动周期内的网格变形</span></figcaption>
       </figure>
     </div>
   </div>

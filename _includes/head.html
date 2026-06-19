@@ -32,7 +32,9 @@
     try {
       var stored = localStorage.getItem('lang');
       var nav = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
-      document.documentElement.setAttribute('data-lang', stored || (nav.indexOf('zh') === 0 ? 'zh' : 'en'));
+      var lang = stored || (nav.indexOf('zh') === 0 ? 'zh' : 'en');
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang);
     } catch (e) { document.documentElement.setAttribute('data-lang', 'en'); }
   })();
 </script>
