@@ -158,6 +158,7 @@ html[data-theme="dark"] {
 
   /* Research / Software pages */
   .research-item__fig img,
+  .research-item__fig video,
   .sw-card img { border-color: $dark-border; }
   .research-item__fig figcaption { color: $dark-text-muted; }
   .sw-card { border-color: $dark-border; }
