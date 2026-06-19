@@ -26,6 +26,17 @@
   })();
 </script>
 
+<!-- Set display language before paint (default: follow the browser language) -->
+<script>
+  (function () {
+    try {
+      var stored = localStorage.getItem('lang');
+      var nav = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+      document.documentElement.setAttribute('data-lang', stored || (nav.indexOf('zh') === 0 ? 'zh' : 'en'));
+    } catch (e) { document.documentElement.setAttribute('data-lang', 'en'); }
+  })();
+</script>
+
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 

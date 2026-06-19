@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Bilingual (中文 / English) language toggle
+   `data-lang` on <html> is set before paint by the init script in head.html
+   and flipped by assets/js/lang-toggle.js. Only the active language's blocks
+   are shown. Imported last in main.scss so these rules win.
+   ========================================================================== */
+
+/* Default (no data-lang set, e.g. JS disabled / crawlers): show English, hide
+   Chinese — so content never vanishes and English stays SEO-visible. Switch to
+   Chinese only when data-lang="zh". `revert` works for both block (<div
+   markdown="1">) and inline (<span>) wrappers. */
+.lang--zh { display: none; }
+html[data-lang="zh"] .lang--en { display: none; }
+html[data-lang="zh"] .lang--zh { display: revert; }
+
+/* Floating language toggle button — sits just above the theme toggle */
+.lang-toggle {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 4.75rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  height: 2.75rem;
+  padding: 0 0.7rem;
+  border: 1px solid $border-color;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  color: $text-color;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  &:focus { outline: none; }
+  &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+  .lang-toggle__to-zh, .lang-toggle__to-en { display: none; }
+}
+
+/* Show the label for the language you'd switch TO */
+html[data-lang="en"] .lang-toggle .lang-toggle__to-zh { display: inline; }
+html[data-lang="zh"] .lang-toggle .lang-toggle__to-en { display: inline; }
+
+/* Dark theme styling */
+html[data-theme="dark"] .lang-toggle {
+  background-color: #23272c;
+  color: #e8eaed;
+  border-color: #383d43;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+@media print { .lang-toggle { display: none; } }
