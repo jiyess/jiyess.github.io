@@ -1,8 +1,16 @@
 # main links links
 main:
+  - title: "Research"
+    title_zh: "研究"
+    url: /research/
+
   - title: "Publications"
     title_zh: "论文成果"
     url: /publications/
+
+  - title: "Software"
+    title_zh: "软件"
+    url: /software/
 
   - title: "Talks"
     title_zh: "学术报告"

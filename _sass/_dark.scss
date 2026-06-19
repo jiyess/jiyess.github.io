@@ -156,6 +156,12 @@ html[data-theme="dark"] {
     &.disabled { color: $dark-text-muted; }
   }
 
+  /* Research / Software pages */
+  .research-item__fig img,
+  .sw-card img { border-color: $dark-border; }
+  .research-item__fig figcaption { color: $dark-text-muted; }
+  .sw-card { border-color: $dark-border; }
+
   /* Text selection */
   ::selection { background: #2f4a5a; color: #fff; }
 }
