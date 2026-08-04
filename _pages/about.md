@@ -61,6 +61,12 @@ In addition to his research, Ye contributes to the academic community by serving
 
 <div class="lang lang--en" markdown="1">
 
+- **[07/2026]**: I attended **CSIAM GDC 2026** (18th CSIAM Conference on Geometric Design and Computing) in Hohhot, Inner Mongolia, China, where I gave an invited talk titled "CAD-CAE Integration: From Theory and Algorithms to Engineering Practice" and joined the Young Talent Salon & Industry-University Dialogue panel. Our group also brought one conference paper and two posters to the conference — a concentrated showcase of our recent work. I am truly honored that our paper on a B-spline-based receding-horizon trajectory optimization method for UAV obstacle avoidance received the **<font color=Red>Conference Best Paper Award</font>**, and our poster [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) received the **<font color=Red>Conference Best Poster Award</font>**.
+
+- **[07/2026]**: I gave an oral presentation titled "An isogeometric formulation of the lattice Boltzmann method on CAD-exact geometries" at **WCCM-ECCOMAS 2026** (17th World Congress on Computational Mechanics & 10th ECCOMAS Congress), Munich, Germany. Many thanks to my amazing collaborators, Monica and Matthias!
+
+- **[07/2026]**: Jingyi presented our paper [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) at **SPM/SMI 2026** (Symposium on Solid and Physical Modeling & Shape Modeling International), Istanbul, Türkiye. Many thanks to my amazing collaborators, Jingyi, Chungang and Matthias!
+
 - **[05/2026]**: I am very pleased that our new paper, [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783), has been published in *Computer-Aided Design*. We will present this work at the **Symposium on Solid and Physical Modeling (SPM) 2026** in Istanbul, Türkiye. Looking forward to seeing you there!
 
 - **[05/2026]**: I presented a poster entitled [**Efficient Thermal Simulation in Metal Additive Manufacturing via Semi-Analytical Isogeometric Analysis**](https://www.sciencedirect.com/science/article/pii/S0045782526002653) at [**HOFEIM**](https://sites.google.com/unifi.it/hofeim2026/program) 2026 in Siena, Italy. The work demonstrates a semi-analytical IGA framework for LPBF thermal simulations, achieving up to 258× speed-up over conventional FEM while maintaining high accuracy on complex CAD geometries.
@@ -83,6 +89,12 @@ In addition to his research, Ye contributes to the academic community by serving
 
 </div>
 <div class="lang lang--zh" markdown="1">
+
+- **[07/2026]**：我参加了在中国内蒙古呼和浩特举行的 **CSIAM GDC 2026**（第十八届中国工业与应用数学学会几何设计与计算大会），作了题为“CAD CAE 一体化：从理论、算法到工程实践”的特邀报告，并参加了“新锐人才沙龙暨校企行业对话”。此外，我们还带来了一篇会议论文和两篇会议海报，算是对近期工作的一次集中展示。非常荣幸，我们关于基于 B 样条滚动时域优化的无人机避障方法的论文荣获 **<font color=Red>大会最佳论文奖</font>**，海报 [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) 荣获 **<font color=Red>大会最佳海报奖</font>**。
+
+- **[07/2026]**：我在德国慕尼黑举行的 **WCCM-ECCOMAS 2026**（第十七届世界计算力学大会暨第十届 ECCOMAS 大会）上作了题为“An isogeometric formulation of the lattice Boltzmann method on CAD-exact geometries”的口头报告。非常感谢我出色的合作者 Monica 和 Matthias！
+
+- **[07/2026]**：Jingyi 在土耳其伊斯坦布尔举行的 **SPM/SMI 2026**（实体与物理建模研讨会暨形状建模国际会议）上报告了我们的论文 [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783)。非常感谢我出色的合作者 Jingyi、Chungang 和 Matthias！
 
 - **[05/2026]**：很高兴我们的新论文 [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) 已发表于 *Computer-Aided Design*。我们将在土耳其伊斯坦布尔举行的 **Symposium on Solid and Physical Modeling (SPM) 2026** 上报告这项工作，期待与你相见！
 
