@@ -22,10 +22,10 @@ My full [academic CV](/files/pdf/Ye_Ji_CV.pdf) is available here!
 ## <span class="lang lang--en">Research Profile</span><span class="lang lang--zh">研究概况</span>
 
 <div class="lang lang--en" markdown="1">
-I am a mathematical modeller and numerical analyst specialising in **geometry-aware discretisation** and **isogeometric analysis (IGA)**. My research develops **mathematically robust CAD-to-CAE frameworks** that ensure consistency between geometric representation, parameterisation, discretisation, and numerical analysis for complex physical and engineering systems. Key themes include **PDE-based parameterisation**, **injectivity/regularity guarantees**, **multi-sided and multi-patch spline parameterisations**, and **fast solvers** (e.g., preconditioned Anderson acceleration).
+My research tackles a fundamental bottleneck in the design-through-analysis pipeline: turning a CAD model into a discretisation that is geometrically faithful, mathematically well-posed, and fast to solve. Working at the interface of **computer-aided design (CAD)** and **computer-aided engineering (CAE)**, I develop **isogeometric analysis (IGA)** methods — provably injective and regular parameterisations, PDE-based construction, and accelerated solvers — that keep geometry, discretisation, and simulation consistent throughout. This work has moved from theory into practice: it now underpins industrial-grade structured meshing for twin-screw compressors, semi-analytical thermal simulation for metal additive manufacturing, and, most recently, isogeometric formulations of physics solvers such as the lattice Boltzmann method.
 </div>
 <div class="lang lang--zh" markdown="1">
-我是一名数学建模与数值分析研究者，专注于**几何感知离散化**与**等几何分析（IGA）**。我的研究致力于构建**数学上稳健的 CAD-to-CAE 框架**，确保几何表示、参数化、离散化与数值分析之间的一致性，以求解复杂的物理与工程系统。主要方向包括**基于 PDE 的参数化**、**单射性/正则性保证**、**多边与多片样条参数化**，以及**快速求解器**（如预处理 Anderson 加速）。
+我的研究致力于解决从设计到仿真全流程中的一个关键瓶颈：如何将 CAD 几何模型转化为既忠实还原几何本身、数学上适定，又能快速求解的离散化表示。立足于**计算机辅助设计（CAD）**与**计算机辅助工程（CAE）**的交叉领域，我发展**等几何分析（IGA）**方法——包括可证明单射性与正则性的参数化、基于 PDE 的构造以及求解器加速——使几何、离散化与仿真分析在全流程中保持一致。这些方法已经从理论走向工程实践：目前已应用于双螺杆压缩机的工业级结构化网格生成、金属增材制造的半解析热仿真，以及近期拓展出的物理求解器等几何格式，例如格子玻尔兹曼方法。
 </div>
 
 ## <span class="lang lang--en">Research Highlights</span><span class="lang lang--zh">研究亮点</span>
@@ -36,6 +36,7 @@ I am a mathematical modeller and numerical analyst specialising in **geometry-aw
 - **Geometry-to-simulation pipelines:** boundary parameter matching (incl. Schwarz–Christoffel tools) and multi-sided domain parameterisations enabling reliable IGA workflows.
 - **Solver acceleration:** preconditioned Anderson acceleration to improve efficiency and robustness of parameterisation PDE solvers.
 - **Industrial-grade spline meshing:** spline-based structured mesh generation for screw machine simulations (**SplineMesh / Scorg™**).
+- **Extending IGA beyond structural/thermal analysis:** ongoing work on physics-based extensions, including an isogeometric lattice Boltzmann method (IGA-LBM) for body-fitted, CAD-exact fluid simulation on curved geometries (presented at WCCM-ECCOMAS 2026).
 
 </div>
 <div class="lang lang--zh" markdown="1">
@@ -44,6 +45,7 @@ I am a mathematical modeller and numerical analyst specialising in **geometry-aw
 - **几何到仿真的流程：** 边界参数匹配（含 Schwarz–Christoffel 工具）与多边区域参数化，支撑可靠的 IGA 工作流。
 - **求解器加速：** 预处理 Anderson 加速，提升参数化 PDE 求解器的效率与稳健性。
 - **工业级样条网格生成：** 面向螺杆机械仿真的基于样条的结构化网格生成（**SplineMesh / Scorg™**）。
+- **将等几何分析拓展至结构/热分析之外：** 正在开展面向物理场的拓展研究，包括面向曲面几何、CAD 精确贴体网格流体仿真的等几何格子玻尔兹曼方法（IGA-LBM）（已在 WCCM-ECCOMAS 2026 报告）。
 
 </div>
 
@@ -160,6 +162,8 @@ I am a mathematical modeller and numerical analyst specialising in **geometry-aw
 
 <div class="lang lang--en" markdown="1">
 
+- **[07/2026]**: Conference Best Paper Award at CSIAM GDC 2026, Hohhot, China.
+- **[07/2026]**: Conference Best Poster Award at CSIAM GDC 2026, Hohhot, China.
 - **[08/2025]**: Conference Best Paper Award at CSIAM GDC 2025, Yantai, China.
 - **[10/2024]**: Conference Best Paper Award at the International Conference on Screw Machines 2024, Dortmund, Germany.
 - **[12/2023]**: Outstanding Graduates of Liaoning Province 2024.
@@ -181,6 +185,8 @@ I am a mathematical modeller and numerical analyst specialising in **geometry-aw
 </div>
 <div class="lang lang--zh" markdown="1">
 
+- **[07/2026]**：CSIAM GDC 2026 会议最佳论文奖，中国呼和浩特。
+- **[07/2026]**：CSIAM GDC 2026 会议最佳海报奖，中国呼和浩特。
 - **[08/2025]**：CSIAM GDC 2025 会议最佳论文奖，中国烟台。
 - **[10/2024]**：国际螺杆机械会议（ICSM 2024）最佳论文奖，德国多特蒙德。
 - **[12/2023]**：2024 届辽宁省优秀毕业生。
