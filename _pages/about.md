@@ -61,6 +61,8 @@ In addition to his research, Ye contributes to the academic community by serving
 
 <div class="lang lang--en" markdown="1">
 
+- **[09/2026]**: I gave an oral presentation titled "[SplineMesh v3.0: Robust spline-based structured mesh generation for positive-displacement rotary machines with sharp features](/talks/2026-09-08-ICSM)" at **The International Conference on Screw Machines 2026 (ICSM 2026)**, Dortmund, Germany, September 8th - 10th, 2026. The new version adds automatic fold detection and corner-preserving local untangling, enabling robust meshing of the full working cycle of twin-screw dry vacuum pumps. Many thanks to my collaborator Matthias, and to Dr. Sham Rane and Prof. Ahmed Kovačević for the industrial test cases and SCORG integration guidance!
+
 - **[07/2026]**: I attended **CSIAM GDC 2026** (18th CSIAM Conference on Geometric Design and Computing) in Hohhot, Inner Mongolia, China, where I gave an invited talk titled "CAD-CAE Integration: From Theory and Algorithms to Engineering Practice" and joined the Young Talent Salon & Industry-University Dialogue panel. Our group also brought one conference paper and two posters to the conference — a concentrated showcase of our recent work. I am truly honored that our paper on a B-spline-based receding-horizon trajectory optimization method for UAV obstacle avoidance received the **<font color=Red>Conference Best Paper Award</font>**, and our poster [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) received the **<font color=Red>Conference Best Poster Award</font>**.
 
 - **[07/2026]**: I gave an oral presentation titled "An isogeometric formulation of the lattice Boltzmann method on CAD-exact geometries" at **WCCM-ECCOMAS 2026** (17th World Congress on Computational Mechanics & 10th ECCOMAS Congress), Munich, Germany. Many thanks to my amazing collaborators, Monica and Matthias!
@@ -89,6 +91,8 @@ In addition to his research, Ye contributes to the academic community by serving
 
 </div>
 <div class="lang lang--zh" markdown="1">
+
+- **[09/2026]**：我在 2026 年 9 月 8-10 日于德国多特蒙德举行的 **国际螺杆机械会议（ICSM 2026）** 上作了题为“[SplineMesh v3.0: Robust spline-based structured mesh generation for positive-displacement rotary machines with sharp features](/talks/2026-09-08-ICSM)”的口头报告。新版本引入了自动折叠单元检测与保持尖角特征的局部解缠（untangling）算法，实现了双螺杆干式真空泵完整工作循环的稳健网格生成。非常感谢我的合作者 Matthias，以及 Sham Rane 博士和 Ahmed Kovačević 教授提供的工业算例与 SCORG 集成指导！
 
 - **[07/2026]**：我参加了在中国内蒙古呼和浩特举行的 **CSIAM GDC 2026**（第十八届中国工业与应用数学学会几何设计与计算大会），作了题为“CAD CAE 一体化：从理论、算法到工程实践”的特邀报告，并参加了“新锐人才沙龙暨校企行业对话”。此外，我们还带来了一篇会议论文和两篇会议海报，算是对近期工作的一次集中展示。非常荣幸，我们关于基于 B 样条滚动时域优化的无人机避障方法的论文荣获 **<font color=Red>大会最佳论文奖</font>**，海报 [**Extended r-adaptive isogeometric analysis for weak-discontinuous problems**](https://www.sciencedirect.com/science/article/pii/S0010448526000783) 荣获 **<font color=Red>大会最佳海报奖</font>**。
 
