@@ -1,0 +1,25 @@
+---
+title: "SplineMesh v3.0: Robust spline-based structured mesh generation for positive-displacement rotary machines with sharp features"
+collection: talks
+type: "Conference talk"
+permalink: /talks/2026-09-08-icsm-dortmund
+redirect_from:
+  - /talks/2026-09-08-ICSM
+venue: "International Conference on Screw Machines (ICSM 2026)"
+date: 2026-09-08
+location: "Dortmund, Germany"
+---
+
+[Slides](/files/pdf/slides/2026-09-08-ICSM/ICSM2026_SplineMesh_v3.0.pdf),
+[Photo 1](/images/talks/2026-09-08-icsm-dortmund/photo-1.jpg),
+[Photo 2](/images/talks/2026-09-08-icsm-dortmund/photo-2.jpg),
+[Photo 3](/images/talks/2026-09-08-icsm-dortmund/photo-3.jpg),
+[Photo 4](/images/talks/2026-09-08-icsm-dortmund/photo-4.jpg)
+
+High-quality structured meshes are a prerequisite for reliable CFD analysis of positive displacement rotary machines. Rotors with sharp lobe-tip features and very narrow sealing strips, of which dry screw vacuum pumps are the extreme case, defeat the spline-based pipeline of SplineMesh v2.0: within each cross-section the two sides of a sealing strip belong to different rotors, so the paired boundary nodes are tangentially offset, and in the thinnest strips that offset folds a small number of elements; one folded element anywhere in the slice stack invalidates the whole mesh for the downstream solver.
+
+This paper presents SplineMesh v3.0, a robustness-oriented extension built around a *corner-preserving* layer with two components. A header-only, license-free constrained Delaunay quality triangulator replaces the licence-restricted dependency at the boundary-matching stage, reproducing the guarantees the harmonic solve relies on for a modest fraction of end-to-end runtime. A local windowed quasi-harmonic untangling step then repairs the residual folded elements in place while holding the sharp sealing corner exactly fixed, except on the rare slices where an adaptive boundary-sliding fallback re-spaces the boundary nodes along the unchanged profile curve. We also characterize a complementary geometric-continuity (G<sup>1</sup>/G<sup>2</sup>) fillet recovery, the appropriate treatment when a smooth apex, rather than the physical corner, is the objective.
+
+On a screw vacuum-pump rotor (QUIMBY) the layer raises the full-cycle mesh-generation success rate from 0% to 98% over a 45-configuration sweep of rotor centre distance and sealing clearance, and to 100% across the whole feasible centre-distance band at the design clearance, where it eliminates up to 319 folded elements per slice stack (271–530 across the full grid) and recovers the worst scaled Jacobian from −1.000 to above 0.05; the hardest off-design slices require an adaptive boundary-sliding fallback, without which the rate is 93%. The method generalizes to a Roots blower and a twin-screw compressor, and the fillet reference reduces the mean apex-position error by 92.45%. Built on the open-source G+Smo library and integrated into the SCORG™ workflow, SplineMesh v3.0 no longer depends on a triangulator whose licence forbids commercial use, removing that obstacle to industrial deployment.
+
+Keywords: **Structured Mesh Generation**, **Positive-Displacement Rotary Machines**, **Mesh Untangling**, **Isogeometric Analysis**, **Screw Machines**

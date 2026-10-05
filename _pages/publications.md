@@ -3,17 +3,26 @@ layout: archive
 title: "Publications"
 title_zh: "论文成果"
 permalink: /publications/
-description: Ye Ji's publications in reversed chronological order.
+description: Ye Ji's publications in reverse chronological order.
 nav: true
 nav_order: 1
 author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}", target="_blank">my Google Scholar profile</a>.</u>
+  You can also find my articles on <u><a href="{{author.googlescholar}}" target="_blank">my Google Scholar profile</a>.</u>
 {% endif %}
 
 ## <span class="lang lang--en">Refereed Journal Papers</span><span class="lang lang--zh">期刊论文</span>
+### 2027
+---
+- Jingya Li, **Ye Ji**, Hugo Verhelst, Henk den Besten, & Matthias Möller. (2027). Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid–structure interaction. ***Computer Methods in Applied Mechanics and Engineering***, 463, 119358. [[**Full Article**]](https://doi.org/10.1016/j.cma.2026.119358) [[**Preprint**]](https://arxiv.org/abs/2604.27537)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    We propose a novel approach to handle fluid-structure interaction problems involving large deformations by reformulating mesh motion as successive domain parameterization tasks within an isogeometric framework. The approach incorporates three key features: (1) a barrier-function-based parameterization ensuring strictly positive Jacobian values at each time step; (2) a tangential-slip reparameterization addressing unlimited cumulative rotations in closed domains; and (3) a constant-preserving quasi-interpolation operator maintaining geometric conservation laws between parameterizations. The method is validated on two-dimensional benchmarks covering standard and large-rotation scenarios, as well as a three-dimensional rotor problem. Notably, the tangential-slip strategy enables sustained rotation simulations beyond conventional mesh-update capabilities, a regime that is fundamentally inaccessible to any mesh-deformation formulation. The framework is also compatible with standard finite element solvers through direct spline parameterization integration.
+  </details>
+
+---
 ### 2026
 ---
 - Jingyi Cao, **Ye Ji**, Matthias Möller, & Chun-Gang Zhu. (2026). Extended r-adaptive isogeometric analysis for weak-discontinuous problems. ***Computer-Aided Design***, 198, 104108. [[**Full Article**]](https://doi.org/10.1016/j.cad.2026.104108)
@@ -30,14 +39,14 @@ author_profile: true
   </details>
 
 ---
-- Ying-Ying Yu, Yashu Liu, Jiaxuan Li, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity analysis and verification of Coons volume mappings. ***Journal of Computational and Applied Mathematics***, 117593. [[**Full Article**]](https://doi.org/10.1016/j.cam.2026.117593)
+- Ying-Ying Yu, Yashu Liu, Jiaxuan Li, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity analysis and verification of Coons volume mappings. ***Journal of Computational and Applied Mathematics***, 485, 117593. [[**Full Article**]](https://doi.org/10.1016/j.cam.2026.117593)
   <details>
     <summary><strong>Abstract</strong></summary>
     The Coons volume provides a classical approach for constructing three-dimensional parametric mappings via boundary surface interpolation and is widely employed in volumetric mesh generation, computer-aided geometric design, and isogeometric analysis. However, due to curvature variations and continuity limitations of the boundary surfaces, the Jacobian determinant of a Coons volume may locally vanish or become negative, resulting in a non-regular mapping. This paper develops a systematic framework for analyzing and verifying the regularity of Coons volumes. We derive a general sufficient condition for arbitrary boundary parameterizations, introduce a criterion for Bézier-form Coons volumes based on the coefficients of the Jacobian determinant, and construct a necessary condition using a subdivision strategy combined with the Bézier blossoming technique. An efficient verification algorithm is designed, whose correctness and computational performance are validated through numerical experiments.
   </details>
 
 ---
-- Ying-Ying Yu, Jiaxuan Li, Yashu Liu, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity Determination of Spatial Coons Surface Patches and Its Applications. ***Journal of Computer-Aided Design & Computer Graphics***, 1-12. [[**Full Article**]](https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2025-00208)
+- Ying-Ying Yu, Jiaxuan Li, Yashu Liu, Xin Li, **Ye Ji**, & Chun-Gang Zhu. (2026). Regularity Determination of Spatial Coons Surface Patches and Its Applications. ***Journal of Computer-Aided Design & Computer Graphics***, 1–12. [[**Full Article**]](https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2025-00208)
   <details>
     <summary><strong>Abstract</strong></summary>
     The Coons patch is a classical method for constructing smooth two-dimensional manifold mappings through boundary curve interpolation. It is widely applied in fields such as computer graphics, product shape design, and isogeometric analysis. However, due to factors such as complex boundary curve shapes and significant curvature variations, the Jacobian determinant of a Coons mapping may degenerate or even change sign in certain regions, causing a loss of regularity. This can severely affect the quality of the surface and compromise the numerical stability of subsequent analyses. Developing efficient and reliable methods for regularity verification is of great importance for achieving high-quality parameterizations. To address the regularity verification problem of spatial Coons patches, a series of theoretical conditions and algorithms is proposed. First, based on the condition of the rank of Jacobian matrix, a sufficient criterion for ensuring the regularity of Coons mappings is derived. Second, for Coons patches expressed in Bézier form, a regularity verification method based on the Bézier coefficients of the Jacobian determinant is proposed, transforming the verification task into a set of coefficient sign-consistency constraints, which significantly improves computational efficiency and geometric interpretability. Finally, a subdivision strategy for Bézier surfaces is introduced to construct a class of necessary and sufficient conditions, enabling the global verification problem to be reduced to local subdomain checks. The proposed Jacobian coefficient extraction framework can be extended to multi-patch B-spline surfaces with general topological structures, enhancing the generality and adaptability of the proposed method. Numerical experiment results show that for multi-patch B-spline surfaces consisting of 1 752 and 6 800 bi-cubic Bézier elements, the proposed algorithm completes the regularity verification within 0.112 seconds and 0.402 seconds, respectively, meeting the performance requirements of real-time engineering applications.
@@ -46,23 +55,32 @@ author_profile: true
 ---
 ### 2025
 ---
-- Yang Yang, **Ye Ji**, Matthias Möller, & Can Ayas. (2025). Computational efficient process simulation of geometrically complex parts in metal additive manufacturing. International Journal of Heat and Mass Transfer, 248, 127059. [[**Full Article**]](https://doi.org/10.1016/j.ijheatmasstransfer.2025.127059)
+- Yang Yang, **Ye Ji**, Matthias Möller, & Can Ayas. (2025). Computational efficient process simulation of geometrically complex parts in metal additive manufacturing. ***International Journal of Heat and Mass Transfer***, 248, 127059. [[**Full Article**]](https://doi.org/10.1016/j.ijheatmasstransfer.2025.127059)
   <details>
     <summary><strong>Abstract</strong></summary>
     Part-scale thermal process simulations play an important role in improving the part quality of the Laser Powder Bed Fusion (LPBF) process. The semi-analytical simulation method relies on the superposition of analytical fields to represent laser-induced heat sources in a semi-infinite space and a complementary temperature field to enforce boundary conditions. So far, boundary conditions have been imposed by analytical image fields for straight boundaries and numerically for non-straight boundaries. The latter requires considerable refinement on the spatial discretization, at least near the boundaries, and compromises the computational efficiency of the simulations. In this paper, we derive a closed-form solution for the image fields that can accurately enforce the boundary conditions for non-straight boundaries. A geometrically complex part boundary is represented by B-splines, and with the aid of an offset method and reparameterization, the positions of the image sources are determined. The image field’s closed-form expression is then found using the boundary’s local curvature calculated from the local tangent lines. Numerical examples on different levels of complexity revealed that the net heat lost along an adiabatic boundary vanishes when the novel image source solutions are used, and the thermal evolution of complex parts can be accurately predicted with high computational efficiency. Simulations involving multiple lasers can also be performed with no extra computational cost.
   </details>
 
 ---
-- Li Yang, Weiming Wang, **Ye Ji**, Chun-Gang Zhu, Charlie CL Wang. (2025). Space–time isogeometric topology optimization with additive manufacturing constraints. Computer Methods in Applied Mechanics and Engineering, 441, 117976. [[**Full Article**]](https://doi.org/10.1016/j.cma.2025.117976)
+- Li Yang, Weiming Wang, **Ye Ji**, Chun-Gang Zhu, & Charlie C. L. Wang. (2025). Space–time isogeometric topology optimization with additive manufacturing constraints. ***Computer Methods in Applied Mechanics and Engineering***, 441, 117976. [[**Full Article**]](https://doi.org/10.1016/j.cma.2025.117976)
   <details>
     <summary><strong>Abstract</strong></summary>
     This paper presents a novel space–time isogeometric topology optimization (ITO) framework for additive manufacturing, enabling concurrent optimization of structural shape and fabrication sequence with accurate geometric representation. The method integrates a density distribution function with a pseudo-time function to optimize build sequences for complex structures, with an objective function that minimizes compliance under external loads and accounts for self-weight effects during fabrication. Density values and virtual heat conduction coefficients are defined at B-spline control points to serve as design variables. A heat conduction-based formulation is employed to generate the pseudo-time function so that prevents the generation of isolated or floating material regions. A layer thickness constraint, defined by the pseudo-time gradient, further enhances manufacturability. The approach has been validated in 2D and 3D examples, demonstrating its effectiveness in managing objectives of entire structure’s stiffness and self-weight of intermediate structures.
   </details>
 
+---
 ### 2024
 ---
 
-- **Ye Ji**, Matthias Möller, Ying-Ying Yu, & Chun-Gang Zhu. (2024). Boundary parameter matching for isogeometric analysis using Schwarz–Christoffel mapping. ***Engineering with Computers***, 1-19. [[**Full Article**]](https://doi.org/10.1007/s00366-024-02020-z)
+- Meng-Yun Wang, **Ye Ji**, & Chun-Gang Zhu. (2024). Degree elevation and knot insertion for generalized Bézier surfaces and their application to isogeometric analysis. ***Journal of Computational Mathematics***, 42(5), 1197–1225. [[**Full Article**]](https://doi.org/10.4208/jcm.2301-m2022-0116)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    Generalized Bézier (GB) surfaces proposed by Várady et al. are a multi-sided generalization of classical tensor product Bézier surfaces with a simple control structure and inherit most of the nice properties from Bézier surfaces. However, the original degree elevation changes the geometry of GB surfaces such that it is undesirable in many applications, e.g., isogeometric analysis (IGA). In this paper, we propose an improved degree elevation algorithm for GB surfaces keeping not only the geometry but also the parameter consistency. Based on the knot insertion of B-splines, a novel knot insertion algorithm for GB surface is also proposed. Then the proposed degree elevation and knot insertion algorithms are employed to increase the degree of freedom (DOF) for multi-sided domain parameterized by GB surface in IGA, corresponding to the traditional p-, h-, and k-refinements. Numerical examples demonstrate the effectiveness and superiority of our method.
+  </details>
+
+---
+
+- **Ye Ji**, Matthias Möller, Ying-Ying Yu, & Chun-Gang Zhu. (2024). Boundary parameter matching for isogeometric analysis using Schwarz–Christoffel mapping. ***Engineering with Computers***, 40(6), 3929–3947. [[**Full Article**]](https://doi.org/10.1007/s00366-024-02020-z)
   <details>
     <summary><strong>Abstract</strong></summary>
     Isogeometric analysis has brought a paradigm shift in integrating computational simulations with geometric designs across engineering disciplines. This technique necessitates analysis-suitable parameterization of physical domains to fully harness the synergy between Computer-Aided Design and Computer-Aided Engineering analyses. Existing methods often fix boundary parameters, leading to challenges in elongated geometries such as fluid channels and tubular reactors. This paper presents an innovative solution for the boundary parameter matching problem, specifically designed for analysis-suitable parameterizations. We employ a sophisticated Schwarz–Christoffel mapping technique, which is instrumental in computing boundary correspondences. A refined boundary curve reparameterization process complements this. Our dual-strategy approach maintains the geometric exactness and continuity of input physical domains, overcoming limitations often encountered with the existing reparameterization techniques. By employing our proposed boundary parameter matching method, we show that even a simple linear interpolation approach can effectively construct a satisfactory analysis-suitable parameterization. Our methodology offers significant improvements over traditional practices, enabling the generation of analysis-suitable and geometrically precise models, which is crucial for ensuring accurate simulation results. Numerical experiments show the capacity of the proposed method to enhance the quality and reliability of isogeometric analysis workflows.
@@ -70,7 +88,7 @@ author_profile: true
 
 ---
 
-- Yi Zhang, **Ye Ji**, & Chun-Gang Zhu. (2024). Multi-patch parameterization method for isogeometric analysis using singular structure of cross-field. ***Computers & Mathematics with Applications***, 162, 61-78. [[**Full Article**]](https://doi.org/10.1016/j.camwa.2024.03.001)
+- Yi Zhang, **Ye Ji**, & Chun-Gang Zhu. (2024). Multi-patch parameterization method for isogeometric analysis using singular structure of cross-field. ***Computers & Mathematics with Applications***, 162, 61–78. [[**Full Article**]](https://doi.org/10.1016/j.camwa.2024.03.001)
   <details>
     <summary><strong>Abstract</strong></summary>
     Isogeometric analysis is an innovative numerical paradigm with the potential to bridge the gap between Computer-Aided Design and Computer-Aided Engineering. However, constructing analysis-suitable parameterizations from a given boundary representation remains a critical challenge in the isogeometric design-through-analysis pipeline, particularly for computational domains with complex geometries, such as high-genus cases. To tackle this issue, we propose a multi-patch parameterization method for computational domains grounded in the singular structure of cross-fields. Initially, the vector field functions over the computational domain are solved using the boundary element method. The cross-field is then obtained through the one-to-one mapping between the vector field and the cross-field. Subsequently, we acquire the position information and topological connection relations of singularities and streamlines by analyzing the singular structure of the cross-field. Moreover, we introduce a simple and effective method for computing streamlines. We propose a novel segmentation strategy to divide the computational domain into several quadrilateral NURBS sub-patches. Once the multi-patch structure is established, we develop two methods to construct analysis-suitable multi-patch parameterizations. The first method is a direct generalization of the barrier function-based approach, while the second method yields smoother parameterizations by incorporating the interface control points of sub-patches into the optimization model. Numerical experiments demonstrate the effectiveness and robustness of the proposed method.
@@ -78,7 +96,7 @@ author_profile: true
 
 ---
 
-- Meng-Yun Wang, **Ye Ji**, Lin Lan & Chun-Gang Zhu. (2024). MS-GIFT: Multi-Sided Geometry-Independent Field ApproximaTion Approach for Isogeometric Analysis. ***Computer-Aided Design***, 173, 103731. [[**Full Article**]](https://doi.org/10.1016/j.cad.2024.103731) 
+- Meng-Yun Wang, **Ye Ji**, Lin Lan, & Chun-Gang Zhu. (2024). MS-GIFT: Multi-Sided Geometry-Independent Field ApproximaTion Approach for Isogeometric Analysis. ***Computer-Aided Design***, 173, 103731. [[**Full Article**]](https://doi.org/10.1016/j.cad.2024.103731)
   <details>
     <summary><strong>Abstract</strong></summary>
     The Geometry-Independent Field approximaTion (GIFT) technique, an extension of isogeometric analysis (IGA), allows for separate spaces to parameterize the computational domain and approximate solution field. Based on the GIFT approach, this paper proposes a novel IGA methodology that incorporates toric surface patches for multi-sided geometry representation, while utilizing B-spline or truncated hierarchical B-spline (THB-spline) basis for analysis. By creating an appropriate bijection between the parametric domains of distinct bases for modeling and approximation, our method ensures smoothness within the computational domain and combines the compact support of B-splines or the local refinement potential of THB-splines, resulting in more efficient and precise solutions. To enhance the quality of parameterization and consequently boost the accuracy of downstream analysis, we suggest optimizing the composite toric parameterization. Numerical examples validate the effectiveness and superiority of our suggested approach.
@@ -86,7 +104,7 @@ author_profile: true
 
 ---
 
-- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Intersections of B-Spline Curves. Mathematics, 12(9), 1344. [[**Full Article**]](https://doi.org/10.3390/math12091344)
+- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Intersections of B-Spline Curves. ***Mathematics***, 12(9), 1344. [[**Full Article**]](https://doi.org/10.3390/math12091344)
   <details>
     <summary><strong>Abstract</strong></summary>
     Bézier and B-spline curves are foundational tools for curve representation in computer graphics and computer-aided geometric design, with their intersection computation presenting a fundamental challenge in geometric modeling. This study introduces an innovative algorithm that quickly and effectively resolves intersections between Bézier and B-spline curves. The number of intersections between the two input curves within a specified region is initially determined by applying the resultant of a polynomial system and Sturm’s theorem. Subsequently, the potential region of the intersection is established through the utilization of the pseudo-curvature-based subdivision scheme and the bounding box detection technique. The projected Gauss-Newton method is ultimately employed to efficiently converge to the intersection. The robustness and efficiency of the proposed algorithm are demonstrated through numerical experiments, demonstrating a speedup of 3 to 150 times over traditional methods.
@@ -94,7 +112,7 @@ author_profile: true
 
 ---
 
-- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Self-Intersections of Cubic Bézier Curves. Mathematics, 12(6), 882. [[**Full Article**]](https://doi.org/10.3390/math12060882)
+- Ying-Ying Yu, Xin Li, & **Ye Ji**. (2024). On Self-Intersections of Cubic Bézier Curves. ***Mathematics***, 12(6), 882. [[**Full Article**]](https://doi.org/10.3390/math12060882)
   <details>
     <summary><strong>Abstract</strong></summary>
     Cubic Bézier curves are widely used in computer graphics and geometric modeling due to their intuitive design and ease of implementation. However, self-intersections within these curves can pose significant challenges in both geometric modeling and analysis. This paper presents a comprehensive approach to detecting and computing self-intersections of cubic Bézier curves. The self-intersection problem of cubic Bézier curves is firstly transformed into a quadratic problem by eliminating trivial solutions. Subsequently, this quadratic system is converted into a linear system that can be easily analyzed and solved. Finally, the parameter values corresponding to the self-intersection points are computed through the solution of the linear system. Numerical examples demonstrate the effectiveness and efficiency of the proposed algorithm.
@@ -102,18 +120,17 @@ author_profile: true
 
 ---
 
-- Lin Lan, **Ye Ji**, Meng-Yun Wang & Chun-Gang Zhu. (2024). Full-LSPIA: A least-squares progressive-iterative approximation method with optimization of weights and knots for NURBS curves and surfaces. ***Computer-Aided Design***, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0010448523002051) 
+- Lin Lan, **Ye Ji**, Meng-Yun Wang, & Chun-Gang Zhu. (2024). Full-LSPIA: A least-squares progressive-iterative approximation method with optimization of weights and knots for NURBS curves and surfaces. ***Computer-Aided Design***, 169, 103673. [[**Full Article**]](https://doi.org/10.1016/j.cad.2023.103673)
   <details>
     <summary><strong>Abstract</strong></summary>
     The Least-Squares Progressive-Iterative Approximation (LSPIA) method offers a powerful and intuitive approach for data fitting. Non-Uniform Rational B-splines (NURBS) are a popular choice for approximation functions in data fitting, due to their robust capabilities in shape representation. However, a restriction of the traditional LSPIA application to NURBS is that it only iteratively adjusts control points to approximate the provided data, with weights and knots remaining static. To enhance fitting precision and overcome this constraint, we present Full-LSPIA, an innovative LSPIA method that jointly optimizes weights and knots alongside control points adjustments for superior NURBS curves and surfaces creation. We achieve this by constructing an objective function that incorporates control points, weights, and knots as variables, and solving the resultant optimization problem. Specifically, control points are adjusted using LSPIA, while weights and knots are optimized through the LBFGS method based on the analytical gradients of the objective function with respect to weights and knots. Additionally, we present a knot removal strategy known as Decremental Full-LSPIA. This strategy reduces the number of knots within a specified error tolerance, and determines optimal knot locations. The proposed Full-LSPIA and Decremental Full-LSPIA maximize the strengths of LSPIA, with numerical examples further highlighting the superior performance and effectiveness of these methods. Compared to the classical LSPIA, Full-LSPIA offers greater fitting accuracy for NURBS curves and surfaces while maintaining the same number of control points, and automatically determines suitable weights and knots. Moreover, Decremental Full-LSPIA yields fitting results with fewer knots while maintaining the same error tolerance.
   </details>
 
 ---
-
 ### 2023
 ---
 
-- Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2023). Sufficient condition for injectivity of NURBS volumes by tangent cones. ***Journal of Computational and Applied Mathematics***, 432, 115303. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0377042723002479) 
+- Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2023). Sufficient condition for injectivity of NURBS volumes by tangent cones. ***Journal of Computational and Applied Mathematics***, 432, 115303. [[**Full Article**]](https://doi.org/10.1016/j.cam.2023.115303)
   <details>
     <summary><strong>Abstract</strong></summary>
     NURBS method is the standard mathematical method for describing the shapes of curves/surfaces/volumes, and it is extensively used in computer-aided design, computer-aided manufacturing, and computer graphics. The injectivity of NURBS volumes means that they do not have self-intersections. Since the injectivity of parameterizations depend on the signs of their Jacobian functions, and the Jacobian of a NURBS volume is determined by the determinant of its tangent vectors in three directions, we first propose a method to compute the bounding vectors of the tangent cones of NURBS volume in this paper. Then the sufficient condition for the injectivity of NURBS volume is proposed. A checking algorithm is also presented. Some examples are given to verify the effectiveness of the algorithm.
@@ -121,7 +138,7 @@ author_profile: true
 
 ---
 
-- **Ye Ji**, Ke-Wang Chen, Matthias Möller, & Cornelis Vuik. (2023). On an improved PDE-based elliptic parameterization method for isogeometric analysis using preconditioned Anderson acceleration. ***Computer Aided Geometric Design***, 102, 102191. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0167839623000237) 
+- **Ye Ji**, Ke-Wang Chen, Matthias Möller, & Cornelis Vuik. (2023). On an improved PDE-based elliptic parameterization method for isogeometric analysis using preconditioned Anderson acceleration. ***Computer Aided Geometric Design***, 102, 102191. [[**Full Article**]](https://doi.org/10.1016/j.cagd.2023.102191)
   <details>
     <summary><strong>Abstract</strong></summary>
     Constructing an analysis-suitable parameterization for the computational domain from its boundary representation plays a crucial role in the isogeometric design-through-analysis pipeline. PDE-based elliptic grid generation is an effective method for generating high-quality parameterizations with rapid convergence properties for the planar case. However, it may generate non-uniform grid lines, especially near the concave/convex parts of the boundary. In the present work, we introduce a novel scaled discretization of harmonic mappings in the Sobolev space $H^1$ to remit it. Analytical Jacobian matrices for the involved nonlinear equations are derived to accelerate the computation. To enhance the numerical stability and the speed of convergence, we propose a simple and yet effective preconditioned Anderson acceleration framework instead of using computationally expensive Newton-type iteration. Three preconditioning strategies are suggested, namely diagonal Jacobian, block-diagonal Jacobian, and full Jacobian. Furthermore, we discuss a delayed update strategy of the preconditioner, i.e., the preconditioner is updated every few steps to reduce the computational cost per iteration. Numerical experiments demonstrate the effectiveness and efficiency of our improved parameterization approach and the computational efficiency of our preconditioned Anderson acceleration scheme.
@@ -129,7 +146,7 @@ author_profile: true
 
 ---
 
-- **Ye Ji**, Meng-Yun Wang, Ying-Ying Yu, & Chun-Gang Zhu. (2023) "Curvature-based r-adaptive isogeometric analysis with injectivity-preserving multi-sided domain parameterization." *Journal of Systems Science and Complexity*, 36(1), 53--76. [[**Full Article**]](https://link.springer.com/article/10.1007/s11424-022-1293-3) 
+- **Ye Ji**, Meng-Yun Wang, Ying-Ying Yu, & Chun-Gang Zhu. (2023). Curvature-based r-adaptive isogeometric analysis with injectivity-preserving multi-sided domain parameterization. ***Journal of Systems Science and Complexity***, 36(1), 53–76. [[**Full Article**]](https://doi.org/10.1007/s11424-022-1293-3)
   <details>
     <summary><strong>Abstract</strong></summary>
     Inspired by the r-refinement method in isogeometric analysis, in this paper, the authors propose a curvature-based r-adaptive isogeometric method for planar multi-sided computational domains parameterized by toric surface patches. The authors construct three absolute curvature metrics of isogeometric solution surface to characterize its gradient information, which is more straightforward and effective. The proposed method takes the internal weights as optimization variables and the resulting parameterization is analysis-suitable and injectivity-preserving with a theoretical guarantee. Several PDEs are solved over multi-sided computational domains parameterized by toric surface patches to demonstrate the effectiveness and efficiency of the proposed method.
@@ -137,25 +154,17 @@ author_profile: true
 
 ---
 
-- Meng-Yun Wang, **Ye Ji**, & Chun-Gang Zhu. (2023). Degree elevation and knot insertion for generalized Bézier surfaces and their application to isogeometric analysis. ***Journal of Computational Mathematics***, TBA, TBA. (DOI: 10.4208/jcm.2301-m2022-0116)
-  <details>
-    <summary><strong>Abstract</strong></summary>
-    Generalized B{\'e}zier (GB) surfaces proposed by V{\'a}rady et al. are a multi-sided general- ization of classical tensor product B{\'e}zier surfaces with a simple control structure and inherit most of the nice properties from B{\'e}zier surfaces. However, the original degree elevation changes the geometry of GB surfaces such that it is undesirable in many applications, e.g., isogeometric analysis (IGA). In this paper, we propose an improved degree elevation algo- rithm for GB surfaces keeping not only the geometry but also the parameter consistency. Based on the knot insertion of B-splines, a novel knot insertion algorithm for GB surface is also proposed. Then the proposed degree elevation and knot insertion algorithms are employed to increase the degree of freedom (DOF) for multi-sided domain parameterized by GB surface in IGA, corresponding to the traditional p-, h-, and k-refinements. Numerical examples demonstrate the effectiveness and superiority of our method.
-  </details>
-
----
-
-- Yu Wang, Ling-Zhi Jin, Hang Yang, Peng Hao, **Ye Ji**, & Bo Wang. (2023). Isogeometric-based mapping modeling and buckling analysis of stiffened panels. ***Thin-Walled Structures***, 186, 110676. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0263823123001544) 
+- Yu Wang, Ling-Zhi Jin, Hang Yang, Peng Hao, **Ye Ji**, & Bo Wang. (2023). Isogeometric-based mapping modeling and buckling analysis of stiffened panels. ***Thin-Walled Structures***, 186, 110676. [[**Full Article**]](https://doi.org/10.1016/j.tws.2023.110676)
   <details>
     <summary><strong>Abstract</strong></summary>
     Modeling and analysis of stiffened panels are two key technologies in the design of aerospace thin-walled structures. For the stiffened panels with complex geometry, classical finite element analysis (FEA) and conventional isogeometric analysis (IGA) based on explicit geometry usually require time-consuming and labor-intensive geometric processing, and additional coupling matrices to be ready for analysis. In this study, a new method for modeling and buckling analysis of stiffened panels is proposed, which provides a more efficient and simpler way. During the modeling process, the stiffeners are treated as curves on surfaces, which is not explicitly defined using the control-point-based representation of curves, but implicitly defined using parameter curves in the parametric space of the surface. Mapping modeling provides more accurate geometric description and transfer the complex modeling problems (three-dimensional space) of stiffeners on free-form surface into simple modeling problems in the regular parametric space (two-dimensional space). During the buckling analysis process, a new mapped stiffener element based on mapping modeling is proposed, which can model the section of the eccentric stiffener without changing the geometry. The precise normal information of the Non-Uniform Rational B-Splines (NURBS) surface can ensure that the stiffeners are perpendicular to the skin. In addition, the coupling of the stiffener and the skin is automatic, without any additional coupling matrix. This buckling analysis framework realizes the complete integration of modeling and analysis. Furthermore, for the stiffened panels with cutouts, the trimmed surface analysis (TSA) method is extended to be used for the numerical integration of the trimmed stiffeners, which means that no additional geometric process is required. Finally, four numerical examples of different types of stiffened panels are constructed, involving metal, trimmed surface, classical grid-stiffener, free-form surface, variable-stiffness composites, and curvilinear grid-stiffener. Several numerical examples of static and buckling analysis of stiffened panels with high fidelity demonstrate the effectiveness of the proposed framework.
   </details>
 
 ---
-
 ### 2022
+---
 
-- **Ye Ji**, Meng-Yun Wang, Yu Wang, & Chun-Gang Zhu. (2022) "Curvature-based r-adaptive planar NURBS parameterization method for isogeometric analysis using bi-level approach." *Computer-Aided Design*, 150, 103305. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0010448522000756) 
+- **Ye Ji**, Meng-Yun Wang, Yu Wang, & Chun-Gang Zhu. (2022). Curvature-based r-adaptive planar NURBS parameterization method for isogeometric analysis using bi-level approach. ***Computer-Aided Design***, 150, 103305. [[**Full Article**]](https://doi.org/10.1016/j.cad.2022.103305)
   <details>
     <summary><strong>Abstract</strong></summary>
     Localized and anisotropic features extensively exist in various physical phenomena. The present work focuses on the r-adaptive parameterization technique for isogeometric analysis (IGA), which aims to acquire higher numerical accuracy while keeping the degrees of freedom constant. The principal feature is utilizing the so-called absolute principal curvature of the IGA solution surfaces to characterize numerical errors instead of posteriori error estimations, which establishes the relation between analysis results and geometric quantity. The bijectivity is a fundamental requirement for analysis-suitable parameterization. With the cooperation of a minor regularization and common line search criteria, the proposed method guarantees the bijectivity of the resulting parameterizations. The bi-level approach with two refinement levels of the same geometry is employed: a coarse level (design model) to update the parameterization and a fine level (analysis model) to perform the isogeometric simulation. Moreover, we develop several detailed algorithms for explaining the sensitivity propagation from the design model to the analysis model and analytically computing the sensitivity, which allows accurate calculation of sensitivity and enhances the robustness during a gradient-based optimization. Several examples and comparisons are presented to demonstrate the effectiveness and efficiency of the proposed method. As an application, we apply the proposed method to a two-dimensional linear heat transfer problem with a moving Gaussian heat source, which is a simplified model for the additive manufacturing application. The proposed r-adaptive technique effectively captures the thermal history of the problem.
@@ -163,7 +172,7 @@ author_profile: true
 
 ---
 
-- **Ye Ji**, Meng-Yun Wang, Mao-Dong Pan, Yi Zhang, & Chun-Gang Zhu. (2022) "Penalty function-based volumetric parameterization method for isogeometric analysis." *Computer Aided Geometric Design*, 94, 102081. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0167839622000176) 
+- **Ye Ji**, Meng-Yun Wang, Mao-Dong Pan, Yi Zhang, & Chun-Gang Zhu. (2022). Penalty function-based volumetric parameterization method for isogeometric analysis. ***Computer Aided Geometric Design***, 94, 102081. [[**Full Article**]](https://doi.org/10.1016/j.cagd.2022.102081)
   <details>
     <summary><strong>Abstract</strong></summary>
     In isogeometric analysis, constructing bijective and low-distorted parameterizations is a fundamental task. Compared with the planar problem, the volumetric case is more challenging in both robustness and efficiency. In this paper, we present a robust and efficient volumetric parameterization method based on the idea of penalty functions and the Jacobian regularization technique. The proposed method does not require an already bijective initialization and thus avoids an extra foldover elimination step. The main contributions of this work lie in three aspects. First, a new objective function that characterizes the volume distortion is established using the Divergence Theorem. Second, we employ a novel penalty function for the Jacobian regularization. The full analytical gradient of the objective function is also deduced to enhance the numerical stability in gradient-based optimization. Third, we develop a reduced numerical integration strategy to accelerate the new algorithm. Several numerical examples demonstrate that our method significantly outperforms the current competitive approaches both in terms of robustness and efficiency.
@@ -171,17 +180,17 @@ author_profile: true
 
 ---
 
-- **Ye Ji**, Jing-Gai Li, Ying-Ying Yu, & Chun-Gang Zhu. (2022) "h-Refinement method for toric parameterization of planar multi-sided computational domain in isogeometric analysis." *Computer Aided Geometric Design*, 93, 102065. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0167839622000012) 
+- **Ye Ji**, Jing-Gai Li, Ying-Ying Yu, & Chun-Gang Zhu. (2022). h-Refinement method for toric parameterization of planar multi-sided computational domain in isogeometric analysis. ***Computer Aided Geometric Design***, 93, 102065. [[**Full Article**]](https://doi.org/10.1016/j.cagd.2022.102065)
   <details>
     <summary><strong>Abstract</strong></summary>
-    Toric surface patches are a class of multi-sided surface patches that can represent multi-sided domains without mesh degeneration. In this paper, we propose an improved subdivision algorithm for toric surface patches, which subdivides an N-sided toric surface patch into N rational tensor product B{\'e}zier surface patches. By the proposed subdivision algorithm, a $C^k$-continuous spline surface composed of piecewise toric surface patches is subdivided into a set of rational tensor product B{\'e}zier surface patches with $G^k$-continuity. Additionally, after subdivision, toric surface patches are compatible with CAD systems. Combining the subdivision algorithm with the classical knot insertion algorithm of non-uniform rational B-splines, we develop a novel h-refinement scheme for isogeometric analysis with planar toric parameterizations. Several numerical examples are given to demonstrate the effectiveness and numerical stability of the presented method.
+    Toric surface patches are a class of multi-sided surface patches that can represent multi-sided domains without mesh degeneration. In this paper, we propose an improved subdivision algorithm for toric surface patches, which subdivides an N-sided toric surface patch into N rational tensor product Bézier surface patches. By the proposed subdivision algorithm, a $C^k$-continuous spline surface composed of piecewise toric surface patches is subdivided into a set of rational tensor product Bézier surface patches with $G^k$-continuity. Additionally, after subdivision, toric surface patches are compatible with CAD systems. Combining the subdivision algorithm with the classical knot insertion algorithm of non-uniform rational B-splines, we develop a novel h-refinement scheme for isogeometric analysis with planar toric parameterizations. Several numerical examples are given to demonstrate the effectiveness and numerical stability of the presented method.
   </details>
 
 ---
-
 ### 2021
+---
 
-- **Ye Ji**, Ying-Ying Yu, Meng-Yun Wang, & Chun-Gang Zhu. (2021). "Constructing high-quality planar NURBS parameterization for isogeometric analysis by adjustment control points and weights." *Journal of Computational and Applied Mathematics*, 396, 113615. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0377042721002375) 
+- **Ye Ji**, Ying-Ying Yu, Meng-Yun Wang, & Chun-Gang Zhu. (2021). Constructing high-quality planar NURBS parameterization for isogeometric analysis by adjustment control points and weights. ***Journal of Computational and Applied Mathematics***, 396, 113615. [[**Full Article**]](https://doi.org/10.1016/j.cam.2021.113615)
   <details>
     <summary><strong>Abstract</strong></summary>
     Parameterization of computational domains is a crucial step in isogeometric analysis (IGA). Non-Uniform Rational B-Spline (NURBS) is a standard tool in the CAD/CAM industry due to its powerful capability for shape representation. In this paper, we propose several sufficient conditions and a necessary condition for injective NURBS parameterizations of computational domains, taking into account both the control points and weights. Based on these conditions, an algorithm for the injectivity checking of NURBS parameterization is proposed. By taking both the internal control points and weights as optimization variables, we present an effective and robust approach for parameterizing planar computational domains. With the internal control points and weights updating alternately, the resulting parameterization is constructed by solving an unconstrained optimization problem whose objective function is a weighted sum of corrected Winslow functional and uniformity functional. Finally, the proposed checking algorithm is applied to verify the injectivity of the resulting parameterizations. Numerical examples demonstrate the effectiveness and robustness of the proposed method and show superior parameterization quality performance over the state-of-the-art approaches.
@@ -189,39 +198,39 @@ author_profile: true
 
 ---
 
-- Ying-Ying Yu, **Ye Ji**, Jing-Gai Li, & Chun-Gang Zhu. (2021). "Conditions for injectivity of toric volumes with arbitrary positive weights." *Computers & Graphics*, 97, 88--98. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0097849321000686) 
+- Ying-Ying Yu, **Ye Ji**, Jing-Gai Li, & Chun-Gang Zhu. (2021). Conditions for injectivity of toric volumes with arbitrary positive weights. ***Computers & Graphics***, 97, 88–98. [[**Full Article**]](https://doi.org/10.1016/j.cag.2021.04.026)
   <details>
     <summary><strong>Abstract</strong></summary>
-    Parameterizations, which map parametric domains into certain domains, are widely used in computer aided design, computer aided geometric design, computer graphics, isogeometric analysis, and related fields. The parameterizations of curves, surfaces, and volumes are injective means that they do not have self-intersections. A 3D toric volume is defined via a set of 3D control points with weights that correspond to a set of finite 3D lattice points. Rational tensor product or tetrahedral B{\'e}zier volumes are special cases of toric volumes. In this paper, we proved that a toric volume is injective for any positive weights if and only if the lattice points set and control points set are compatible. An algorithm is also presented for checking the compatibility of the two sets by the mixed product of three vectors. Some examples illustrate the effectiveness of the proposed method. Moreover, we improve the algorithm based on the properties and results of clean and empty tetrahedrons in combinatorics.
+    Parameterizations, which map parametric domains into certain domains, are widely used in computer aided design, computer aided geometric design, computer graphics, isogeometric analysis, and related fields. The parameterizations of curves, surfaces, and volumes are injective means that they do not have self-intersections. A 3D toric volume is defined via a set of 3D control points with weights that correspond to a set of finite 3D lattice points. Rational tensor product or tetrahedral Bézier volumes are special cases of toric volumes. In this paper, we proved that a toric volume is injective for any positive weights if and only if the lattice points set and control points set are compatible. An algorithm is also presented for checking the compatibility of the two sets by the mixed product of three vectors. Some examples illustrate the effectiveness of the proposed method. Moreover, we improve the algorithm based on the properties and results of clean and empty tetrahedrons in combinatorics.
   </details>
 
 ---
 
-- Jing-Gai Li, **Ye Ji**, & Chun-Gang Zhu. (2021). "De Casteljau algorithm and degree elevation of toric surface patches." *Journal of Systems Science and Complexity*, 34(1), 21--46. [[**Full Article**]](https://link.springer.com/article/10.1007/s11424-020-9370-y) 
+- Jing-Gai Li, **Ye Ji**, & Chun-Gang Zhu. (2021). De Casteljau algorithm and degree elevation of toric surface patches. ***Journal of Systems Science and Complexity***, 34(1), 21–46. [[**Full Article**]](https://doi.org/10.1007/s11424-020-9370-y)
   <details>
     <summary><strong>Abstract</strong></summary>
-    De Casteljau algorithm and degree elevation of B{\'e}zier and NURBS curves/surfaces are two important techniques in computer aided geometric design. This paper presents the de Casteljau algorithm and degree elevation of toric surface patches, which include tensor product and triangular rational B{\'e}zier surfaces as special cases. Some representative examples of toric surface patches with common shapes are illustrated to verify these two algorithms. Moreover, the authors also apply the degree elevation of toric surface patches to isogeometric analysis. And two more examples show the effectiveness of proposed method.
+    De Casteljau algorithm and degree elevation of Bézier and NURBS curves/surfaces are two important techniques in computer aided geometric design. This paper presents the de Casteljau algorithm and degree elevation of toric surface patches, which include tensor product and triangular rational Bézier surfaces as special cases. Some representative examples of toric surface patches with common shapes are illustrated to verify these two algorithms. Moreover, the authors also apply the degree elevation of toric surface patches to isogeometric analysis. And two more examples show the effectiveness of proposed method.
   </details>
 
 ---
-
 ### 2020
+---
 
-- Xue-Feng Zhu, **Ye Ji**, Chun-Gang Zhu, Ping Hu, & Zheng-Dong Ma. (2020). "Isogeometric analysis for trimmed CAD surfaces using multi-sided toric surface patches." *Computer Aided Geometric Design*, 79, 101847. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S0167839620300340) 
+- Xue-Feng Zhu, **Ye Ji**, Chun-Gang Zhu, Ping Hu, & Zheng-Dong Ma. (2020). Isogeometric analysis for trimmed CAD surfaces using multi-sided toric surface patches. ***Computer Aided Geometric Design***, 79, 101847. [[**Full Article**]](https://doi.org/10.1016/j.cagd.2020.101847)
   <details>
     <summary><strong>Abstract</strong></summary>
-    We propose a new isogeometric method using Toric surface patches for trimmed CAD planar surfaces. This method converts each trimmed spline element into a Toric surface patch with conforming boundary representation and converts each non-trimmed spline element into a B{\'e}zier element. Because the Toric surface patches are a multi-sided generalization of classical B{\'e}zier surface patches, all trimmed and non-trimmed elements of a trimmed CAD surface have a unified geometric representation using Toric surface patches. Toric surface patches share the advantages of isogeometric continuum elements in that they can exactly model the geometry and can be easily implemented in standard finite-element code architectures. Several numerical examples are used to demonstrate the reliability of the proposed method.
+    We propose a new isogeometric method using Toric surface patches for trimmed CAD planar surfaces. This method converts each trimmed spline element into a Toric surface patch with conforming boundary representation and converts each non-trimmed spline element into a Bézier element. Because the Toric surface patches are a multi-sided generalization of classical Bézier surface patches, all trimmed and non-trimmed elements of a trimmed CAD surface have a unified geometric representation using Toric surface patches. Toric surface patches share the advantages of isogeometric continuum elements in that they can exactly model the geometry and can be easily implemented in standard finite-element code architectures. Several numerical examples are used to demonstrate the reliability of the proposed method.
   </details>
 
 ---
 
-- Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2020). "An improved algorithm for checking the injectivity of 2D toric surface patches." *Computers & Mathematics with Applications*, 79(10), 2973--2986. [[**Full Article**]](https://www.sciencedirect.com/science/article/pii/S089812212030002X) 
+- Ying-Ying Yu, **Ye Ji**, & Chun-Gang Zhu. (2020). An improved algorithm for checking the injectivity of 2D toric surface patches. ***Computers & Mathematics with Applications***, 79(10), 2973–2986. [[**Full Article**]](https://doi.org/10.1016/j.camwa.2020.01.001)
   <details>
     <summary><strong>Abstract</strong></summary>
     Injective parametrizations are widely used both in theory and in applications. The injectivity of parameteric curves and surfaces means that there are no self-intersections. Toric surface patch is defined by a set of integer lattice points and corresponding control points and weights, which includes rational tensor product and triangle Bézier patches as special cases. In 2011, Sottile and Zhu presented a geometric method to check the injectivity of 2D toric surface patches. In this paper, we present an improved algorithm of their method. The complexity of the improved algorithm is reduced from $O(n^3)$ to $O(n^2)$, where $n = \# (A)$. Some examples are shown to illustrate the effectiveness of our algorithm. Moreover, the algorithm is also applied to check the injectivity of parameterization in isogeometric analysis.
   </details>
 
---- 
+---
 
 ## <span class="lang lang--en">Refereed Conference Papers</span><span class="lang lang--zh">会议论文</span>
 
@@ -233,10 +242,10 @@ author_profile: true
 
 ---
 
-- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems***, 77-87. [[**Full Article**]](https://link.springer.com/chapter/10.1007/978-3-031-42663-6_7) 
+- **Ye Ji** & Matthias Möller. (2024). Mesh Generation for Twin-Screw Compressors by Spline-Based Parameterization Using Preconditioned Anderson Acceleration. In: ***13th International Conference on Compressors and Their Systems*** (Springer Proceedings in Energy), 77–87. [[**Full Article**]](https://doi.org/10.1007/978-3-031-42663-6_7)
   <details>
     <summary><strong>Abstract</strong></summary>
-    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysissuitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobianpreconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
+    Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of IsoGeometric Analysis (IGA) that integrates geometric modeling and numerical simulations in a unified spline-based formalism. In this paper, we propose an efficient approach for generating high-order analysis-suitable parameterizations of rotary twin-screw compressor geometries from their boundary representation adopting the concept of elliptic grid generation and applying the IGA formalism. As this approach involves the solution of nonlinear systems of equations, we speed up the computation by using a block-diagonal Jacobian-preconditioned Anderson acceleration algorithm. Our numerical results demonstrate the effectiveness and efficiency of the proposed workflow. The so-created parameterizations can be easily turned into high-quality structured meshes suitable for simulation-based compressor analysis.
   </details>
 
 ---
@@ -245,28 +254,30 @@ author_profile: true
 
 <table>
   <tr>
-    <td><img src="../images/book covers/cover-fluids-under-control.webp" alt="Fluids under Control book cover" width="160px" height="auto"></td>
+    <td><img src="/images/book-covers/cover-fluids-under-control.webp" alt="Fluids under Control book cover" width="160px" height="auto"></td>
     <td>
-      <p><b>Design Through Analysis. Ye Ji</b>, Matthias Möller, Hugo Verhelst. In: <i>Bodnár, T., Galdi, G.P., Nečasová, Š. (eds)</i> <i>Fluids Under Control. Advances in Mathematical Fluid Mechanics.</i> Birkhäuser, Cham. (<a href="https://doi.org/10.1007/978-3-031-47355-5_5">https://doi.org/10.1007/978-3-031-47355-5_5</a>)</p>
+      <p><b>Ye Ji</b>, Matthias Möller, & Hugo Verhelst. (2023). Design Through Analysis. In: <i>Bodnár, T., Galdi, G.P., Nečasová, Š. (eds)</i> <i>Fluids Under Control. Advances in Mathematical Fluid Mechanics.</i> Birkhäuser, Cham, 303–368. (<a href="https://doi.org/10.1007/978-3-031-47355-5_5">https://doi.org/10.1007/978-3-031-47355-5_5</a>)</p>
     </td>
   </tr>
 </table>
 
 ## <span class="lang lang--en">Preprints</span><span class="lang lang--zh">预印本</span>
 
-- Jingya Li, **Ye Ji**, Hugo Verhelst, Henk den Besten, & Matthias Möller. (2026). Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid-structure interaction. *arXiv preprint* arXiv:2604.27537. [[**Preprint**]](https://arxiv.org/abs/2604.27537)
-  <details>
-    <summary><strong>Abstract</strong></summary>
-    We propose a novel approach to handle fluid-structure interaction problems involving large deformations by reformulating mesh motion as successive domain parameterization tasks within an isogeometric framework. The approach incorporates three key features: (1) a barrier-function-based parameterization ensuring strictly positive Jacobian values at each time step; (2) a tangential-slip reparameterization addressing unlimited cumulative rotations in closed domains; and (3) a constant-preserving quasi-interpolation operator maintaining geometric conservation laws between parameterizations. The method is validated on two-dimensional benchmarks covering standard and large-rotation scenarios, as well as a three-dimensional rotor problem. Notably, the tangential-slip strategy enables sustained rotation simulations beyond conventional mesh-update capabilities, a regime that is fundamentally inaccessible to any mesh-deformation formulation. The framework is also compatible with standard finite element solvers through direct spline parameterization integration.
-  </details>
-
----
-
 - **Ye Ji**, Monica Lacatus, & Matthias Möller. (2025). IGA-LBM: Isogeometric lattice Boltzmann method. *arXiv preprint* arXiv:2509.11427. [[**Preprint**]](https://arxiv.org/abs/2509.11427)
   <details>
     <summary><strong>Abstract</strong></summary>
     The lattice Boltzmann method (LBM) has become a widely adopted approach in computational fluid dynamics, offering unique advantages in mesoscopic kinetic modeling, intrinsic parallelism, and simple treatment of boundary conditions. However, its conventional reliance on Cartesian grids fundamentally limits geometric fidelity in flows involving curved boundaries, introducing stair-step artifacts that propagate as spurious forces and boundary-layer inaccuracies. To address these challenges, we propose integrating Isogeometric Analysis with LBM, leveraging non-uniform rational B-splines to construct body-fitted computational grids. This approach eliminates stair-step boundary artifacts by providing sub-element geometric accuracy while maintaining LBM efficiency. The higher-order continuity of NURBS improves gradient resolution, and parametric grid adaptation enables h-, p-, and k-refinement strategies. The diffeomorphic mapping properties ensure intrinsic conservation, preserving advection invariants and suppressing numerical oscillations. Benchmark simulations demonstrate that IGA-LBM delivers significantly more accurate boundary-layer predictions and pressure/force estimates than standard Cartesian LBM while preserving computational efficiency and scalability.
   </details>
+
+---
+
+- Ke-Wang Chen, **Ye Ji**, Matthias Möller, & Cornelis Vuik. (2023). A short report on preconditioned Anderson acceleration method. *arXiv preprint* arXiv:2310.04034. [[**Preprint**]](https://arxiv.org/abs/2310.04034)
+  <details>
+    <summary><strong>Abstract</strong></summary>
+    In this report, we present a versatile and efficient preconditioned Anderson acceleration (PAA) method for fixed-point iterations. The proposed framework offers flexibility in balancing convergence rates (linear, super-linear, or quadratic) and computational costs related to the Jacobian matrix. Our approach recovers various fixed-point iteration techniques, including Picard, Newton, and quasi-Newton iterations. The PAA method can be interpreted as employing Anderson acceleration (AA) as its own preconditioner or as an accelerator for quasi-Newton methods when their convergence is insufficient. Adaptable to a wide range of problems with differing degrees of nonlinearity and complexity, the method achieves improved convergence rates and robustness by incorporating suitable preconditioners. We test multiple preconditioning strategies on various problems and investigate a delayed update strategy for preconditioners to further reduce the computational costs.
+  </details>
+
+---
 
 ## <span class="lang lang--en">Software</span><span class="lang lang--zh">软件</span>
 

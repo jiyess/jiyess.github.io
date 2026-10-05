@@ -15,7 +15,7 @@ author_profile: true
   <span class="sw-role"><span class="lang lang--en">Core developer</span><span class="lang lang--zh">核心开发者</span></span>
   <h2>G+Smo <span style="font-weight:400; font-size:0.7em; color:#888;">(Geometry + Simulation Modules)</span></h2>
   <img src="/images/research/software-gismo.jpg" alt="Isogeometric volumetric parameterization results produced with G+Smo">
-  <p class="lang lang--en">G+Smo is a prominent <strong>open-source C++ library for isogeometric analysis</strong>, unifying geometry (NURBS / B-splines), discretisation, and PDE simulation in one framework. As a member of the core development team, I contribute the geometry-processing and analysis-suitable parameterization functionality and help maintain the library.</p>
+  <p class="lang lang--en">G+Smo is a prominent <strong>open-source C++ library for isogeometric analysis</strong>, unifying geometry (NURBS / B-splines), discretization, and PDE simulation in one framework. As a member of the core development team, I contribute geometry-processing and analysis-suitable parameterization functionality and help maintain the library.</p>
   <p class="lang lang--zh">G+Smo 是一个知名的<strong>等几何分析开源 C++ 库</strong>，在同一框架内统一了几何（NURBS / B 样条）、离散化与 PDE 仿真。作为核心开发团队成员，我贡献了几何处理与分析适用参数化相关功能，并参与库的维护。</p>
   <p class="sw-links">
     <a href="https://gismo.github.io/" target="_blank">gismo.github.io</a> ·
@@ -26,7 +26,7 @@ author_profile: true
 
 <div class="sw-card">
   <span class="sw-role"><span class="lang lang--en">Lead developer</span><span class="lang lang--zh">主开发者</span></span>
-  <h2>SplineMesh / Scorg™</h2>
+  <h2>SplineMesh / SCORG™</h2>
   <img src="/images/research/software-splinemesh.jpg" alt="Spline-based structured mesh for a twin-screw compressor used in CFD simulation">
   <p class="lang lang--en">SplineMesh is a set of <strong>spline-based structured mesh-generation modules for screw machines</strong> (twin-screw compressors and expanders), feeding the deforming-geometry CFD workflow used with the commercial <strong>SCORG™</strong> toolchain. I lead its development, focusing on robustness, mesh quality, and tight integration with the simulation pipeline. This work received the ICSM 2024 Best Paper Award.</p>
   <p class="lang lang--zh">SplineMesh 是一套<strong>面向螺杆机械（双螺杆压缩机/膨胀机）的基于样条的结构化网格生成模块</strong>，为商业 <strong>SCORG™</strong> 工具链中的变形几何 CFD 流程提供网格。我主导其开发，聚焦稳健性、网格质量及与仿真流程的紧密集成。该工作获 ICSM 2024 最佳论文奖。</p>

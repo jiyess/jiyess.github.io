@@ -22,7 +22,7 @@ My full [academic CV](/files/pdf/Ye_Ji_CV.pdf) is available here!
 ## <span class="lang lang--en">Research Profile</span><span class="lang lang--zh">研究概况</span>
 
 <div class="lang lang--en" markdown="1">
-My research tackles a fundamental bottleneck in the design-through-analysis pipeline: turning a CAD model into a discretisation that is geometrically faithful, mathematically well-posed, and fast to solve. Working at the interface of **computer-aided design (CAD)** and **computer-aided engineering (CAE)**, I develop **isogeometric analysis (IGA)** methods — provably injective and regular parameterisations, PDE-based construction, and accelerated solvers — that keep geometry, discretisation, and simulation consistent throughout. This work has moved from theory into practice: it now underpins industrial-grade structured meshing for twin-screw compressors, semi-analytical thermal simulation for metal additive manufacturing, and, most recently, isogeometric formulations of physics solvers such as the lattice Boltzmann method.
+My research tackles a fundamental bottleneck in the design-through-analysis pipeline: turning a CAD model into a discretization that is geometrically faithful, mathematically well-posed, and fast to solve. Working at the interface of **computer-aided design (CAD)** and **computer-aided engineering (CAE)**, I develop **isogeometric analysis (IGA)** methods — provably injective and regular parameterizations, PDE-based construction, and accelerated solvers — that keep geometry, discretization, and simulation consistent throughout. This work has moved from theory into practice: it now underpins industrial-grade structured meshing for twin-screw compressors, semi-analytical thermal simulation for metal additive manufacturing, and, most recently, isogeometric formulations of physics solvers such as the lattice Boltzmann method.
 </div>
 <div class="lang lang--zh" markdown="1">
 我的研究致力于解决从设计到仿真全流程中的一个关键瓶颈：如何将 CAD 几何模型转化为既忠实还原几何本身、数学上适定，又能快速求解的离散化表示。立足于**计算机辅助设计（CAD）**与**计算机辅助工程（CAE）**的交叉领域，我发展**等几何分析（IGA）**方法——包括可证明单射性与正则性的参数化、基于 PDE 的构造以及求解器加速——使几何、离散化与仿真分析在全流程中保持一致。这些方法已经从理论走向工程实践：目前已应用于双螺杆压缩机的工业级结构化网格生成、金属增材制造的半解析热仿真，以及近期拓展出的物理求解器等几何格式，例如格子玻尔兹曼方法。
@@ -32,10 +32,10 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 
 <div class="lang lang--en" markdown="1">
 
-- **Analysis-suitable parameterisation for IGA:** optimisation-based and PDE-based volumetric constructions with quality control for complex domains.
-- **Geometry-to-simulation pipelines:** boundary parameter matching (incl. Schwarz–Christoffel tools) and multi-sided domain parameterisations enabling reliable IGA workflows.
-- **Solver acceleration:** preconditioned Anderson acceleration to improve efficiency and robustness of parameterisation PDE solvers.
-- **Industrial-grade spline meshing:** spline-based structured mesh generation for screw machine simulations (**SplineMesh / Scorg™**).
+- **Analysis-suitable parameterization for IGA:** optimization-based and PDE-based volumetric constructions with quality control for complex domains.
+- **Geometry-to-simulation pipelines:** boundary parameter matching (incl. Schwarz–Christoffel tools) and multi-sided domain parameterizations enabling reliable IGA workflows.
+- **Solver acceleration:** preconditioned Anderson acceleration to improve efficiency and robustness of parameterization PDE solvers.
+- **Industrial-grade spline meshing:** spline-based structured mesh generation for screw-machine simulations (**SplineMesh / SCORG™**).
 - **Extending IGA beyond structural/thermal analysis:** ongoing work on physics-based extensions, including an isogeometric lattice Boltzmann method (IGA-LBM) for body-fitted, CAD-exact fluid simulation on curved geometries (presented at WCCM-ECCOMAS 2026).
 
 </div>
@@ -44,7 +44,7 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 - **面向 IGA 的分析适用参数化：** 基于优化与基于 PDE 的体参数化构造，对复杂区域进行质量控制。
 - **几何到仿真的流程：** 边界参数匹配（含 Schwarz–Christoffel 工具）与多边区域参数化，支撑可靠的 IGA 工作流。
 - **求解器加速：** 预处理 Anderson 加速，提升参数化 PDE 求解器的效率与稳健性。
-- **工业级样条网格生成：** 面向螺杆机械仿真的基于样条的结构化网格生成（**SplineMesh / Scorg™**）。
+- **工业级样条网格生成：** 面向螺杆机械仿真的基于样条的结构化网格生成（**SplineMesh / SCORG™**）。
 - **将等几何分析拓展至结构/热分析之外：** 正在开展面向物理场的拓展研究，包括面向曲面几何、CAD 精确贴体网格流体仿真的等几何格子玻尔兹曼方法（IGA-LBM）（已在 WCCM-ECCOMAS 2026 报告）。
 
 </div>
@@ -96,14 +96,14 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 
 <div class="lang lang--en" markdown="1">
 
-- **G+Smo (Geometry + Simulation Modules, https://github.com/gismo/gismo):** member of the core development team of the open-source C++ IGA library, supporting geometry processing, discretisation, and simulation workflows.
-- **SplineMesh / Scorg™:** lead developer of spline-based structured mesh generation modules for industrial modelling (screw machines), focusing on robustness, quality, and integration with simulation pipelines.
+- **G+Smo (Geometry + Simulation Modules, https://github.com/gismo/gismo):** member of the core development team of the open-source C++ IGA library, supporting geometry processing, discretization, and simulation workflows.
+- **SplineMesh / SCORG™:** lead developer of spline-based structured mesh generation modules for industrial modeling (screw machines), focusing on robustness, quality, and integration with simulation pipelines.
 
 </div>
 <div class="lang lang--zh" markdown="1">
 
 - **G+Smo（Geometry + Simulation Modules, https://github.com/gismo/gismo）：** 开源 C++ 等几何分析库核心开发团队成员，支持几何处理、离散化与仿真工作流。
-- **SplineMesh / Scorg™：** 面向工业建模（螺杆机械）的基于样条的结构化网格生成模块主开发者，聚焦稳健性、网格质量及与仿真流程的集成。
+- **SplineMesh / SCORG™：** 面向工业建模（螺杆机械）的基于样条的结构化网格生成模块主开发者，聚焦稳健性、网格质量及与仿真流程的集成。
 
 </div>
 
@@ -111,18 +111,18 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 
 <div class="lang lang--en" markdown="1">
 
-- **2024.01 - 2026.12**: Advanced Geometric Modelling and Simulation Techniques for Complex Engineering Systems. Postdoctoral Fellowship. *Role*: PI.
-- **2021.10 - 2023.10**: PDE-Based Parameterization Method for Isogeometric Analysis and its Application in Twin-Screw Rotary Compressors. China Scholarship Council (CSC). *Role*: PI.
-- **2021.01 - 2024.12**: Theoretical Study and Application of Parametric Surfaces/Volumes in Isogeometric Analysis. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant.
-- **2017.01 - 2020.12**: Geometric Properties of Parametric Curves and Surfaces. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant.
+- **01/2024 – 12/2026**: Advanced Geometric Modelling and Simulation Techniques for Complex Engineering Systems. Postdoctoral Fellowship. *Role*: PI.
+- **10/2021 – 10/2023**: PDE-Based Parameterization Method for Isogeometric Analysis and Its Application in Twin-Screw Rotary Compressors. China Scholarship Council (CSC). *Role*: PI.
+- **01/2021 – 12/2024**: Theoretical Study and Application of Parametric Surfaces/Volumes in Isogeometric Analysis. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant.
+- **01/2017 – 12/2020**: Geometric Properties of Parametric Curves and Surfaces. National Natural Science Foundation of China (NSFC), General Program. *Role*: Participant.
 
 </div>
 <div class="lang lang--zh" markdown="1">
 
-- **2024.01 - 2026.12**：复杂工程系统的先进几何建模与仿真技术。博士后基金。*角色*：负责人（PI）。
-- **2021.10 - 2023.10**：基于 PDE 的等几何分析参数化方法及其在双螺杆旋转压缩机中的应用。国家留学基金委（CSC）。*角色*：负责人（PI）。
-- **2021.01 - 2024.12**：参数曲面/体的理论及其在等几何分析中的应用研究。国家自然科学基金委员会，面上项目。*角色*：参与。
-- **2017.01 - 2020.12**：参数曲线曲面的几何性质研究。国家自然科学基金委员会，面上项目。*角色*：参与。
+- **2024.01 – 2026.12**：复杂工程系统的先进几何建模与仿真技术。博士后基金。*角色*：负责人（PI）。
+- **2021.10 – 2023.10**：基于 PDE 的等几何分析参数化方法及其在双螺杆旋转压缩机中的应用。国家留学基金委（CSC）。*角色*：负责人（PI）。
+- **2021.01 – 2024.12**：参数曲面/体的理论及其在等几何分析中的应用研究。国家自然科学基金委员会，面上项目。*角色*：参与。
+- **2017.01 – 2020.12**：参数曲线曲面的几何性质研究。国家自然科学基金委员会，面上项目。*角色*：参与。
 
 </div>
 
@@ -131,7 +131,7 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 <div class="lang lang--en" markdown="1">
 
 - **Lecturer:** Co-developer and lecturer of a graduate special course on **Isogeometric Analysis** at TU Delft (Q3–Q4 2026), jointly prepared with Prof. Matthias Möller (TU Delft) and Prof. Stefanie Elgeti (TU Wien).
-- **Supervision:** Supervision/co-supervision of PhD and Master's research in IGA and spline geometry (e.g., semi-analytical IGA for thermal/process simulation in metal additive manufacturing; multi-sided parameterisation; extended IGA; spline approximation).
+- **Supervision:** Supervision/co-supervision of Ph.D. and Master's research in IGA and spline geometry (e.g., semi-analytical IGA for thermal/process simulation in metal additive manufacturing; multi-sided parameterization; extended IGA; spline approximation).
 
 </div>
 <div class="lang lang--zh" markdown="1">
@@ -145,7 +145,7 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 
 <div class="lang lang--en" markdown="1">
 
-- **Refereeing:** Reviewer for *Computer-Aided Design*, *Computer Aided Geometric Design*, *Scientific Reports*, *Engineering with Computers*, *Advances in Engineering Software*, *Finite Elements in Analysis & Design*.
+- **Refereeing:** Reviewer for *Computer-Aided Design*, *Computer Aided Geometric Design*, *Scientific Reports*, *Engineering with Computers*, *Advances in Engineering Software*, and *Finite Elements in Analysis & Design*.
 - **2022 – Present:** Reviewer for **Mathematical Reviews**, American Mathematical Society.
 - **2020 – Present:** Life member, China Society for Industrial and Applied Mathematics (CSIAM).
 
@@ -165,22 +165,22 @@ My research tackles a fundamental bottleneck in the design-through-analysis pipe
 - **[07/2026]**: Conference Best Paper Award at CSIAM GDC 2026, Hohhot, China.
 - **[07/2026]**: Conference Best Poster Award at CSIAM GDC 2026, Hohhot, China.
 - **[08/2025]**: Conference Best Paper Award at CSIAM GDC 2025, Yantai, China.
-- **[10/2024]**: Conference Best Paper Award at the International Conference on Screw Machines 2024, Dortmund, Germany.
-- **[12/2023]**: Outstanding Graduates of Liaoning Province 2024.
+- **[10/2024]**: Conference Best Paper Award at the International Conference on Screw Machines (ICSM 2024), Dortmund, Germany.
+- **[12/2023]**: Outstanding Graduate of Liaoning Province (Class of 2024).
 - **[07/2023]**: Conference Best Paper Award at GMP 2023, Genova, Italy.
 - **[02/2023]**: Challenge Winner, Amazon Web Services Challenge at SIAM Hackathon 2023, Amsterdam, the Netherlands.
-- **[11/2022]**: Academic Star Award Nomination, Dalian University of Technology (DUT).
-- **[10/2022]**: The First Prize Ph.D. Scholarship at Dalian University of Technology (DUT).
-- **[10/2022]**: National Scholarship (Ph.D.) from the Ministry of Education, People's Republic of China.
-- **[09/2022]**: Top Ten Students of School of Mathematical Sciences at Dalian University of Technology (DUT).
-- **[09/2021]**: Individual Awards of Science and Technology Innovation at Dalian University of Technology (DUT).
+- **[11/2022]**: Academic Star Award (Nomination), Dalian University of Technology (DUT).
+- **[10/2022]**: First-Prize Ph.D. Scholarship, Dalian University of Technology (DUT).
+- **[10/2022]**: National Scholarship (Ph.D.), Ministry of Education of the People's Republic of China.
+- **[09/2022]**: Top Ten Students, School of Mathematical Sciences, Dalian University of Technology (DUT).
+- **[09/2021]**: Individual Award for Science and Technology Innovation, Dalian University of Technology (DUT).
 - **[05/2021]**: Conference Best Paper Award at CAD/Graphics 2021, Xi'an, China.
 - **[12/2020]**: Excellent Student Leader Award, Dalian University of Technology (DUT).
 - **[12/2020]**: Glodon-DUT Scholarship, Second Prize, Glodon Company Limited & DUT.
 - **[10/2020]**: Outstanding Graduate Student Award, Dalian University of Technology (DUT).
-- **[10/2020]**: The First Prize Ph.D. Scholarship, Dalian University of Technology (DUT).
-- **[06/2017]**: Outstanding Graduates Award, Dalian University of Technology (DUT).
-- **[11/2016]**: National Scholarship (Bachelor) from the Ministry of Education, People's Republic of China.
+- **[10/2020]**: First-Prize Ph.D. Scholarship, Dalian University of Technology (DUT).
+- **[06/2017]**: Outstanding Graduate Award, Dalian University of Technology (DUT).
+- **[11/2016]**: National Scholarship (Undergraduate), Ministry of Education of the People's Republic of China.
 
 </div>
 <div class="lang lang--zh" markdown="1">
