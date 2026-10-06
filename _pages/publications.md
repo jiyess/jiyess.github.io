@@ -9,8 +9,8 @@ nav_order: 1
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}" target="_blank">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+<p><span class="lang lang--en">A complete and up-to-date list is also available on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">my Google Scholar profile</a>. BibTeX for all entries: <a href="{{ '/files/bib/ye-ji-publications.bib' | relative_url }}" download>ye-ji-publications.bib</a>.</span><span class="lang lang--zh">完整、最新的论文列表也可在 <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">我的 Google Scholar 主页</a> 查看。全部条目的 BibTeX：<a href="{{ '/files/bib/ye-ji-publications.bib' | relative_url }}" download>ye-ji-publications.bib</a>。</span></p>
 {% endif %}
 
 ## <span class="lang lang--en">Refereed Journal Papers</span><span class="lang lang--zh">期刊论文</span>

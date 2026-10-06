@@ -62,10 +62,12 @@ In addition to his research, Ye serves the academic community as a reviewer for 
 <div class="lang lang--en" markdown="1">
 
 - **[10/2026]**: Our group will present four talks at **IGA 2026** (14th International Conference on Isogeometric Analysis), Waseda University, Tokyo, Japan, October 11–14, 2026. See you in Tokyo!
-  - "A fast semi-analytical isogeometric framework for thermal problems with moving heat sources" — presented by me (Mon, Oct 12, MS 04).
+  - "[A fast semi-analytical isogeometric framework for thermal problems with moving heat sources](/talks/2026-10-12-iga-tokyo)" — presented by me (Mon, Oct 12, MS 04).
   - "Fast r-refinement in isogeometric analysis using low-rank approximations" — presented by Angelos Mantzaflaris (Mon, Oct 12, MS 04).
   - "Parameterization-driven isogeometric ALE for fluid–structure interaction under large deformations" — presented by Jingya Li (Tue, Oct 13, MS 03).
   - "A body-fitted isogeometric lattice Boltzmann method for complex geometries" — presented by Monica Lacatus (Tue, Oct 13, MS 03).
+
+- **[09/2026]**: Our paper [**Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid–structure interaction**](https://doi.org/10.1016/j.cma.2026.119358) has been published in *Computer Methods in Applied Mechanics and Engineering*. It recasts mesh motion as a sequence of domain parameterization problems, which makes long-running large-rotation simulations possible. Congratulations to Jingya, and many thanks to Hugo, Henk and Matthias!
 
 - **[09/2026]**: I gave an oral presentation titled "[SplineMesh v3.0: Robust spline-based structured mesh generation for positive-displacement rotary machines with sharp features](/talks/2026-09-08-icsm-dortmund)" at **ICSM 2026** (International Conference on Screw Machines 2026), Dortmund, Germany, September 8–10, 2026. The new version adds automatic fold detection and corner-preserving local untangling, enabling robust meshing of the full working cycle of twin-screw dry vacuum pumps. Many thanks to my collaborator Matthias, and to Dr. Sham Rane and Prof. Ahmed Kovačević for the industrial test cases and guidance on SCORG integration!
 
@@ -99,10 +101,12 @@ In addition to his research, Ye serves the academic community as a reviewer for 
 <div class="lang lang--zh" markdown="1">
 
 - **[10/2026]**：我们将在 2026 年 10 月 11-14 日于日本东京早稻田大学举行的 **IGA 2026**（第十四届国际等几何分析会议）上作四个报告，东京见！
-  - “A fast semi-analytical isogeometric framework for thermal problems with moving heat sources”——由我报告（10 月 12 日周一，MS 04）。
+  - “[A fast semi-analytical isogeometric framework for thermal problems with moving heat sources](/talks/2026-10-12-iga-tokyo)”——由我报告（10 月 12 日周一，MS 04）。
   - “Fast r-refinement in isogeometric analysis using low-rank approximations”——由 Angelos Mantzaflaris 报告（10 月 12 日周一，MS 04）。
   - “Parameterization-driven isogeometric ALE for fluid–structure interaction under large deformations”——由 Jingya Li 报告（10 月 13 日周二，MS 03）。
   - “A body-fitted isogeometric lattice Boltzmann method for complex geometries”——由 Monica Lacatus 报告（10 月 13 日周二，MS 03）。
+
+- **[09/2026]**：我们的论文 [**Parameterization-driven arbitrary Lagrangian–Eulerian method for large-deformation isogeometric fluid–structure interaction**](https://doi.org/10.1016/j.cma.2026.119358) 已发表于 *Computer Methods in Applied Mechanics and Engineering*。该工作将网格运动重新表述为一系列区域参数化问题，从而支持长时间、大转动的流固耦合模拟。祝贺 Jingya，并感谢 Hugo、Henk 和 Matthias！
 
 - **[09/2026]**：我在 2026 年 9 月 8-10 日于德国多特蒙德举行的 **ICSM 2026**（国际螺杆机械会议）上作了题为“[SplineMesh v3.0: Robust spline-based structured mesh generation for positive-displacement rotary machines with sharp features](/talks/2026-09-08-icsm-dortmund)”的口头报告。新版本引入了自动折叠单元检测与保持尖角特征的局部解缠（untangling）算法，实现了双螺杆干式真空泵完整工作循环的稳健网格生成。非常感谢我的合作者 Matthias，以及 Sham Rane 博士和 Ahmed Kovačević 教授提供的工业算例与 SCORG 集成指导！
 
@@ -137,7 +141,7 @@ In addition to his research, Ye serves the academic community as a reviewer for 
 <details class="lang lang--en" markdown="1">
 <summary><strong>Show earlier news (2023 – 2025)</strong></summary>
 
-- **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](/images/talks/2025-08-22-csiam-gdc-yantai/best-paper-award.jpg) at **CSIAM GDC 2025**. Many thanks to all the contributors!
+- **[08/2025]**: Our paper "The Regularity Determination of Spatial Coons Surface Patches and Its Applications" received the [**<font color=Red>Conference Best Paper Award</font>**](/images/talks/2025-08-22-csiam-gdc-yantai/best-paper-award.jpg) at **CSIAM GDC 2025**, Yantai, China. Many thanks to all the contributors! [Photo](/images/talks/2025-08-22-csiam-gdc-yantai/talk.jpg)
 
 - **[06/2025]**: I gave an oral presentation at the workshop [**Generative AI in engineering design optimization**](https://www.lorentzcenter.nl/generative-ai-in-engineering-design-optimization.html), Leiden, the Netherlands.
 
@@ -195,7 +199,7 @@ In addition to his research, Ye serves the academic community as a reviewer for 
 <details class="lang lang--zh" markdown="1">
 <summary><strong>展开更早的动态（2023 – 2025）</strong></summary>
 
-- **[08/2025]**：我们的论文《The Regularity Determination of Spatial Coons Surface Patches and Its Applications》荣获 **CSIAM GDC 2025** [**<font color=Red>会议最佳论文奖</font>**](/images/talks/2025-08-22-csiam-gdc-yantai/best-paper-award.jpg)。感谢所有合作者！
+- **[08/2025]**：我们的论文《The Regularity Determination of Spatial Coons Surface Patches and Its Applications》荣获 **CSIAM GDC 2025** [**<font color=Red>会议最佳论文奖</font>**](/images/talks/2025-08-22-csiam-gdc-yantai/best-paper-award.jpg)（中国烟台）。感谢所有合作者！[照片](/images/talks/2025-08-22-csiam-gdc-yantai/talk.jpg)
 
 - **[06/2025]**：我在荷兰莱顿举行的 [**Generative AI in engineering design optimization**](https://www.lorentzcenter.nl/generative-ai-in-engineering-design-optimization.html) 研讨会上作了口头报告。
 

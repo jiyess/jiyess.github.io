@@ -2,11 +2,12 @@
 title: "Curvature-based r-adaptive planar NURBS parameterization method for isogeometric analysis using bi-level approach"
 collection: talks
 type: "Conference talk"
-permalink: /talks/2022-06-28-spm-online
+permalink: /talks/2022-06-29-spm-online
 redirect_from:
+  - /talks/2022-06-28-spm-online
   - /talks/2022-spm-curvature
 venue: "Symposium on Solid and Physical Modeling (SPM 2022)"
-date: 2022-06-28
+date: 2022-06-29
 location: "Online"
 ---
 

@@ -1,0 +1,314 @@
+%% =====================================================================
+%%  Curriculum Vitae of Ye Ji (纪野)
+%%  ---------------------------------------------------------------------
+%%  Source of the PDF linked from the website: files/pdf/Ye_Ji_CV.pdf
+%%
+%%  Build (from this folder, TeX Live 2022+ with moderncv v2.3):
+%%      pdflatex Ye_Ji_CV.tex      (run twice)
+%%      cp Ye_Ji_CV.pdf ../pdf/Ye_Ji_CV.pdf
+%%      rm -f *.aux *.log *.out    (keep only .tex + photo.jpg here)
+%%  (xelatex also works.)
+%%
+%%  Sources of truth when updating:
+%%    - _pages/cv.md            positions, education, projects, awards,
+%%                              service, teaching (English part)
+%%    - _pages/publications.md  publications (verified vol./pages/DOIs)
+%%    - _talks/*.md             talks
+%%
+%%  Conventions used below:
+%%    - Author names as initials + surname ("C.-G. Zhu"); the owner is
+%%      always written with \me (bold "Y. Ji").
+%%    - Publications via \pub{year}{authors}{title}{venue}{details}{note}
+%%      with details = "vol(issue), pages-or-article-no. (year)".
+%%    - Entries in each section are listed newest first.
+%%  Last content update: October 2026.
+%% =====================================================================
+
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+% ---------------------------------------------------------------------
+%  Style: moderncv "classic", blue colour scheme, MarVoSym icons
+%  (this reproduces the look of the original 2025/2026 CV).
+% ---------------------------------------------------------------------
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\moderncvicons{marvosym}
+
+\usepackage[utf8]{inputenc}                 % ignored by xelatex
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}                       % \texttrademark
+\usepackage[left=1cm,right=1cm,top=1.3cm,bottom=1.2cm]{geometry}
+\nopagenumbers{}                            % no "1/3" page footer
+\renewcommand*{\titlefont}{\large\mdseries\slshape}  % smaller title, as before
+
+% ---------------------------------------------------------------------
+%  Header (copied from the original CV)
+% ---------------------------------------------------------------------
+\name{Ye}{Ji}
+\title{Mathematical Modelling \& Isogeometric Analysis}
+\address{Delft, The Netherlands}{}{}
+\phone[mobile]{(+31)0620905177}
+\email{y.ji-1@tudelft.nl}
+\extrainfo{Homepage: \url{https://jiyess.github.io/}}
+\photo[64pt][0.4pt]{photo}                  % photo.jpg in this folder
+
+% ---------------------------------------------------------------------
+%  Helper macros
+% ---------------------------------------------------------------------
+\newcommand{\me}{\textbf{Y.~Ji}}            % owner's name in author lists
+\newcommand{\scorg}{SCORG\texttrademark}    % SplineMesh / SCORG(TM)
+% \pub{year}{authors}{title}{journal/venue}{vol(issue), pages (year)}{note}
+\newcommand{\pub}[6]{%
+  \cvitem{#1}{#2. \textbf{#3}. \textit{#4}, #5.\if\relax\detokenize{#6}\relax\else\ #6\fi}}
+% \fullitem{text}: full-width bullet item (Research Highlights, Software),
+% spanning the date column as in the original layout
+\newcommand{\fullitem}[1]{%
+  \par\noindent\hangindent=1.1em\hangafter=1%
+  \makebox[1.1em][l]{\color{color1}\listitemsymbol}#1\par\vspace{.2em}}
+% \talk{date}{type}{title}{venue, location}
+\newcommand{\talk}[4]{\cvitem{#1}{\textbf{#2}, \textit{#3}, #4.}}
+
+\AtBeginDocument{\hypersetup{pdftitle={Ye Ji -- Curriculum Vitae},
+            pdfauthor={Ye Ji},
+            pdfsubject={Curriculum vitae of Ye Ji},
+            pdfkeywords={Ye Ji, curriculum vitae, isogeometric analysis}}}
+
+\begin{document}
+\makecvtitle
+\vspace*{-9mm}
+
+% =====================================================================
+\section{Research Profile}
+% =====================================================================
+\noindent My research tackles a fundamental bottleneck in the design-through-analysis
+pipeline: turning a CAD model into a discretization that is geometrically
+faithful, mathematically well-posed, and fast to solve. Working at the
+interface of \textbf{computer-aided design (CAD)} and
+\textbf{computer-aided engineering (CAE)}, I develop
+\textbf{isogeometric analysis (IGA)} methods\,---\,provably injective and
+regular parameterizations, PDE-based construction, and accelerated
+solvers\,---\,that keep geometry, discretization, and simulation consistent
+throughout. This work has moved from theory into practice: it now underpins
+industrial-grade structured meshing for twin-screw compressors,
+semi-analytical thermal simulation for metal additive manufacturing, and, most
+recently, isogeometric formulations of physics solvers such as the lattice
+Boltzmann method.\par
+
+% =====================================================================
+\section{Research Highlights}
+% =====================================================================
+\fullitem{\textbf{Analysis-suitable parameterization for IGA:}
+  optimization-based and PDE-based volumetric constructions with quality
+  control for complex domains.}
+\fullitem{\textbf{Geometry-to-simulation pipelines:} boundary parameter
+  matching (incl.\ Schwarz--Christoffel tools) and multi-sided domain
+  parameterizations enabling reliable IGA workflows.}
+\fullitem{\textbf{Solver acceleration:} preconditioned Anderson
+  acceleration to improve efficiency and robustness of parameterization PDE
+  solvers.}
+\fullitem{\textbf{Industrial-grade spline meshing:} spline-based structured
+  mesh generation for screw-machine simulations (SplineMesh\,/\,\scorg).}
+\fullitem{\textbf{Extending IGA beyond structural/thermal analysis:}
+  ongoing work on physics-based extensions, including an isogeometric lattice
+  Boltzmann method (IGA-LBM) for body-fitted, CAD-exact fluid simulation on
+  curved geometries (presented at WCCM-ECCOMAS 2026).}
+
+% =====================================================================
+\section{Academic Positions}
+% =====================================================================
+\cventry{01/2024--\newline Present}{Postdoctoral Researcher}
+  {Delft University of Technology}
+  {Department of Applied Mathematics (Numerical Analysis), The Netherlands.}{}{}
+
+% =====================================================================
+\section{Education}
+% =====================================================================
+\cventry{2019--2023}{Ph.D. Mathematics}{Dalian University of Technology}
+  {School of Mathematical Sciences, China.}{}{}
+\cventry{2017--2019}{M.Sc. Mathematics}{Dalian University of Technology}
+  {School of Mathematical Sciences, China.}{}{}
+\cventry{2013--2017}{B.Sc. Mathematics}{Dalian University of Technology}
+  {School of Mathematical Sciences, China.}{}{}
+
+% =====================================================================
+\section{Research Experience}
+% =====================================================================
+\cventry{10/2021--\newline 12/2023}{Visiting Ph.D. Researcher}
+  {Delft University of Technology}
+  {Department of Applied Mathematics (Numerical Analysis), The Netherlands.}{}{}
+
+% =====================================================================
+\section{Research Projects}
+% =====================================================================
+% NSFC = National Natural Science Foundation of China (abbreviated to save
+% space; spelled out in _pages/cv.md).
+\cvitem{01/2024--\newline 12/2026}{\textbf{Advanced Geometric Modelling and
+  Simulation Techniques for Complex Engineering Systems}. Postdoctoral
+  Fellowship. \textit{Role}: PI.}
+\cvitem{10/2021--\newline 10/2023}{\textbf{PDE-Based Parameterization Method
+  for Isogeometric Analysis and Its Application in Twin-Screw Rotary
+  Compressors}. China Scholarship Council (CSC). \textit{Role}: PI.}
+\cvitem{01/2021--\newline 12/2024}{\textbf{Theoretical Study and Application
+  of Parametric Surfaces/Volumes in Isogeometric Analysis}. NSFC, General
+  Program. \textit{Role}: Participant.}
+\cvitem{01/2017--\newline 12/2020}{\textbf{Geometric Properties of Parametric
+  Curves and Surfaces}. NSFC, General Program. \textit{Role}: Participant.}
+
+% =====================================================================
+\section{Selected Peer-reviewed Publications}
+% =====================================================================
+% Full, verified list: _pages/publications.md / Google Scholar.
+\cvitem{}{26 refereed journal papers, 2 refereed conference papers,
+  1 book chapter; full list at
+  \href{https://jiyess.github.io/publications/}{\texttt{jiyess.github.io/publications}}.}
+\pub{2027}{J.~Li, \me, H.~Verhelst, H.~den~Besten, M.~Möller}
+  {Parameterization-driven arbitrary Lagrangian--Eulerian method for
+   large-deformation isogeometric fluid--structure interaction}
+  {Computer Methods in Applied Mechanics and Engineering}{463, 119358 (2027)}{}
+\pub{2026}{J.~Cao, \me, M.~Möller, C.-G.~Zhu}
+  {Extended r-adaptive isogeometric analysis for weak-discontinuous problems}
+  {Computer-Aided Design}{198, 104108 (2026)}{}
+\pub{2026}{Y.~Yang, \me, M.~Möller, C.~Ayas}
+  {Efficient thermal simulation in metal additive manufacturing via
+   semi-analytical isogeometric analysis}
+  {Computer Methods in Applied Mechanics and Engineering}{457, 118992 (2026)}{}
+\pub{2025}{Y.~Yang, \me, M.~Möller, C.~Ayas}
+  {Computational efficient process simulation of geometrically complex parts
+   in metal additive manufacturing}
+  {International Journal of Heat and Mass Transfer}{248, 127059 (2025)}{}
+\pub{2025}{L.~Yang, W.~Wang, \me, C.-G.~Zhu, C.\,C.\,L.~Wang}
+  {Space--time isogeometric topology optimization with additive
+   manufacturing constraints}
+  {Computer Methods in Applied Mechanics and Engineering}{441, 117976 (2025)}{}
+\pub{2024}{\me, M.~Möller, Y.-Y.~Yu, C.-G.~Zhu}
+  {Boundary parameter matching for isogeometric analysis using
+   Schwarz--Christoffel mapping}
+  {Engineering with Computers}{40(6), 3929--3947 (2024)}{}
+\pub{2024}{\me, M.~Möller}
+  {Yet another structured mesh generator for screw machines simulation}
+  {IOP Conference Series: Materials Science and Engineering (ICSM 2024)}
+  {1322(1), 012014 (2024)}{}
+\pub{2023}{\me, K.-W.~Chen, M.~Möller, C.~Vuik}
+  {On an improved PDE-based elliptic parameterization method for
+   isogeometric analysis using preconditioned Anderson acceleration}
+  {Computer Aided Geometric Design}{102, 102191 (2023)}
+  {(\textbf{GMP 2023 Best Paper Award})}
+\pub{2023}{\me, M.-Y.~Wang, Y.-Y.~Yu, C.-G.~Zhu}
+  {Curvature-based r-adaptive isogeometric analysis with
+   injectivity-preserving multi-sided domain parameterization}
+  {Journal of Systems Science and Complexity}{36(1), 53--76 (2023)}{}
+\pub{2022}{\me, M.-Y.~Wang, Y.~Wang, C.-G.~Zhu}
+  {Curvature-based r-adaptive planar NURBS parameterization method for
+   isogeometric analysis using bi-level approach}
+  {Computer-Aided Design}{150, 103305 (2022)}{}
+\pub{2022}{\me, M.-Y.~Wang, M.-D.~Pan, Y.~Zhang, C.-G.~Zhu}
+  {Penalty function-based volumetric parameterization method for
+   isogeometric analysis}
+  {Computer Aided Geometric Design}{94, 102081 (2022)}{}
+\pub{2021}{\me, Y.-Y.~Yu, M.-Y.~Wang, C.-G.~Zhu}
+  {Constructing high-quality planar NURBS parameterization for isogeometric
+   analysis by adjustment control points and weights}
+  {Journal of Computational and Applied Mathematics}{396, 113615 (2021)}{}
+\pub{2021}{Y.-Y.~Yu, \me, J.-G.~Li, C.-G.~Zhu}
+  {Conditions for injectivity of toric volumes with arbitrary positive
+   weights}
+  {Computers \& Graphics}{97, 88--98 (2021)}
+  {(\textbf{CAD/Graphics 2021 Best Paper Award})}
+
+% =====================================================================
+\section{Selected Talks}
+% =====================================================================
+% Source: _talks/*.md (only talks given by the owner himself).
+\cvitem{}{Delivered 30+ invited and conference presentations; selected
+  highlights below.}
+\talk{Sep.\ 2026}{Oral}{SplineMesh v3.0: Robust spline-based structured mesh
+  generation for positive-displacement rotary machines with sharp features}
+  {ICSM 2026, Dortmund, Germany}
+\talk{Jul.\ 2026}{Invited Talk}{CAD-CAE integration: From theory and
+  algorithms to engineering practice}
+  {CSIAM GDC 2026, Hohhot, China}
+\talk{Jul.\ 2026}{Oral}{An isogeometric formulation of the lattice Boltzmann
+  method on CAD-exact geometries}{WCCM-ECCOMAS 2026, Munich, Germany}
+\talk{Apr.\ 2026}{Invited Talk}{Analysis-suitable parameterization for
+  isogeometric analysis}{AROMATH Team, Inria Centre at Université Côte
+  d'Azur, Sophia Antipolis, France}
+\talk{Oct.\ 2025}{Invited Talk}{Analysis-suitable parameterization for
+  isogeometric analysis}{Institut für Leichtbau und Struktur-Biomechanik,
+  TU Wien, Vienna, Austria}
+\talk{Sep.\ 2025}{Oral}{IGA-LBM: Isogeometric lattice Boltzmann method}
+  {IGA 2025, Eindhoven, Netherlands}
+\talk{Sep.\ 2025}{Short Course}{SplineMesh v2.0: Spline Mesh technology for
+  twin-screw compressors}{7th Short Course \& Forum on CFD in Rotary
+  Positive Displacement Machines, London, UK}
+\talk{Sep.\ 2024}{Oral}{Yet another structured mesh generator for screw
+  machines simulations}{ICSM 2024, Dortmund, Germany}
+
+% =====================================================================
+\section{Teaching, Mentoring, and Supervision}
+% =====================================================================
+\cvitem{Lecturer}{Co-developer and lecturer of a graduate special course on
+  \textbf{Isogeometric Analysis} at TU Delft (Q3--Q4 2026), jointly prepared
+  with Prof.\ Matthias Möller (TU Delft) and Prof.\ Stefanie Elgeti
+  (TU Wien).}
+\cvitem{Supervision}{Supervision/co-supervision of Ph.D.\ and Master's
+  research in IGA and spline geometry (e.g., semi-analytical IGA for
+  thermal/process simulation in metal additive manufacturing; multi-sided
+  parameterization; extended IGA; spline approximation).}
+
+% =====================================================================
+\section{Research Software and Infrastructure}
+% =====================================================================
+\fullitem{\textbf{G+Smo (Geometry + Simulation Modules,
+  \url{https://github.com/gismo/gismo}):} member of the core development
+  team of the open-source C++ IGA library, supporting geometry processing,
+  discretization, and simulation workflows.}
+\fullitem{\textbf{SplineMesh\,/\,\scorg:} lead developer of spline-based
+  structured mesh generation modules for industrial modeling (screw
+  machines), focusing on robustness, quality, and integration with
+  simulation pipelines.}
+
+% =====================================================================
+\section{Service and Professional Activities}
+% =====================================================================
+\cvitem{Refereeing}{Reviewer for \textit{Computer-Aided Design},
+  \textit{Computer Aided Geometric Design}, \textit{Scientific Reports},
+  \textit{Engineering with Computers}, \textit{Advances in Engineering
+  Software}, \textit{Finite Elements in Analysis \& Design}.}
+\cvitem{2022--Now}{Reviewer for \textbf{Mathematical Reviews}, American
+  Mathematical Society.}
+\cvitem{2020--Now}{Life member, China Society for Industrial and Applied
+  Mathematics (CSIAM).}
+
+% =====================================================================
+\section{Honors and Awards (Selected)}
+% =====================================================================
+% Full list: _pages/cv.md ("Honors & Awards").
+\cvitem{07/2026}{Conference Best Paper Award \textbf{and} Best Poster Award,
+  CSIAM GDC 2026 (CSIAM Conference on Geometric Design and Computing),
+  Hohhot, China.}
+\cvitem{08/2025}{Conference Best Paper Award, CSIAM GDC 2025, Yantai, China.}
+\cvitem{10/2024}{Conference Best Paper Award, ICSM 2024 (International
+  Conference on Screw Machines), Dortmund.}
+\cvitem{12/2023}{Outstanding Graduate of Liaoning Province (Class of 2024).}
+\cvitem{07/2023}{Conference Best Paper Award, GMP 2023, Genova, Italy.}
+\cvitem{02/2023}{Challenge Winner, Amazon Web Services Challenge at the
+  SIAM Hackathon 2023, Amsterdam, Netherlands.}
+\cvitem{2022 \& 2016}{National Scholarship (twice; Ph.D.\ 2022 and
+  undergraduate 2016), Ministry of Education of China (awarded to
+  approximately 0.2\% of students nationwide).}
+\cvitem{05/2021}{Conference Best Paper Award, CAD/Graphics 2021, Xi'an, China.}
+
+% =====================================================================
+\section{Skills}
+% =====================================================================
+\cvitem{Programming}{C/C++ (modern CMake-based projects), Python (scientific
+  computing), MATLAB, Julia, \LaTeX.}
+\cvitem{Numerical Methods}{Partial Differential Equations, Finite Element
+  Methods, Isogeometric Analysis, Structured Grid Generation.}
+\cvitem{Geometry \& Modeling}{B-splines and NURBS, Parametric
+  Curves/Surfaces, Mesh Generation, Geometric Mapping and Regularity
+  Analysis.}
+\cvitem{Languages}{Mandarin (native), English (fluent).}
+
+\end{document}

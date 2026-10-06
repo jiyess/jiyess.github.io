@@ -15,4 +15,6 @@ location: "Changsha, China"
 [Photo 2](/images/talks/2021-10-10-gdc-changsha/poster.jpg),
 [Conference Link](https://www.aconf.org/conf_179731.html)
 
+In this lightning talk and poster, I presented a robust and efficient method for constructing high-quality planar NURBS parameterizations from four boundary NURBS curves by treating both the control points and the weights as variables. After deriving several injectivity conditions and a practical injectivity-checking algorithm, the method initializes the inner control points by a harmonic (Laplacian-energy) quadratic program with unit inner weights, eliminates foldovers via a ReLU-based unconstrained optimization, and then alternately optimizes the control points and the weights. Comparisons with the NCO, variational harmonic, Teichmüller mapping and low-rank quasi-conformal methods on several models demonstrate the effectiveness and advantages of the approach.
+
 Keywords: **Isogeometric Analysis**, **Planar NURBS Parameterization**, **Injectivity**, **Alternating Optimization**
