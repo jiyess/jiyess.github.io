@@ -34,7 +34,7 @@
       var nav = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
       var lang = stored || (nav.indexOf('zh') === 0 ? 'zh' : 'en');
       document.documentElement.setAttribute('data-lang', lang);
-      document.documentElement.setAttribute('lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
     } catch (e) { document.documentElement.setAttribute('data-lang', 'en'); }
   })();
 </script>

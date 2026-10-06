@@ -14,8 +14,8 @@ location: "London, United Kingdom"
 [Photo 1](/images/talks/2023-09-11-compressors-london/opening.jpg),
 [Photo 2](/images/talks/2023-09-11-compressors-london/talk-2.jpg),
 [Photo 3](/images/talks/2023-09-11-compressors-london/talk-1.jpg),
-[Video 1](/images/talks/2023-09-11-compressors-london/compressor-slices.mov),
-[Video 2](/images/talks/2023-09-11-compressors-london/compressor-simulation.mov),
+[Video 1](/images/talks/2023-09-11-compressors-london/compressor-slices.mp4),
+[Video 2](/images/talks/2023-09-11-compressors-london/compressor-simulation.mp4),
 [Conference Link](https://citycompressorsconference.london)
 
 Constructing high-quality structured meshes is a crucial preprocessing step in the simulation-based analysis of positive displacement machines and, in particular, rotary twin-screw compressors. Instead of creating these meshes directly, we resort to the computational paradigm of isogeometric analysis (IGA), which integrates geometric modeling and numerical simulation in a unified spline-based formalism.

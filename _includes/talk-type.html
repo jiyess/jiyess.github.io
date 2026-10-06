@@ -1,0 +1,20 @@
+{%- comment -%}
+  Bilingual label for a talk/teaching `type` value. Usage: {% include talk-type.html type=post.type %}
+  English source values stay unchanged; the Chinese label is mapped here.
+{%- endcomment -%}
+{%- assign tt = include.type | strip -%}
+{%- case tt -%}
+  {%- when "Conference talk" -%}{%- assign tt_zh = "会议报告" -%}
+  {%- when "Invited talk" -%}{%- assign tt_zh = "特邀报告" -%}
+  {%- when "Workshop talk" -%}{%- assign tt_zh = "研讨会报告" -%}
+  {%- when "Poster presentation" -%}{%- assign tt_zh = "海报展示" -%}
+  {%- when "Lightning talk & poster" -%}{%- assign tt_zh = "快闪报告与海报" -%}
+  {%- when "Webinar" -%}{%- assign tt_zh = "网络研讨会" -%}
+  {%- when "Forum talk" -%}{%- assign tt_zh = "论坛报告" -%}
+  {%- when "Short course" -%}{%- assign tt_zh = "短期课程" -%}
+  {%- when "PhD defence" -%}{%- assign tt_zh = "博士论文答辩" -%}
+  {%- when "Graduate course" -%}{%- assign tt_zh = "研究生课程" -%}
+  {%- when "Talk" -%}{%- assign tt_zh = "报告" -%}
+  {%- else -%}{%- assign tt_zh = tt -%}
+{%- endcase -%}
+<span class="lang lang--en">{{ tt }}</span><span class="lang lang--zh">{{ tt_zh }}</span>

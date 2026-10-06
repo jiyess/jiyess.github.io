@@ -6,9 +6,16 @@ permalink: /talks/
 author_profile: true
 ---
 
+{% include base_path %}
+
+<p class="research-intro">
+  <span class="lang lang--en">Conference talks, invited talks, workshop presentations and posters, listed from the most recent. Each entry links to a page with the abstract and, where available, slides and photos.{% if site.talkmap_link == true %} The map below shows the cities where I have given talks.{% endif %}</span>
+  <span class="lang lang--zh">以下为会议报告、特邀报告、研讨会报告及海报展示，按时间由近及远排列。点击各条目可查看报告摘要，以及（如有）幻灯片与现场照片。{% if site.talkmap_link == true %}下方地图标出了我做过报告的城市。{% endif %}</span>
+</p>
+
 {% if site.talkmap_link == true %}
 
-<iframe src="{{ base_path }}/talkmap/map.html" height="480" width="100%" style="border:none; margin-bottom:1.5em;" title="Map of cities where I have given talks" loading="lazy"></iframe>
+<iframe src="{{ base_path }}/talkmap/map.html" height="480" width="100%" style="border:none; margin-bottom:1.5em;" title="Map of cities where I have given talks · 学术报告城市地图" loading="lazy"></iframe>
 
 {% endif %}
 

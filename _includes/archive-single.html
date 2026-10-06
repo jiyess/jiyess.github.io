@@ -11,6 +11,9 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% if post.title_zh %}
+  {% capture title %}<span class="lang lang--en">{{ title }}</span><span class="lang lang--zh">{{ post.title_zh }}</span>{% endcapture %}
+{% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -39,7 +42,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{% if post.type %}{% include talk-type.html type=post.type %}, {% endif %}<i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.location %}, {{ post.location }}{% endif %}</p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

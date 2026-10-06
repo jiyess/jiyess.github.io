@@ -1,0 +1,2 @@
+{%- comment -%} Bilingual date. Usage: {% include bilingual-date.html date=post.date %} {%- endcomment -%}
+<span class="lang lang--en">{{ include.date | date: "%B %-d, %Y" }}</span><span class="lang lang--zh">{{ include.date | date: "%Y年%-m月%-d日" }}</span>

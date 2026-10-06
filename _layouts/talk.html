@@ -26,23 +26,24 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{% if page.title_zh %}<span class="lang lang--en">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</span><span class="lang lang--zh">{{ page.title_zh }}</span>{% else %}{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}{% endif %}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <span class="lang lang--en">Date:</span><span class="lang lang--zh">日期：</span></strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{% include bilingual-date.html date=page.modified %}</time></p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <span class="lang lang--en">Date:</span><span class="lang lang--zh">日期：</span></strong> <time datetime="{{ page.date | date_to_xmlschema }}">{% include bilingual-date.html date=page.date %}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% assign talk_type = page.type | default: page.talk_type %}
+        {% if page.venue %}<p>{% if talk_type %}{% include talk-type.html type=talk_type %}<span class="lang lang--en"> at </span><span class="lang lang--zh">，</span>{% endif %}{{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>{% endif %}
 
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}<div><a href="{{ page.link }}" class="btn"><span class="lang lang--en">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</span><span class="lang lang--zh">直达链接</span></a></div>{% endif %}
       </section>
 
       <footer class="page__meta">
